@@ -1,3 +1,8 @@
+//Autor:Walber Mota
+//Linguagem: C++
+//Criado em 24/03/2023
+//Conversor de temperaturas Celsius,Fahrenheit e Kelvin
+
 #include <iostream>
 int opc;
 float valor;
