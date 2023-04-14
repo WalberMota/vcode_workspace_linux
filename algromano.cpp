@@ -1,3 +1,7 @@
+//By WalberMota
+//25/03/2023
+//C++
+// Tranforma numeros decimais em algarismos romanos
 #include <iostream>
 
 int unidade = 0;
