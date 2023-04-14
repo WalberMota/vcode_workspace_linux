@@ -1,7 +1,9 @@
-//By WalberMota
-//25/03/2023
-//C++
-// Tranforma numeros decimais em algarismos romanos
+/*
+Autor: WalberMota
+Data da Criação: 25/03/2023
+Objetivos: transformar algarismos decimais em algarismos romanos
+Linguagem C++
+ */
 #include <iostream>
 
 int unidade = 0;
