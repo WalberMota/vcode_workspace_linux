@@ -1,3 +1,10 @@
+/*
+Autor: WalberMota
+Data da Criação: 12/03/2023
+Objetivos: calcular e classificar o IMC
+Linguagem C++
+ */
+
 #include <iostream>
 
 int main()

@@ -1,8 +1,8 @@
 /*
-Para calcular o número PI, deve-se realizar o seguinte cálculo matemático:
-pi = 4*(1 - 1/3 + 1/5 - 1/7 + 1/9 ... 1/n)
-
-Série de Leibniz
+Autor: Walber Mota
+Data da Criação: 01/04/2023
+Objetivos: Calcular o número PI, deve-se realizar o seguinte cálculo matemático:
+pi = 4*(1 - 1/3 + 1/5 - 1/7 + 1/9 ... 1/n) Série de Leibniz
 */
 #include <iostream>
 #include <stdio.h>
