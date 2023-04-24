@@ -48,6 +48,6 @@
   },
     "C_Cpp_Runner.useAddressSanitizer": false,
     "code-runner.runInTerminal": true,
-    "C_Cpp.dimInactiveRegions": false,
+    "C_Cpp.dimInactiveRegions": true,
     
 }
