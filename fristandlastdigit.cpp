@@ -1,3 +1,10 @@
+/*
+Autor: WalberMota
+Data da Criação: 26/04/2023
+Objetivos: ler o somar o primeiro e ultimo digito de long int
+Linguagem C++
+ */
+
 #include<iostream>
 #include<math.h>
 
