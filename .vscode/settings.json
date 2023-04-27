@@ -44,7 +44,11 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "cinttypes": "cpp",
-    "typeinfo": "cpp"
+    "typeinfo": "cpp",
+    "ctime": "cpp",
+    "fstream": "cpp",
+    "iomanip": "cpp",
+    "sstream": "cpp"
   },
     "C_Cpp_Runner.useAddressSanitizer": false,
     "code-runner.runInTerminal": true,
