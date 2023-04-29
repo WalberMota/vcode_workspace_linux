@@ -1,6 +1,10 @@
+/* Autor:Walber Mota
+ Linguagem: C++
+ Criado em 24/04/2023
+ Objetivo: Uso de do while para criação de um meno básico
+*/
+
 #include <iostream>
-// #include <iomanip>
-// using namespace std;
 
 int main()
 {
