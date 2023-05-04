@@ -1,6 +1,6 @@
 /*
 Autor: Walber Mota
-Data da Criação: 27/04/2023
+Data da Criação: 04/05/2023
 Objetivos: pequeno jogo de adivinhar um numero entre 0 e 60
 */
 
