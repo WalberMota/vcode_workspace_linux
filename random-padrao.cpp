@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdlib>
-//#include <windows.h>
 #include <time.h>
 
 using namespace std;
@@ -32,7 +31,6 @@ int main()
 	cin >> fim;
 	for (int i=0;i < fim;i++)
 		cout<<rand()% N <<endl;
-	//system("pause");
 	return 0;
 	
 }
