@@ -6,6 +6,7 @@ Objetivos: pequeno jogo de adivinhar um numero entre 0 e 60
 
 #include <iostream>
 #include <time.h>
+#include <cstdlib>
 
 int main()
 {
