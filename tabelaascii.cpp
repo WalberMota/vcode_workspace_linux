@@ -1,7 +1,7 @@
 /*
 Autor: Walber Mota
 Data da Criação: 04/05/2023
-Objetivos:
+Objetivos:Lista os elementos da tabelas ASCII
 */
 
 #include <iostream>
