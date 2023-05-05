@@ -14,8 +14,8 @@ int main()
     int secreto = 0;
     int lance = 0;
     int contador=0;
-    srand(time(0));
-    secreto = rand() % N;
+    std::srand(time(0));
+    secreto = std::rand() % N;
 
     do
     {
