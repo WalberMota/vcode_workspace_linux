@@ -1,9 +1,9 @@
 #include <limits>
 #include <iostream>
-#include <windows.h>
+//#include <windows.h>
 
 int main() {
-	// \t insere uma tabulação
+	// \t insere uma tabulaï¿½ï¿½o
 	std::cout << "Tipo\t\t Minimo\t\t\t Maximo\n\n";
 
 	std::cout << "bool\t\t\n\t\t"
