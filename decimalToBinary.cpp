@@ -31,7 +31,7 @@ int main()
 
     std::cout << "decimal      : " << number << std::endl;
     std::cout << "binario      : " << toBinario(number) << std::endl; // chama a função toBinario
-    std::cout << "hexadecimal  :" << std::hex << number << "\n";
+    std::cout << "hexadecimal  :" << std::uppercase << std::hex << number << "\n";
     std::cout << "ocatadecimal :" << std::oct << number << "\n";
     return EXIT_SUCCESS;
 }
