@@ -6,6 +6,7 @@ Linguagem: C/C++
 */
 
 #include <iostream>
+#include <unistd.h>
 
 //protótipos das funções
 void ExibirMenu();
@@ -55,12 +56,16 @@ void ProcessarEscolha(int TipoEscolha)
 	switch (TipoEscolha)
 	{
 	case 1: std::cout << "\n=> Ticket Meia Entrada Comprado\n";
+		sleep(3);
 		break;
 	case 2: std::cout << "\n=> Ticket Inteira Comprado\n";
+		sleep(3);
 		break;
 	case 3: std::cout << "\n....Saindo do Menu de Tickets...\n";
+		sleep(2);
 		break;
 	default: std::cout << "\nOpção Inválida!!!\n";
+		sleep(2);
 	}
-	
+
 }
