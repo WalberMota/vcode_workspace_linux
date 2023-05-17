@@ -1,7 +1,7 @@
 /*
 Autor: Walber Mota
-Data da Criação:
-Objetivos:
+Data da Criação:16/05/2023
+Objetivos: Compilação com multiplos arquivos .ccp e .h (usando code runner - Makefile em VS code) 
 Linguagem: C/C++
 */
 #include <iostream>
