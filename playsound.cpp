@@ -1,10 +1,8 @@
 #include <iostream>
-#include <windows.h>
  
-using namespace std;
- 
-int main()
+int main() 
 {
-	PlaySound(TEXT("piano.wav"), NULL, SND_FILENAME | SND_ASYNC);
-	return 0;
+    system("open ~/Desktop/notepadqq/2310.wav");
+
+    return 0;
 }
