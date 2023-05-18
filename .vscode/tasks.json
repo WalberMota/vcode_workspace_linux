@@ -2,7 +2,7 @@
     "tasks": [
         {
             "type": "process",
-            "label": "Build with GCC",
+            "label": "g++ C++12 - output",
             "command": "/usr/bin/g++-12",
             "args": [
                 "-fdiagnostics-color=always",
@@ -23,7 +23,7 @@
         },
         {
             "type": "cppbuild",
-            "label": "Build with Clang",
+            "label": "Clang C++20 - output",
             "command": "/usr/bin/clang++-15",
             "args": [
                 "-fdiagnostics-color=always",
@@ -44,7 +44,7 @@
         },
         {
             "type": "cppbuild",
-            "label": "C/C++: g++ build active file",
+            "label": "g++ DEFAULT - nome sem extensao",
             "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
