@@ -1,6 +1,11 @@
+/*
+Autor: Walber Mota
+Data da Criação: 27/04/2023
+Objetivos: Valor, Tamanho e endereço de memoria de uma variável;
+*/
 #include <iostream>
 //#include <tchar.h>
-//#include <windows.h>
+
 
 int main(int argc, char * * argv) {
 //	_tsetlocale(LC_ALL, _T("portuguese"));
@@ -15,7 +20,6 @@ int main(int argc, char * * argv) {
 	std::cout << "valor numero2 :" << numero2 << std::endl;
 	std::cout << "Tamanho da variável: " << sizeof(numero2) << " Bytes" << std::endl;
 	std::cout << "endereço na memoria: " << & numero2 << std::endl;
-	//system("pause");
 
 	return 0;
 }
