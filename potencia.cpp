@@ -1,5 +1,5 @@
 /*
-Autor: Walber Mota
+Autor: Walber Mota 
 Data da Criação: 27/04/2023
 Objetivos: calcula x^y
 */
