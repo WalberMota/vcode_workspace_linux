@@ -1,3 +1,8 @@
+/* Autor:Walber Mota
+ Linguagem: C++
+ Criado em 24/04/2023
+ Objetivo: Uso de do while para criação de um menu básico
+*/
 #include <iostream>
 
 int main()

@@ -1,3 +1,8 @@
+/* Autor:Walber Mota
+ Linguagem: C++
+ Criado em 11/05/2023
+ Objetivo: Uso operadores matemáticos com numeros em ponto flutuante
+*/
 #include<iostream>
 #include<cmath>
 

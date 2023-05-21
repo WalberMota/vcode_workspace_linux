@@ -9,8 +9,10 @@ Linguagem C++
 
 int ContadorChamadas()
 {
-	//Variavel estática: Significa que após a saída da função o valor desta variável não será perdido.
-	//static indica que este valor seja mantido mesmo após a função ser encerrada
+	/*/Variavel estática: Significa que após a saída da função o valor desta variável 
+	não será perdido. "Static" indica que este valor seja mantido mesmo após a função
+	ser encerrada*/
+
 	static int NumChamadasDaFuncao = 0;
 	NumChamadasDaFuncao++;
     std::cout<<NumChamadasDaFuncao<<"\t";

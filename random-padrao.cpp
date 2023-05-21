@@ -1,3 +1,8 @@
+/* Autor:Walber Mota
+ Linguagem: C++
+ Criado em 09/05/2023
+ Objetivo: Gerando números aleatórios com uso da semente tempo.
+*/
 #include <iostream>
 #include <cstdlib>
 #include <time.h>
@@ -27,7 +32,7 @@ int main()
 	*/
 
 	int fim=0;
-	cout<<"Quantos numeros quer gerar ?";
+	cout<<"Quantos numeros aleatórios você deseja gerar ?";
 	cin >> fim;
 	for (int i=0;i < fim;i++)
 		cout<<rand()% N <<endl;

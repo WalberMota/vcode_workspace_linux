@@ -1,6 +1,11 @@
+/* Autor:Walber Mota
+ Linguagem: C++
+ Criado em 07/05/2023
+ Objetivo: Modificadores de variaveis
+*/
 #include <limits>
 #include <iostream>
-//#include <windows.h>
+
 
 int main() {
 	// \t insere uma tabula��o
