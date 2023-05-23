@@ -1,3 +1,9 @@
+/* Autor:Walber Mota
+ Linguagem: C++
+ Criado em 23/05/2023
+ Objetivo: Operações com ponteiros
+*/
+
 #include <iostream>
 
 int main()
