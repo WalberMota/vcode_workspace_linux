@@ -41,9 +41,9 @@ int main(int argc, char const *argv[])
 
     std::cout << "\nNovo ponteiro ptr2 criado com o endereço que está armazenado em ptr1 = " << ptr2;
 
-    *ptr1 = *ptr1 + 200;
+    *ptr1 +=200;
 
-    std::cout << "\nAdicionado 200 ao valor de Numero via ptr1 (*ptr1 = *ptr1 + 200) = " << Numero;
+    std::cout << "\nAdicionado 200 ao valor de Numero via ptr1 (*ptr1 +=200) = " << Numero;
 
     std::cout << "\nO valor de Numero visto através de ptr2 = " << *ptr2;
 
