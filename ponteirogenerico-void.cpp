@@ -1,3 +1,11 @@
+/*
+Autor: WalberMota
+Data da Criação: 23/05/2023
+Objetivos: cria um ponteiro void (generico) e obtem o valor de dois tipos diferentes de variáveis.
+Linguagem C++
+ */
+
+
 #include <iostream>
 
 int main(int argc, char const *argv[])
