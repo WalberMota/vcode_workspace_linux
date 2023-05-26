@@ -24,7 +24,7 @@
         {
             "type": "cppbuild",
             "label": "Clang C++20 - output",
-            "command": "/usr/bin/clang++-15",
+            "command": "/usr/bin/clang++-14",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
