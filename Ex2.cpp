@@ -1,55 +1,58 @@
+// Autor:Walber Mota
+// Linguagem: C++
+
 #include <iostream>  //biblioteca de saida na tela
-#include <tchar.h>   //biblioteca de caracteres acentuados
-#include <windows.h> //biblioteca para o pause no cmd windows
-#include <iomanip>   //biblioteca para não truncar o double
+//#include <tchar.h>   //biblioteca de caracteres acentuados
+//#include <windows.h> //biblioteca para o pause no cmd windows
+#include <iomanip>   //biblioteca para nï¿½o truncar o double
 
 int main()
 {
-//Função que configura o console windows para mostrar acentos
-_tsetlocale(LC_ALL, _T("portuguese"));
+//Funï¿½ï¿½o que configura o console windows para mostrar acentos
+//_tsetlocale(LC_ALL, _T("portuguese"));
 
-//Declaração de Variáveis
-//Primeiro colocamos qual o tipo de variável que desejamos que
+//Declaraï¿½ï¿½o de Variï¿½veis
+//Primeiro colocamos qual o tipo de variï¿½vel que desejamos que
 //o computador crie ao executar nosso programa
 //neste caso escolhemos ambas como int (integer)
-//Ou seja o local da memória que estamos solicitando ao computador
-//deve ser capaz de armazenar números inteiros (-3, -2, -1, 0 , 1, 2)
-//Então int NumVidas pode ser lido da seguinte forma:
-/*Computador por favor me fornece um local na memória RAM com tamanho
-suficiente para armazenar um número inteiro e coloque o nome deste local
+//Ou seja o local da memï¿½ria que estamos solicitando ao computador
+//deve ser capaz de armazenar nï¿½meros inteiros (-3, -2, -1, 0 , 1, 2)
+//Entï¿½o int NumVidas pode ser lido da seguinte forma:
+/*Computador por favor me fornece um local na memï¿½ria RAM com tamanho
+suficiente para armazenar um nï¿½mero inteiro e coloque o nome deste local
 como sendo NumVidas*/
-/*Eu sei que você só entende endereço de memória mas vai facilitar muito
-para mim se você nomear este endereço de memória com um nome. Desta forma
-esta abstração vai me permitir manipular melhor este endereço de memória
+/*Eu sei que vocï¿½ sï¿½ entende endereï¿½o de memï¿½ria mas vai facilitar muito
+para mim se vocï¿½ nomear este endereï¿½o de memï¿½ria com um nome. Desta forma
+esta abstraï¿½ï¿½o vai me permitir manipular melhor este endereï¿½o de memï¿½ria
 pois seria complicado ter que ficar digitando: 010FFDC8 = 5 */
-/*BEM MELHOR SE EU USAR UM NOME AS INVÉS DE UM ENDEREÇO QUE É DIFÍCIL
-DE MEMORIAZAR E QUE MUDA A DEPENDER DA DISPONIBILIDADE DESTE ESPAÇO
-NA MEMÓRIA RAM!*/
+/*BEM MELHOR SE EU USAR UM NOME AS INVï¿½S DE UM ENDEREï¿½O QUE ï¿½ DIFï¿½CIL
+DE MEMORIAZAR E QUE MUDA A DEPENDER DA DISPONIBILIDADE DESTE ESPAï¿½O
+NA MEMï¿½RIA RAM!*/
 
 int NumVidas = 5;
-//ACIMA O COMPUTADOR IRÁ ALOCAR UM ESPAÇO DE MEMÓRIA DO TIPO INTEIRO
-/*DEPOIS VAI ATÉ ESTE LOCAL NA RAM E VAI COLOCAR O VALOR 5*/
+//ACIMA O COMPUTADOR IRï¿½ ALOCAR UM ESPAï¿½O DE MEMï¿½RIA DO TIPO INTEIRO
+/*DEPOIS VAI ATï¿½ ESTE LOCAL NA RAM E VAI COLOCAR O VALOR 5*/
 //010FFDC8 = 5
 
 int Pontuacao = 1350;
-//ACIMA O COMPUTADOR IRÁ ALOCAR UM ESPAÇO DE MEMÓRIA DO TIPO INTEIRO
-/*DEPOIS VAI ATÉ ESTE LOCAL NA RAM E VAI COLOCAR O VALOR 1350*/
+//ACIMA O COMPUTADOR IRï¿½ ALOCAR UM ESPAï¿½O DE MEMï¿½RIA DO TIPO INTEIRO
+/*DEPOIS VAI ATï¿½ ESTE LOCAL NA RAM E VAI COLOCAR O VALOR 1350*/
 //010FFDBC = 1350
 double Energia = 4967.90234678564;
 std::cout << "*******INICIO DO JOGO***********" << std::endl;
 std::cout << "Vidas Jogador: " << NumVidas << std::endl;
-std::cout << "Pontuação: " << Pontuacao << std::endl;
+std::cout << "Pontuaï¿½ï¿½o: " << Pontuacao << std::endl;
 std::cout << std::setprecision(16)<< "Energia: " << Energia << std::endl;
 std::cout<< std::endl;
 
-std::cout << "Tamanho da Variável NumVidas: " << sizeof(NumVidas) << " Bytes" << "\n";
-std::cout << "Tamanho da Variável Pontuacao: " << sizeof(Pontuacao) << " Bytes" << "\n";
-std::cout << "Tamanho da Variável Energia: " << sizeof(Energia) << " Bytes" << "\n";
+std::cout << "Tamanho da Variï¿½vel NumVidas: " << sizeof(NumVidas) << " Bytes" << "\n";
+std::cout << "Tamanho da Variï¿½vel Pontuacao: " << sizeof(Pontuacao) << " Bytes" << "\n";
+std::cout << "Tamanho da Variï¿½vel Energia: " << sizeof(Energia) << " Bytes" << "\n";
 std::cout<< std::endl;
 
-std::cout << "Endereço que NumVidas Ocupa na Memória RAM: " << &NumVidas << "\n";
-std::cout << "Endereço que Pontuação Ocupa na Memória RAM: " << &Pontuacao << "\n";
-std::cout << "Endereço que Energia Ocupa na Memória RAM: " << &Energia << "\n";
+std::cout << "Endereï¿½o que NumVidas Ocupa na Memï¿½ria RAM: " << &NumVidas << "\n";
+std::cout << "Endereï¿½o que Pontuaï¿½ï¿½o Ocupa na Memï¿½ria RAM: " << &Pontuacao << "\n";
+std::cout << "Endereï¿½o que Energia Ocupa na Memï¿½ria RAM: " << &Energia << "\n";
 
 
 // std::cout << "**********************************" << std::endl;
@@ -57,20 +60,20 @@ std::cout << "Endereço que Energia Ocupa na Memória RAM: " << &Energia << "\n";
 
 // std::cout << "*******DURANTE O JOGO***********" << std::endl;
 
-//Vá até a região de memória Rotulada com o nome Pontuacao e coloque
-//agora em o a soma do valor que está contido nela mais 150
+//Vï¿½ atï¿½ a regiï¿½o de memï¿½ria Rotulada com o nome Pontuacao e coloque
+//agora em o a soma do valor que estï¿½ contido nela mais 150
 //Pontuacao = 1350 + 150;
 //Pontuacao = 1500;
 Pontuacao = Pontuacao + 150; //Pontuacao += 150;
 
-//Vá até a região de memória Rotulada com o nome NumVidas e coloque
-//agora em o a subtração do valor que está contido nela menos -1
+//Vï¿½ atï¿½ a regiï¿½o de memï¿½ria Rotulada com o nome NumVidas e coloque
+//agora em o a subtraï¿½ï¿½o do valor que estï¿½ contido nela menos -1
 //NumVidas  = 5 - 1;
 //NumVidas = 4;
 // NumVidas = NumVidas - 1; // NumVidas -= 1;
 // std::cout << "Vidas Jogador: " << NumVidas << std::endl;
-// std::cout << "Pontuação: " << Pontuacao << std::endl;
+// std::cout << "Pontuaï¿½ï¿½o: " << Pontuacao << std::endl;
 // std::cout << "**********************************" << std::endl;
 
-system("PAUSE");
+//system("PAUSE");
 }
