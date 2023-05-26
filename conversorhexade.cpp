@@ -1,3 +1,7 @@
+//Autor: Walber Mota
+//Linguagem: C++
+//Finalidade: Conversor de Decimal em Hexadecimal
+
 #include <iostream>
 
 
