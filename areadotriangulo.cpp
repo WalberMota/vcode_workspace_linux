@@ -1,7 +1,7 @@
 /*
 Autor: WalberMota
 Data da Criação: 26/04/2023
-Objetivos: calcula a área de um triângulo
+Objetivos: calcula a área de um triângulo com controle do valor de input através de flags
 Linguagem C++
  */
 
