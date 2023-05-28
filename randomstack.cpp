@@ -1,3 +1,9 @@
+/* Autor:Walber Mota
+ Linguagem: C++
+ Criado em 09/05/2023
+ Objetivo: Simula o lançamento de dois dados (aleatoriamente).
+*/
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
