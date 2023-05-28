@@ -1,7 +1,7 @@
 /*
 Autor: Walber Mota 
 Data da Criação: 27/04/2023
-Objetivos: calcula x^y
+Objetivos: calcula x elevado à y
 */
 
 #include <iostream>
