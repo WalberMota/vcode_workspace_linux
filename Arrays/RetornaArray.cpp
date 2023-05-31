@@ -17,7 +17,7 @@ int main()
     MostraVetor(Numeros, Tam);
 
     MostraVetor(InverteVetor(Numeros, Tam), Tam);
-    system("PAUSE");
+
     return 0;
 }
 
