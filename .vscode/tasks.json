@@ -2,7 +2,7 @@
     "tasks": [
         {
             "type": "process",
-            "label": "g++ C++12 - output",
+            "label": "g++ C++23 - output",
             "command": "/usr/bin/g++-12",
             "args": [
                 "-fdiagnostics-color=always",
