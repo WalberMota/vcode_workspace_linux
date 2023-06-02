@@ -1,3 +1,10 @@
+/*
+Autor:Walber Mota
+Linguagem: C++
+Criado em 29/05/2023
+Colocando Array dentro de uma função
+*/
+
 #include<iostream>
 
 void MostrarVetor(int Array[],int TamVetor);

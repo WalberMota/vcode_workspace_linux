@@ -1,7 +1,9 @@
-// Autor:Walber Mota
-// Linguagem: C++
-// Criado em 24/04/2023
-// Conversor de decimal em binario,hexadecimal e octal
+/*
+Autor:Walber Mota
+Linguagem: C++
+Criado em 24/04/2023
+Conversor de decimal em binario,hexadecimal e octal
+*/
 
 #include <iostream>
 
