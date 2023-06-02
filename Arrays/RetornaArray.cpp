@@ -1,3 +1,9 @@
+/*
+Autor:Walber Mota
+Linguagem: C++
+Criado em 30/05/2023
+Retorna Array invertido usando funções.
+*/
 #include<iostream>
 
 
