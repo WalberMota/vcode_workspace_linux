@@ -1,7 +1,10 @@
 /*
 Autor: Walber Mota
-Data da Criação: 04/05/2023
+Criação: 04/05/2023
+Version 01.00 
+locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz (306D4)
 Objetivos: pequeno jogo de adivinhar um numero entre 0 e 60
+
 */
 
 #include <iostream>
