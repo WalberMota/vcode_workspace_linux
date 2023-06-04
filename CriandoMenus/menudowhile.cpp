@@ -62,7 +62,7 @@ int main()
     while(resposta =='S'||resposta=='s');
 
     total = total * tax;
-    std::cout << "\nThe final bill for today is R$ " << total << "\n";
+    std::cout << "\nA conta final é de R$ " << total << "\n";
 
     return 0;
 }
