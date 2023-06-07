@@ -24,13 +24,13 @@ int main ()
     std::cout << "\n";
 
     std::cout << "Digite o nome do arquivo: ";
-    std::cin.get (nome,256);
+    std::cin.get (nome,256); //recebe do usuário o nome do arquivo
 
 
     std::ifstream is(nome);     // abre o arquivo
 
         char c;
-        while (is.get(c))           // loop pegar caracteres simples
+        while (is.get(c))           // loop para pegar os caracteres simples um a um
 
             if (c=='A'||c=='B'||c=='C'||c=='D'||c=='E'||c=='F'||c=='G'||c=='H'||c=='I'||c=='J'||c=='K'||c=='L'||c=='M'||c=='N'||c=='O'||c=='P'||c=='Q'||c=='R'||c=='S'||c=='T'||c=='U'||c=='V'||c=='W'||c=='X'||c=='Y'||c=='Z'||c=='a'||c=='b'||c=='c'||c=='d'||c=='e'||c=='f'||c=='g'||c=='h'||c=='i'||c=='j'||c=='k'||c=='l'||c=='m'||c=='n'||c=='o'||c=='p'||c=='q'||c=='r'||c=='s'||c=='t'||c=='u'||c=='v'||c=='w'||c=='x'||c=='y'||c=='z'||c=='1'||c=='2'||c=='3'||c=='4'||c=='5'||c=='6'||c=='7'||c=='8'||c=='9'||c=='0')
             {
@@ -38,7 +38,8 @@ int main ()
             }
 
         is.close();                // fecha o arquivo
-   std::filesystem::exists(nome) ? std::cout << "\n\n Extração concluída!\n" : std::cout << "\n\nArquivo não encontrado!\n";
+
+    std::filesystem::exists(nome) ? std::cout << "\n\n Extração concluída!\n" : std::cout << "\n\nArquivo não encontrado!\n";//testa se saiu tudo bem
     return 0;
 
 }
