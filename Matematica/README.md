@@ -4,7 +4,6 @@
 - [Calculadora simples](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/calculadora.cpp)
 - [Medidas de um círculo qualquer](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/circulo_medidas.cpp)
 - [Cáĺculo do IMC](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/imc.cpp)
-- [Cálculo do IMC](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/imc.cpp)
 - [Gerador de Matriz no terminal](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/Matrizes.cpp)
 - [Cálcula o mdc entre 2 numeros](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/mdc.cpp)
 - [Operadores matemáticos com ponto flutuante](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/operadores.cpp)
