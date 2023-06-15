@@ -10,4 +10,4 @@
 - [Cálcula Pi pela Série de Leibniz](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/pi_leibniz.cpp)
 - [Calcula x elevado à y](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/potencia.cpp)
 - [Soma de numeros naturais](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/somanaturais.cpp)
->Os códigos nesta pasta são para implementação e melhoramentos futuros.
+>Os códigos nesta pasta são para implementação em outros trabalhos ou para serem desenvolvidos futuramente.
