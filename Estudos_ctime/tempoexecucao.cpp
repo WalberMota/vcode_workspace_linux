@@ -6,7 +6,7 @@ Data da Criação: 19/06/2023
 Version 01.00 
 locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM)
 i5-5200U CPU @ 2.20GHz (306D4)
-Propósito:  Estudo da biblioteca <ctime> para claculo do tempo de execução de uma instrução.
+Propósito:  Estudo da biblioteca <ctime> para cálculo do tempo de execução de uma instrução.
 */
 
 #include <iostream>
