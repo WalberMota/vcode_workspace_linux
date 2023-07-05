@@ -48,7 +48,9 @@
     "ctime": "cpp",
     "fstream": "cpp",
     "iomanip": "cpp",
-    "sstream": "cpp"
+    "sstream": "cpp",
+    "codecvt": "cpp",
+    "ratio": "cpp"
   },
     "C_Cpp_Runner.useAddressSanitizer": false,
     "code-runner.runInTerminal": true,
