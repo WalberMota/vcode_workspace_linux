@@ -1,3 +1,14 @@
+/*
+Programa:
+Escrito por: Walber Mota
+Linguagem: C++
+Data da Criação: 11/07/2023
+Version 01.00 
+locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM)
+i5-5200U CPU @ 2.20GHz (306D4)
+Propósito:  
+*/
+
 #include <iostream>
 
 using namespace std;
