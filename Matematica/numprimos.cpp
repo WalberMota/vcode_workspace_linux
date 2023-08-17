@@ -2,8 +2,9 @@
 using namespace std;
 
 int main()
-{
+    {
     int limite;
+    int regrt{0};
     cout <<"Calcula os m=numeros primos abaixo de um determinado valor\nDigite o valor = ";
     cin >>limite;
     system("clear");
@@ -11,22 +12,25 @@ int main()
 
     int temp=0;
 
-    for (int contador=1; contador<=limite; contador++)
+    for (int numpri=1; numpri<=limite; numpri++)
         {
         int flag=1;
-        for (int x=2; x<=contador; x++)
+        for (int x=2; x<=numpri; x++)
             {
 
-            if(contador%x == 0 && flag==1)
+            if(numpri%x == 0 && flag==1)
                 {
                 flag=flag+1;
-                if (contador==x)
-                    cout << contador<<", ";
+                if (numpri==x)
+                    {
+                    cout << numpri<<", ";
+                    regrt++;
+                    }
                 }
             }
 
         }
-    cout <<"\n\n";
+    cout <<"\n\n"<<"Total de números primos encontrados: "<<regrt<<"\n";
     return 0;
     }
 
