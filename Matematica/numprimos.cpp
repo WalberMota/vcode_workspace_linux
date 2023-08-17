@@ -1,3 +1,10 @@
+/*
+Autor: Walber Mota
+Data da Criação: 10/08/2023
+Objetivos: Calcula os numeros primos entre 1 e um determinado número ℕ (ℤ+)
+Linguagem: C/C++
+*/
+
 #include <iostream>
 using namespace std;
 
