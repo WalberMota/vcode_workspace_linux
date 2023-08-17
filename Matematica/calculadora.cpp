@@ -1,7 +1,7 @@
 /*
 Autor: Walber Mota
 Data da Criação: 13/05/2023
-Objetivos: calculadora baśica comuso de funções
+Objetivos: calculadora baśica com uso de funções
 Linguagem: C/C++
 */
 
