@@ -50,7 +50,8 @@
     "iomanip": "cpp",
     "sstream": "cpp",
     "codecvt": "cpp",
-    "ratio": "cpp"
+    "ratio": "cpp",
+    "optional": "cpp"
   },
     "C_Cpp_Runner.useAddressSanitizer": false,
     "code-runner.runInTerminal": true,
