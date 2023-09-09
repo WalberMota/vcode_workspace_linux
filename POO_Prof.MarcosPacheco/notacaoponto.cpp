@@ -16,7 +16,7 @@ class Casa
     // public:
     int NumQuartos{1};
     float Tamanho{50.0f};
-    bool bTemSuite{true};
+    bool bTemSuite{false};
 
 public:
     void MostrarTamanho();
