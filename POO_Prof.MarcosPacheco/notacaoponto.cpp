@@ -50,11 +50,10 @@ int main()
     std::cout << "\nNúmero de Quartos: " << CasaDePraia.ObtenhaNumeroDeQuartos();
     std::cout << "\nSuite: ";
     CasaDePraia.TemSuite() ? (std::cout << "Sim") : (std::cout << "Nao") << "\n";
-    std::cout << "\n         *** sua reserva foi registrada com sucesso ***";
-    std::cout << "\n                    Agradeçemos a preferência !\n\n\"
+    std::cout<< "\n Reserva efetuada com sucesso - Obrigado !";
 
-    // system("PAUSE");
     return 0;
+
 }
 
 void Casa::MostrarTamanho()
