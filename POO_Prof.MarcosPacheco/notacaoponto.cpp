@@ -60,7 +60,7 @@ bool Casa::TemSuite()
 
 void Casa::SetNumQuartos(int Num)
 {
-    if ((Num <= 6) && (Num >= 1))
+        if ((Num <= 6) && (Num >= 1))
     {
         NumQuartos = Num;
     }
