@@ -2,7 +2,7 @@
 Programa:
 Escrito por: Walber Mota
 Linguagem: C++
-Data da Criação:07/09/2023
+Data da Criação:15/09/2023
 Version 01.00
 locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM)
 i5-5200U CPU @ 2.20GHz (306D4)
@@ -32,7 +32,8 @@ char bsuite;
 int main()
 {
     int numquartos;
-    Casa CasaDePraia;//instancia um obsjeto da classe Casa
+    // Casa CasaDePraia;//instancia um objeto da classe Casa ---> notação ponto
+    Casa *CasaDePraia = new Casa;
     start_option();
 
     std::cout << "\nDigite quantos quartos deseja (min=1,max=6)";
