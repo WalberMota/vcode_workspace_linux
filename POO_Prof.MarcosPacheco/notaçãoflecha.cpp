@@ -33,24 +33,24 @@ int main()
 {
     int numquartos;
     // Casa CasaDePraia;//instancia um objeto da classe Casa ---> notação ponto
-    Casa *CasaDePraia = new Casa;
+    Casa *CasaDePraia = new Casa;//o objeto foi instanciado via alocação dinâmica de memoria. CasaDeParia recebe o endereço de memoria do objeto criado, CasaDePraia é um ponteiro.
     start_option();
 
     std::cout << "\nDigite quantos quartos deseja (min=1,max=6)";
     std::cin >> numquartos;
-    CasaDePraia.SetNumQuartos(numquartos);
+    (*CasaDePraia).SetNumQuartos(numquartos);
 
     std::cout << "\nDeseja com suite ? (s/n)";
     std::cin >> bsuite;
-    CasaDePraia.SetSuite();
+    (*CasaDePraia).SetSuite();
 
     //Exibe resultado final
     system ("clear");
     std::cout <<"\nO Aptoº escolhido possui:\n";
-    CasaDePraia.MostrarTamanho();
-    std::cout << "\nNúmero de Quartos: " << CasaDePraia.ObtenhaNumeroDeQuartos();
+    CasaDePraia->MostrarTamanho(); //ou colocamos a notação flecha "CasaDePraia->MostrarTamanho"
+    std::cout << "\nNúmero de Quartos: " << CasaDePraia->ObtenhaNumeroDeQuartos();
     std::cout << "\nSuite: ";
-    CasaDePraia.TemSuite() ? (std::cout << "Sim") : (std::cout << "Nao") << "\n";
+    CasaDePraia->TemSuite() ? (std::cout << "Sim") : (std::cout << "Nao") << "\n";
     std::cout<< "\n Reserva efetuada com sucesso - Obrigado !";
 
     return 0;
