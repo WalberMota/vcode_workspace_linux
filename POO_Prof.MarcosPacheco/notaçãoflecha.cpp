@@ -38,16 +38,17 @@ int main()
 
     std::cout << "\nDigite quantos quartos deseja (min=1,max=6)";
     std::cin >> numquartos;
-    (*CasaDePraia).SetNumQuartos(numquartos);
+    CasaDePraia->SetNumQuartos(numquartos);
 
     std::cout << "\nDeseja com suite ? (s/n)";
     std::cin >> bsuite;
-    (*CasaDePraia).SetSuite();
+    CasaDePraia->SetSuite();
 
     //Exibe resultado final
     system ("clear");
     std::cout <<"\nO Aptoº escolhido possui:\n";
-    CasaDePraia->MostrarTamanho(); //ou colocamos a notação flecha "CasaDePraia->MostrarTamanho"
+    //a notação flecha é um atalho para (*CasaDePraia).MostrarTamanho"
+    CasaDePraia->MostrarTamanho();
     std::cout << "\nNúmero de Quartos: " << CasaDePraia->ObtenhaNumeroDeQuartos();
     std::cout << "\nSuite: ";
     CasaDePraia->TemSuite() ? (std::cout << "Sim") : (std::cout << "Nao") << "\n";
