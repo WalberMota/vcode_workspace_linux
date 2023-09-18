@@ -19,7 +19,8 @@ private:
 public: // aqui ficam os métodos (ou funções)
     bool Sacar(double Valor);
     void Depositar(double Valor);
-    void Transferir(Conta Destino, double Valor);
+
+    void Transferir(Conta &Destino, double Valor);
     double ConsultarSaldo();
 
     // cria as funções para obter os dados privados
@@ -29,7 +30,9 @@ public: // aqui ficam os métodos (ou funções)
     std::string GetTitular();
     void SetBanco(std::string Banco);
     void SetAgencia(int Agencia);
+
     void SetTitular(std::string Titular);
+
     void SetNumConta(int NumConta);
     
 };

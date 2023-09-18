@@ -26,10 +26,10 @@ bool Conta::Sacar(double Valor)
 void Conta::Depositar(double Valor)
 {
     Saldo += Valor;
-    std::cout << "\nDeposito efetuado com sucesso...\n";
+    std::cout << "\nDeposito de R$ " << Valor << " Efetuado com Sucesso!\n";
 }
 
-void Conta::Transferir(Conta Destino, double Valor)
+void Conta::Transferir(Conta &Destino, double Valor)
 {
     if (Saldo < Valor)
     {
@@ -41,16 +41,16 @@ void Conta::Transferir(Conta Destino, double Valor)
         Saldo -= Valor;
         std::cout << "\n**** Dados *****\n";
         std::cout << "Titular: " << Destino.GetTitular() << "\n";
-        std::cout <<"Banco: "<<Destino.GetBanco()<<"\n";
-        std::cout <<"Agencia: "<<Destino.GetAgencia()<<"n";
-        std::cout <<"Conta: "<<Destino.GetNumConta()<<"n";
+        std::cout << "Banco: " << Destino.GetBanco() << "\n";
+        std::cout << "Agencia: " << Destino.GetAgencia() << "\n";
+        std::cout << "Conta: " << Destino.GetNumConta() << "\n";
 
         std::cout << "\nTransferência realizada com sucesso...\n";
 
         std::cout << "Saldo atual : R$ " << ConsultarSaldo() << "\n";
     }
 }
-//estas funções vão mostrar os atributos da classe
+// estas funções vão mostrar os atributos da classe
 double Conta::ConsultarSaldo()
 {
     return Saldo;
@@ -75,24 +75,23 @@ std::string Conta::GetTitular()
 {
     return Titular;
 }
-//estas funções vão alterar o valor dos atributos
-void Conta::SetBanco(std::string SetBanco)
+// estas funções vão alterar o valor dos atributos
+void Conta::SetBanco(std::string Banco)
 {
-    this->Banco=Banco;
+    this->Banco = Banco;
 }
 
 void Conta::SetAgencia(int Agencia)
 {
-    this->Agencia=Agencia;
+    this->Agencia = Agencia;
 }
 
 void Conta::SetNumConta(int NumConta)
 {
-    this->NumConta=NumConta;
+    this->NumConta = NumConta;
 }
 
 void Conta::SetTitular(std::string Titular)
 {
-    this->Titular=Titular;
+    this->Titular = Titular;
 }
-
