@@ -27,12 +27,5 @@ int main(int argc, char const *argv[])
 
 int fatorial(int numero)
 {
-    if (numero == 0 || numero == 1)
-    {
-        return 1;
-    }
-    else
-    {
-        return numero * fatorial(numero - 1);
-    }
+    return (numero <= 1) ? 1 : numero * fatorial(numero - 1);
 }
