@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     std::cout<<"Calculado do fatorial de um numero inteiro\n";
     std::cout<<"Digite um numero: ";
     std::cin>>numero;
-    std::cout<<"fatorial de 4! ";
+    std::cout<<"fatorial de "<<numero<<" = "<<fatorial(numero);
     return 0;
 }
 
@@ -28,7 +28,7 @@ int fatorial(int numero)
 {
     if (numero==0 || numero==1)
     {
-        std::cout <<"1"
+        std::cout <<"1";
     }
     else
     {
