@@ -11,21 +11,35 @@ Propósito:  Cálculo do fatorial de um dado numero inteiro.
 
 #include <iostream>
 
-int numero{0};
+unsigned long int numero=0;
+unsigned long int fatorial(unsigned long int numero);
 
-int fatorial(int numero);
-
-int main(int argc, char const *argv[])
+int main(int, char const *argv[])
 {
-    std::cout << "Calculado do fatorial de um numero inteiro\n";
-    std::cout << "Digite um numero: ";
+    system("clear");
+    std::cout << "Calcula o fatorial dos primeiro 65 números naturais inteiros:\n\n";
+    std::cout << "Digite o numero (máximo 65): ";
     std::cin >> numero;
-    std::cout << "\n"
-              << numero << "! = " << fatorial(numero);
-    return 0;
+   
+    if (numero == 0 || numero == 1)
+    {
+        std::cout << "\n" << numero<< "! = 1";
+        return 0;
+    }
+    if (numero > 65)
+    {
+        std::cout << "\n" << numero<< "! = " << fatorial(numero);        
+        std::cout <<"\n\nO resultado obtido excede a capacidade desta Máquina!\n";
+    }
+    else
+    {
+        std::cout << "\n" << numero<< "! = " << fatorial(numero);
+        return 0;
+    }
+    
 }
 
-int fatorial(int numero)
+unsigned long int fatorial(unsigned long int numero)
 {
     return (numero <= 1) ? 1 : numero * fatorial(numero - 1);
 }
