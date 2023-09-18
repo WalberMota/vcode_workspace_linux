@@ -28,7 +28,7 @@ int fatorial(int numero)
 {
     if (numero==0 || numero==1)
     {
-        std::cout <<"1";
+        return 1;
     }
     else
     {
