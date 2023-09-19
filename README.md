@@ -1,2 +1,4 @@
+### Todos estes estudos em C++ foram realizados em ambiente LINUX.
+#### Atenção:
 
-Dir de estudos C++ em LINUX
+Instruções como <b> system("pause")</b> não se faz necessário dentro dos programas no terminal linux. Mas pode ser necessário em ambiiente windows.
