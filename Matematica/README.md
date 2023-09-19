@@ -11,4 +11,7 @@
 - [Calcula x elevado à y](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/potencia.cpp)
 - [Soma de numeros naturais](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/somanaturais.cpp)
 - [Calcula os numeros primos](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/numprimos.cpp)
->Os códigos nesta pasta são para implementação em outros trabalhos ou para serem desenvolvidos futuramente.
+- [Calcula o fatorial de numeros naturais ](https://github.com/WalberMota/vcode_workspace_linux/blob/master/Matematica/somanaturais.cpp)
+*<p>Aqui um programa com menu pede para digitar o numero desejado. Outro o numero a ser calculado deve ser colocado como argumento na chamada do programa.<p>*
+
+> Os códigos nesta pasta são para implementação em outros trabalhos ou para serem desenvolvidos futuramente.
