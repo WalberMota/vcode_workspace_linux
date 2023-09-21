@@ -1,4 +1,4 @@
-Programa:
+/*Programa:
 Escrito por: Walber Mota
 Linguagem: C++
 Data da Criação: 31/05/2023 
