@@ -9,17 +9,25 @@ i5-5200U CPU @ 2.20GHz (306D4)
 Propósito:  Simples jogo da Forca.
 */
 
-
-#include<iostream>
+#include <iostream>
 
 int main()
 {
-    char secretword[20],letra[1],palavra[20];
+    char secretword[20], letra[1], palavra[20];
 
-    int tamanho{0},indice{0},chances{6}, acertos{0}; 
+    int tamanho{0}, indice{0}, chances{6}, acertos{0};
     bool acertou{false};
 
+    std::cout << "Digite a palavra secreta(não deixe o jogodar ver): ";
+    std::cin >> palavra;
 
+    system("clear");
+
+    while (secretword[indice]!= '\0')
+    {
+        std::cout<<palavra[indice];
+        indice++;
+    }
 
     return 0;
 }
