@@ -12,11 +12,13 @@ Propósito:  Simples jogo da Forca.
 
 #include<iostream>
 
-int main(int argc, char const *argv[])
+int main()
 {
     char secretword[20],letra[1],palavra[20];
 
-    int tamanho,indice,chances;
+    int tamanho{0},indice{0},chances{6}, acertos{0}; 
+    bool acertou{false};
+
 
 
     return 0;
