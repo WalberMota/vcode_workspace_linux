@@ -11,23 +11,40 @@ Propósito:  Simples jogo da Forca.
 
 #include <iostream>
 
+
+
 int main()
 {
-    char secretword[20], letra[1], palavra[20];
-
+    char secretword[20], letra[1],palavra[20];
     int tamanho{0}, indice{0}, chances{6}, acertos{0};
     bool acertou{false};
 
+
+    
+
     std::cout << "Digite a palavra secreta(não deixe o jogodar ver): ";
-    std::cin >> palavra;
+    std::cin >> secretword;
 
     system("clear");
 
     while (secretword[indice]!= '\0')
     {
-        std::cout<<palavra[indice];
+        std::cout<<secretword[indice];
         indice++;
+        tamanho++;
+    }
+    std::cout <<"\n\ntamanho da palavra: "<<tamanho;
+    return 0;
+
+    for (int i=0;i<20;i++)
+    {
+        palavra[i]='-';
     }
 
-    return 0;
+
+    while (chances>0 && acertos<tamanho)
+    {
+        
+    }
+    
 }
