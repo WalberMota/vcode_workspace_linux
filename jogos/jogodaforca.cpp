@@ -20,7 +20,7 @@ int main()
     std::cout << "Digite a palavra secreta(não deixe o jogodar ver): ";
     std::cin >> secretword;
 
-    // system("clear");
+    system("clear");
 
     while (secretword[indice] != '\0')
     {
@@ -35,6 +35,9 @@ int main()
     {
         palavra[i] = '-';
     }
+ //   std::cout<<palavra;
+
+
 
     while (chances > 0 && acertos < tamanho)
     {
@@ -48,22 +51,25 @@ int main()
         std::cout << "\n\nDigite uma letra: ";
         std::cin >> letra[0];
 
-        for (int i = 0; i < tamanho; i++)
+        for (int indice = 0; indice < tamanho; indice++)
         {
-            if (palavra[i] == letra[0])
+            if (secretword[indice] == letra[0])
             {
-                acertou = true;
-                secretword[i] = palavra[i];
+                palavra[indice] = secretword[indice];
                 acertos++;
+                acertou = true;                
             }
-            if (!acertou==false)
-            {
-                chances--;
-            }
-            acertou=false;
-            system("clear");
+
         }
+        if (acertou==false)
+        {
+            chances=chances-1;
+
+        }
+        acertou=false;
+        system("clear");
     }
+
     if (acertos==tamanho){
         std::cout<<"\n\nVocê venceu!";
     }
