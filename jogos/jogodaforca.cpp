@@ -11,40 +11,65 @@ Propósito:  Simples jogo da Forca.
 
 #include <iostream>
 
-
-
 int main()
 {
-    char secretword[20], letra[1],palavra[20];
+    char secretword[20], letra[1], palavra[20];
     int tamanho{0}, indice{0}, chances{6}, acertos{0};
     bool acertou{false};
-
-
-    
 
     std::cout << "Digite a palavra secreta(não deixe o jogodar ver): ";
     std::cin >> secretword;
 
-    system("clear");
+    // system("clear");
 
-    while (secretword[indice]!= '\0')
+    while (secretword[indice] != '\0')
     {
-        std::cout<<secretword[indice];
+        //    std::cout<<secretword[indice];
         indice++;
         tamanho++;
     }
-    std::cout <<"\n\ntamanho da palavra: "<<tamanho;
-    return 0;
+    // std::cout <<"\n\ntamanho da palavra: "<<tamanho;
 
-    for (int i=0;i<20;i++)
+
+    for (int i = 0; i < 20; i++)
     {
-        palavra[i]='-';
+        palavra[i] = '-';
     }
 
-
-    while (chances>0 && acertos<tamanho)
+    while (chances > 0 && acertos < tamanho)
     {
-        
+        std::cout << "\n\nTentativas restantes: " << chances << "\n\n";
+
+        std::cout << "Palavra secreta: ";
+        for (int i = 0; i < tamanho; i++)
+        {
+            std::cout << palavra[i];
+        }
+        std::cout << "\n\nDigite uma letra: ";
+        std::cin >> letra[0];
+
+        for (int i = 0; i < tamanho; i++)
+        {
+            if (palavra[i] == letra[0])
+            {
+                acertou = true;
+                secretword[i] = palavra[i];
+                acertos++;
+            }
+            if (!acertou==false)
+            {
+                chances--;
+            }
+            acertou=false;
+            system("clear");
+        }
     }
-    
+    if (acertos==tamanho){
+        std::cout<<"\n\nVocê venceu!";
+    }
+    else
+    {
+        std::cout<<"\n\nVoĉe perdeu ...";
+    }
+        return 0;
 }
