@@ -70,12 +70,12 @@ int main()
     }
 
     if (acertos==tamanho){
-        std::cout << "Palavra secreta: "<<secretword;
+        std::cout << "A Palavra secreta era "<<secretword;
         std::cout<<"\n\nVocê venceu!";
     }
     else
     {
-        std::cout << "Palavra secreta: "<<secretword;        
+        std::cout << "A Palavra secreta era "<<secretword;        
         std::cout<<"\n\nVoĉe perdeu ...";
     }
         return 0;
