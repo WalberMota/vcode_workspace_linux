@@ -10,37 +10,36 @@ Propósito:  Simples jogo da Forca - estudo da codificação do Fessor Bruno (CF
 */
 
 #include <iostream>
+#include<string>
 
 int main()
 {
-    char secretword[20], letra[1], palavra[20];
+    char secretword[20], letra[1], palavra[20], dicadapalavra[20];
     int tamanho{0}, indice{0}, chances{6}, acertos{0};
     bool acertou{false};
 
-    std::cout << "Digite a palavra secreta(não deixe o jogodar ver): ";
+    system("clear");
+    std::cout << "\nSem deixar o jogaro ver. Digite a palavra secreta: ";
     std::cin >> secretword;
+    std::cout << "\nCom uma só palavra digite uma dica para o jogador\n(Ex.:fruta, casa, animal, etc): ";
+    std::cin >> dicadapalavra;
 
     system("clear");
 
     while (secretword[indice] != '\0')
     {
-        //    std::cout<<secretword[indice];
         indice++;
         tamanho++;
     }
-    // std::cout <<"\n\ntamanho da palavra: "<<tamanho;
-
 
     for (int i = 0; i < 20; i++)
     {
         palavra[i] = '-';
     }
- //   std::cout<<palavra;
-
-
 
     while (chances > 0 && acertos < tamanho)
     {
+        std::cout<<"Dica do desafio : "<<dicadapalavra;
         std::cout << "\n\nTentativas restantes: " << chances << "\n\n";
 
         std::cout << "Palavra secreta: ";
