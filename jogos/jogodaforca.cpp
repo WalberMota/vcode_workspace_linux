@@ -19,7 +19,7 @@ int main()
     bool acertou{false};
 
     system("clear");
-    std::cout << "\nSem deixar o jogaro ver. Digite a palavra secreta: ";
+    std::cout << "\nSem deixar o jogador ver. Digite a palavra secreta: ";
     std::cin >> secretword;
     std::cout << "\nCom uma só palavra digite uma dica para o jogador\n(Ex.:fruta, casa, animal, etc): ";
     std::cin >> dicadapalavra;
@@ -39,7 +39,7 @@ int main()
 
     while (chances > 0 && acertos < tamanho)
     {
-        std::cout<<"Dica do desafio : "<<dicadapalavra;
+        std::cout<<"Dica do desafio : "<<dicadapalavra<<" com "<<tamanho<<" letras.";
         std::cout << "\n\nTentativas restantes: " << chances << "\n\n";
 
         std::cout << "Palavra secreta: ";
@@ -70,10 +70,12 @@ int main()
     }
 
     if (acertos==tamanho){
+        std::cout << "Palavra secreta: "<<secretword;
         std::cout<<"\n\nVocê venceu!";
     }
     else
     {
+        std::cout << "Palavra secreta: "<<secretword;        
         std::cout<<"\n\nVoĉe perdeu ...";
     }
         return 0;
