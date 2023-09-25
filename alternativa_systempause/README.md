@@ -1,5 +1,8 @@
-### Alternatica no ambiente Linux ao  system("pause") do windows. (nível intermediário)
-#### Método:
+### Alternatica no ambiente Linux ao  system("pause") do windows.###
+
+(nível intermediário)
+
+Método:
 
                 getchar();
                 scanf("c\n");
