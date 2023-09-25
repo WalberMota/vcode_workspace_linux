@@ -14,7 +14,8 @@ int main()
             {
                 printf("\n\nNúmero inválido!\n Tecle <ENTER> para outro valor...\n");
                 getchar();
-                scanf("c\n");
+                //scanf("c\n");
+                scanf("%*[^\n]%*c");
 
                 system("clear");
             }
