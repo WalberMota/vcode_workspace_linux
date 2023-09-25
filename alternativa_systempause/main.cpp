@@ -12,7 +12,7 @@ int main()
         std::cin>>totalfunc;
         if (totalfunc<0)
             {
-                printf("\n\nNúmero inválido!\n");
+                printf("\n\nNúmero inválido!\n Tecle <ENTER> para outro valor...\n");
                 getchar();
                 scanf("c\n");
 
