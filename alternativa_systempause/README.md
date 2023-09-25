@@ -1,4 +1,4 @@
-### Alternatica no ambiente Linux ao  system("pause") do windows.###
+### Alternatica no ambiente Linux ao  system("pause") do windows. ###
 
 (nível intermediário)
 
