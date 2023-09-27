@@ -6,14 +6,14 @@ Data da Criação: 18/09/2023
 Version 01.00
 locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM)
 i5-5200U CPU @ 2.20GHz (306D4)
-Propósito:  Calcula em quantos anos um investimento dobra seu montante a partir de uma determinada taxa anual
+Propósito:  Calcula em quantos anos um investimento dobra seu montante a partir de uma determinada taxa anual.
 */  
 
 #include <iostream>
 
 int main()
 {
-    int contador{1},tempo_anos{0};
+    int contador{1},tempo_anos{0},meses{0};
     double taxa{0.00},taxa_mensal{0.00}, montante{0.00}, vinicial{0.00}, invest_mensal{0.00};
 
     std::cout << "Digite o valor inicial do investimento: ";
@@ -26,15 +26,18 @@ int main()
     std::cout << "\nTempo de investimento em anos: ";
     std::cin >> tempo_anos;
 
-    taxa_mensal=(1 + (taxa / 100))/12;
-    
-    while (contador <= tempo_anos)
+    meses=(tempo_anos)*12;
+    while (contador <= meses)
     {
-        montante =montante+(montante*taxa_mensal);
+    
+        montante =montante+(montante*((taxa/12)/100));
         contador++;
-        montante+=invest_mensal;
-
+        if (contador>1)
+        {
+            montante=montante+invest_mensal;
+        }
     }
 
-    std::cout << "\n\nR$ " << vinicial << " dobraria para R$ " << montante << " em " << contador << " anos no caso de um rendimento de " << taxa << "\% ao ano.";
+    std::cout << "\n\nR$ " << vinicial << " vira R$ " << montante << " em " << tempo_anos << " anos ("<<meses<<" meses) com rendimento de "<< taxa << "\% a.a e aporte mensal de R$"<<invest_mensal;
+    return 0;
 }
