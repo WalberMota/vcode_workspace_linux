@@ -3,7 +3,7 @@ Autor: WalberMota
 Data da Criação: 12/06/2023
 Version 01.00 
 locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz (306D4)
-Objetivos: ler o somar o primeiro e ultimo digito de long int
+Objetivos: vetores dinâmicos que mudam de tamanho durante execução do programa
 Linguagem C++
  */
 
