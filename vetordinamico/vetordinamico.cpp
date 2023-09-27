@@ -7,6 +7,7 @@ Objetivos: vetores dinâmicos que mudam de tamanho durante execução do program
 Linguagem C++
  */
 
+
 #include <iostream>
 #include <string>
 #include <vector> // necessário para usar vetores dinâmicos que mudam de tamanho durante execução do programa
@@ -14,7 +15,7 @@ Linguagem C++
 int main()
 {
     std::string NomeAluno;
-    std::cout << "\nDigite o nome do Aluno: ";
+    std::cout << "\nDigite o nome do Aluno(a): ";
     std::getline(std::cin, NomeAluno); // Para poder receber nome e sobrenome (frases)
     
  
