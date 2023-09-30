@@ -10,25 +10,39 @@ using std::getline;
 
 class livroDaClasse//definição da classe GradeBook
 {
+	private:
+		string nomeDoCurso;
+
 	public:
-		void displayMessage(string curso)  //cabeçalho da função
-							   //as chaves delimitam o corpo da função
+		void colocaNomeCurso(string nome) //o parametro 'nome' recebe o valor do argumento 'curso' na linha 40 - getline
 		{
-			cout<<"Bem vindo ao Livro de Classe do Curso de "<<curso<<"\n";
+			nomeDoCurso = nome;
+		}
+
+		string mostraNomeCurso()
+		{
+			return nomeDoCurso;
+		}
+
+		void displayMessage() //esta função-membro chama a função-membro 'mostraNomeCurso' 
+		//as chaves delimitam o corpo da função
+		{
+			cout<<"Bem vindo ao Livro de Classe do Curso de "<< mostraNomeCurso() <<"\n";
 		}
 };
 
 int main()
 {
-	string nomeDoCurso;
+	string curso;
 	livroDaClasse meuLivroDaClasse;
 	
 	cout<<"Por favor digite o nome do curso: "<<"\n";
-	getline(cin,nomeDoCurso); //lê o nome do cuso com espaços em branco
+	getline(cin,curso); //lê o nome do curso com espaços em branco
+	meuLivroDaClasse.colocaNomeCurso(curso);//aciona a função-membro com o valor da variável 'curso' como argumento
 
 	cout<<"\n";
 
-	meuLivroDaClasse.displayMessage(nomeDoCurso);//parênteses vazios, essa função-membro não requer dados adicionais para realizar sua tarefa
+	meuLivroDaClasse.displayMessage();//parênteses vazios, essa função-membro não requer dados adicionais para realizar sua tarefa
 
 	return 0;
 }
