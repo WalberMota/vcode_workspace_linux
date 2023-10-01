@@ -1,3 +1,6 @@
+
+// Figura 3.3 - página 61
+
 #include<iostream>
 using std::cout;
 using std::cin;
