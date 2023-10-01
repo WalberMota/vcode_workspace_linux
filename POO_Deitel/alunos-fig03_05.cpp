@@ -39,7 +39,7 @@ int main()
 	livroDaClasse meuLivroDaClasse;
 
 	// exibe valor inicial de nomeDoCurso
-	cout << "Initial course name is: " << meuLivroDaClasse.mostraNomeCurso() << "\n";
+	cout << "Initial course name is: " << meuLivroDaClasse.mostraNomeCurso() << "\n\n";
 	
 	cout<<"Por favor digite o nome do curso: "<<"\n";
 	getline(cin,curso); //lê o nome do curso com espaços em branco
