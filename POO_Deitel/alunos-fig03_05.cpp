@@ -47,7 +47,8 @@ int main()
 
 	cout<<"\n";
 
-	meuLivroDaClasse.displayMessage();//parênteses vazios, essa função-membro não requer dados adicionais para realizar sua tarefa
+	//parênteses vazios, essa função-membro não requer dados adicionais para realizar sua tarefa
+	meuLivroDaClasse.displayMessage();
 
 	return 0;
 }
