@@ -43,9 +43,9 @@ int main(int argc, char const *argv[])
     std::cout<<"Birth : "<<Pessoa01.DtNascimento.Dia<<"/"<<Pessoa01.DtNascimento.Mes
                         <<"/"<< Pessoa01.DtNascimento.Ano<<"\n";
     std::cout<<"Adress: "<<Pessoa01.Endereco.Rua<<"\n";
-    std::cout<<"Adress: "<<Pessoa01.Endereco.Cidade<<"\n";
-    std::cout<<"Adress: "<<Pessoa01.Endereco.Estado<<"\n";
-    std::cout<<"Adress: "<<Pessoa01.Endereco.Pais<<"\n";
+    std::cout<<Pessoa01.Endereco.Cidade<<"\n";
+    std::cout<<Pessoa01.Endereco.Estado<<"\n";
+    std::cout<<Pessoa01.Endereco.Pais<<"\n";
 
 
     return 0;
