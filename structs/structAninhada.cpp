@@ -28,7 +28,18 @@ struct Pessoa // declaramos struct dentro de outra struct (struct aninhadas)
 
 int main(int argc, char const *argv[])
 {
-    /* code */
+    Pessoa Pessoa01;
+    Pessoa01.Nome = "Fulano da Silva";
+    Pessoa01.DtNascimento.Dia= 8;
+    Pessoa01.DtNascimento.Mes=10;
+    Pessoa01.DtNascimento.Ano=2000;
+    Pessoa01.Endereco.Rua="Street A";
+    Pessoa01.Endereco.Cidade="San Francisco";
+    Pessoa01.Endereco.Estado="California";
+    Pessoa01.Endereco.Pais="EUA";
+
+
+
     return 0;
 }
 
