@@ -39,9 +39,13 @@ int main(int argc, char const *argv[])
     Pessoa01.Endereco.Pais="EUA";
 
     // exibir os dados na tela
-    std::cout<<"Nome: "<<Pessoa01.Nome<<"\n";
-    std::cout<<"DN  : "<<Pessoa01.DtNascimento<<"/"<<Pessoa01.DtNascimento.Mes<<
-                        "/"<< Pessoa01.DtNascimento.Ano<<"\n";
+    std::cout<<"Name: "<<Pessoa01.Nome<<"\n";
+    std::cout<<"Birth : "<<Pessoa01.DtNascimento.Dia<<"/"<<Pessoa01.DtNascimento.Mes
+                        <<"/"<< Pessoa01.DtNascimento.Ano<<"\n";
+    std::cout<<"Adress: "<<Pessoa01.Endereco.Rua<<"\n";
+    std::cout<<"Adress: "<<Pessoa01.Endereco.Cidade<<"\n";
+    std::cout<<"Adress: "<<Pessoa01.Endereco.Estado<<"\n";
+    std::cout<<"Adress: "<<Pessoa01.Endereco.Pais<<"\n";
 
 
     return 0;
