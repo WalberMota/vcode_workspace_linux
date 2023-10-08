@@ -38,6 +38,10 @@ int main(int argc, char const *argv[])
     Pessoa01.Endereco.Estado="California";
     Pessoa01.Endereco.Pais="EUA";
 
+    // exibir os dados na tela
+    std::cout<<"Nome: "<<Pessoa01.Nome<<"\n";
+    std::cout<<"DN  : "<<Pessoa01.DtNascimento<<"/"<<Pessoa01.DtNascimento.Mes<<
+                        "/"<< Pessoa01.DtNascimento.Ano<<"\n";
 
 
     return 0;
