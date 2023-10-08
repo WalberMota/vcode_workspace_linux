@@ -16,7 +16,7 @@ struct Endereco
     std::string Pais;
 };
 
-struct Pessoa
+struct Pessoa // declaramos struct dentro de outra struct (struct aninhadas)
 {
     std::string Nome;
     Data DtNascimento; // declara uma variável do tipo struct Data
