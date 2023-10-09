@@ -1,5 +1,5 @@
 /*
-Programa:
+Programa: Dobrarinvestimento.cpp
 Escrito por: Walber Mota
 Linguagem: C++
 Data da Criação: 18/09/2023

@@ -1,5 +1,5 @@
 /*
-Programa:ASCIIextrator.cpp
+Programa:getline.cpp
 Escrito por: Walber Mota
 Linguagem: C++
 Data da Criação: 18 Junho 2023
