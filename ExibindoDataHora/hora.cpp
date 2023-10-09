@@ -29,6 +29,37 @@ int main(int argc, char const *argv[])
     std::cout << std::setw(2) << std::setfill('0') << hora << ":";
     std::cout << std::setw(2) << std::setfill('0') << minutos << ":";
     std::cout << std::setw(2) << std::setfill('0') << segundos << std::endl;
+
+    
+    switch (MinhaHora->tm_wday)
+    {
+    case 1:
+        std::cout << "\nSegunda-feira, ";
+        break;
+    case 2:
+        std::cout << "\nTerça-feira, ";
+        break;
+    case 3:
+        std::cout << "\nQuarta-feira, ";
+        break;
+    case 4:
+        std::cout << "\nQuinta-feira, ";
+        break;
+    case 5:
+        std::cout << "\nSexta-feira, ";
+        break;
+    case 6:
+        std::cout << "\nSábado, ";
+        break;
+    case 7:
+        std::cout << "\nDomingo, ";
+        break;
+    
+    }
+    
+    std::cout << MinhaHora->tm_mday << "/";
+    std::cout << 1+MinhaHora->tm_mon << "/";
+    std::cout << 1900 + MinhaHora->tm_year << "\n";
  
     return 0;
 }

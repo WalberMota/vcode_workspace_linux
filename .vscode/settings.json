@@ -57,7 +57,10 @@
     "cstring": "cpp",
     "format": "cpp",
     "span": "cpp",
-    "variant": "cpp"
+    "variant": "cpp",
+    "semaphore": "cpp",
+    "stop_token": "cpp",
+    "thread": "cpp"
   },
     "C_Cpp_Runner.useAddressSanitizer": false,
     "code-runner.runInTerminal": true,
