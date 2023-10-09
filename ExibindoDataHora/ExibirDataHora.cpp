@@ -28,10 +28,25 @@ int main(int argc, char const *argv[])
     //std::cout<<"\nHora Atual: "<<MinhaHora->tm_hour<<":"<<MinhaHora->tm_min<<":";
 
     std::cout<<"Hora Atual: ";
-	printf("%02d:", hora);
+
+   if (MinhaHora->tm_hour>0&&MinhaHora->tm_hour<10)
+    {
+        std::cout<<"0"<<std::to_string(MinhaHora->tm_hour)<<":";
+    }
+    if(MinhaHora->tm_hour==0)
+    {
+        std::cout<<"00:";
+    }
+   if (MinhaHora->tm_hour>=10)
+    {
+        std::cout<<MinhaHora->tm_hour<<":";
+    }
+	//printf("%02d:", hora);
 	printf("%02d:", minutos);	
     printf("%02d\n", segundos);	
 
+    std::cout<<'\n';
+ 
 
 /*     int segundos=MinhaHora->tm_sec;
     
