@@ -51,7 +51,13 @@
     "sstream": "cpp",
     "codecvt": "cpp",
     "ratio": "cpp",
-    "optional": "cpp"
+    "optional": "cpp",
+    "charconv": "cpp",
+    "chrono": "cpp",
+    "cstring": "cpp",
+    "format": "cpp",
+    "span": "cpp",
+    "variant": "cpp"
   },
     "C_Cpp_Runner.useAddressSanitizer": false,
     "code-runner.runInTerminal": true,
