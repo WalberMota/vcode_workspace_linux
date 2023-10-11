@@ -1,7 +1,7 @@
 /*
 Autor: Walber Mota
 Data da Criação: 13/05/2023
-Objetivos: uso de função (verifica se um número é par ou impar)
+Objetivos: uso de função para verifica se um número é par ou impar
 Linguagem: c/c++
 */
 
