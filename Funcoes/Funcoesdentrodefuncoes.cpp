@@ -1,7 +1,7 @@
 /*
 Autor: Marcos Pacheco ::::: Aluno: Walber Mota
 Data da Criação: 13/05/2023
-Objetivos: Aorender funções que chamam funções
+Objetivos: Aprender funções que chamam outras funções
 Linguagem: C/C++
 */
 
