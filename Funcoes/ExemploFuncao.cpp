@@ -11,7 +11,7 @@ bool seForPar(int tipo)
 {
     if (tipo % 2 == 0)
         return true;
-        return false;
+    return false;
 }
 
 int main()
