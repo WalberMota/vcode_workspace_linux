@@ -10,9 +10,10 @@ int main()
     std::string linha;
     std::fstream outfile; // fstream - leitura e escrita
     // std::ofstream outfile("test.txt");4
+    outfile.open("test.txt", std::ios::in);
     if (outfile.is_open())
     {
-        outfile.open("test.txt", std::ios::in);
+
         while (!outfile.eof())
         {
             getline(outfile, linha);
@@ -22,27 +23,26 @@ int main()
     }
     else
     {
-        std::cout << "ERRO: arquivo não foi aberto ou não existe" << endl;
-    }
-}
-/*
-    std::string::reverse_iterator rit = pw.rbegin();
-    while (rit != pw.rend())
-    {
-        outfile << *rit;
-        std::cout << *rit;
-        ++rit;
+        std::cout << "ERRO: arquivo não foi aberto ou não existe" << '\n';
     }
 
-    std::ofstream outfile("test.txt");
+    /*
+        std::string::reverse_iterator rit = pw.rbegin();
+        while (rit != pw.rend())
+        {
+            outfile << *rit;
+            std::cout << *rit;
+            ++rit;
+        }
 
-    for (int n = 0; n < 100; ++n)
-    {
-        outfile << n << " ";
-        // outfile.flush();
-    }
-*/
+        std::ofstream outfile("test.txt");
 
+        for (int n = 0; n < 100; ++n)
+        {
+            outfile << n << " ";
+            // outfile.flush();
+        }
+    */
 
-return 0;
+    return 0;
 }
