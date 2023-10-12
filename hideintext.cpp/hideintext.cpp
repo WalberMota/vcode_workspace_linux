@@ -3,22 +3,36 @@
 #include <fstream> // std::ofstream
 #include <string>
 
-std::string pw = "walber"; // k.\\}m=%iMn~eBc^oXxJ3 -----   R$E#W@q!
+// std::string pw = "walber"; // k.\\}m=%iMn~eBc^oXxJ3 -----   R$E#W@q!
+std::string linha, registra;
 
 int main()
 {
-    std::string linha;
+
     std::fstream outfile; // fstream - leitura e escrita
-    // std::ofstream outfile("test.txt");4
-    outfile.open("test.txt", std::ios::in);
+    outfile.open("dat", std::ios::in);
+
     if (outfile.is_open())
     {
-
+        std::cout<<"Texto no arquivo: ";
+        // outfile.open("dat", std::ios::in);
         while (!outfile.eof())
         {
             getline(outfile, linha);
+            if (linha!="")
+                registra=linha;
+            
             std::cout << linha << '\n';
+
         }
+            std::string::reverse_iterator rit = registra.rbegin();
+            std::cout<<"Texto invertido: ";
+            while (rit != registra.rend())
+            {
+                std::cout << *rit;
+                ++rit;
+            }
+
         outfile.close();
     }
     else
