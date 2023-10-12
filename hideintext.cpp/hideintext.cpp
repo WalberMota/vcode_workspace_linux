@@ -1,16 +1,48 @@
 // Flushing files
-#include <fstream>      // std::ofstream
+#include <iostream>
+#include <fstream> // std::ofstream
+#include <string>
 
-int main () {
+std::string pw = "walber"; // k.\\}m=%iMn~eBc^oXxJ3 -----   R$E#W@q!
 
-  std::ofstream outfile ("test.txt");
+int main()
+{
+    std::string linha;
+    std::fstream outfile; // fstream - leitura e escrita
+    // std::ofstream outfile("test.txt");4
+    if (outfile.is_open())
+    {
+        outfile.open("test.txt", std::ios::in);
+        while (!outfile.eof())
+        {
+            getline(outfile, linha);
+            std::cout << linha << '\n';
+        }
+        outfile.close();
+    }
+    else
+    {
+        std::cout << "ERRO: arquivo não foi aberto ou não existe" << endl;
+    }
+}
+/*
+    std::string::reverse_iterator rit = pw.rbegin();
+    while (rit != pw.rend())
+    {
+        outfile << *rit;
+        std::cout << *rit;
+        ++rit;
+    }
 
-  for (int n=0; n<100; ++n)
-  {
-    outfile << n<<" ";
-    //outfile.flush();
-  }
-  outfile.close();
+    std::ofstream outfile("test.txt");
 
-  return 0;
+    for (int n = 0; n < 100; ++n)
+    {
+        outfile << n << " ";
+        // outfile.flush();
+    }
+*/
+
+
+return 0;
 }
