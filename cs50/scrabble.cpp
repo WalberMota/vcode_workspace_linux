@@ -27,6 +27,7 @@ int main(int argc, char const *argv[])
     for (int i=0;i<tamanho_palavra;i++)//mostrar o array
     {
         std::cout << separa[i]<<",";
+        std::cout<<palavra_player1[i]<<'\n';
     }
     return 0;
 }
