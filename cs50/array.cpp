@@ -9,17 +9,17 @@ int main(int argc, char const *argv[])
         system("clear");
         std::cout << "Digite o tamanho da ordem: ";
         std::cin >> tamanho_array;
-    } while (tamanho_array<1);
+    } while (tamanho_array<1);//garante que o tamanho seja maior que 0
     
     int array[tamanho_array];
 
     for (int i=0;i<tamanho_array;i++)
     {
-        if (i==0)
+        if (i==0)//garante que o primeiro elemento do array seja 1
         {
             array[i]=1;
         }
-        else
+        else //os elementos subsequentes do array são o dobro do anterior
         {
             array[i]=array[i-1]*2;
 
@@ -27,6 +27,5 @@ int main(int argc, char const *argv[])
         std::cout<<"array["<<i<<"] = "<< array[i]<<"\n";
     }
     
-
     return 0;
 }
