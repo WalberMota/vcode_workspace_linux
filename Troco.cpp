@@ -1,6 +1,3 @@
-// program to find the sum of positive numbers
-// if the user enters a negative number, the loop ends
-// the negative number entered is not added to the sum
 
 #include <iostream>
 #include <cstdlib>

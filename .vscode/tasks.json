@@ -23,8 +23,8 @@
         },
         {
             "type": "cppbuild",
-            "label": "clang++-15 - Gera: output",
-            "command": "/usr/bin/clang++-15",
+            "label": "clang++-16 - Gera: output",
+            "command": "/usr/bin/clang++-16",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
