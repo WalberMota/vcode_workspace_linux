@@ -1,5 +1,5 @@
 #include <iostream>
-#include <unistd.h>
+
 
 // prototipo das funções
 int obter_tamanho();
@@ -28,7 +28,7 @@ int obter_tamanho()
         std::cout << "Digite a altura da pirâmide: ";
         std::cin >> n;
 
-    } while (n <= 0);
+    } while (n <1);
 
     return n;
 }
@@ -37,23 +37,20 @@ void piramide(int size)
 {
     for (int i = 0; i < size; i++)
     {
-        /*     for(int j=size;j>=i;j--)
-            {
-                std::cout<<"#";
 
-            } */
-        for (int k = 0; k <= size-i; k++)
+        for (int k = 0; k <= size-i; k++)//espaços em branco antes dos tijolos
         {
             std::cout << " ";
         }
 
-        for (int j = 0; j <= i; j++)
+        for (int j = 0; j <= i; j++)//tijolos do lado esquerdo
         {
 
             std::cout << "#";
         }
-        std::cout << "  ";
-        for (int j = 0; j <= i; j++)
+        std::cout << "  ";//espaço entre os tijolos
+
+        for (int j = 0; j <= i; j++)//tijolos do lado direito
         {
             std::cout << "#";
         }
