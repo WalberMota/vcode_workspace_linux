@@ -2,32 +2,21 @@
 #include <string>
 
 std::string palavra_player1;
-std::string separa;
 
 int main(int argc, char const *argv[])
 {
-    int i{0};
+    system("clear");
+
     std::cout << "Jogador 1\nDigite uma palavra: ";
     std::cin >> palavra_player1;
+ 
     int tamanho_palavra = palavra_player1.length();
 
-    std::string::iterator it = palavra_player1.begin();
-
-    while (it != palavra_player1.end())
+    for (int i=0;i<tamanho_palavra;i++)//função que mostrar o array
     {
-        //std::cout << *it << ", ";
-        separa[i]=*it;
-        std::cout<<"separa["<<i<<"]="<<*it<<'\n';
-        i++;
-        ++it;
+        std::cout << "caracter["<<i<<"] = "<<palavra_player1[i]<<'\n';
 
-        //chamar a função que calcula os valores das letras....
     }
-
-    for (int i=0;i<tamanho_palavra;i++)//mostrar o array
-    {
-        std::cout << separa[i]<<",";
-        std::cout<<palavra_player1[i]<<'\n';
-    }
+        std::cout<<'\n'<<"palavra_player1="<<palavra_player1<<'\n';    
     return 0;
 }
