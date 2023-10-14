@@ -1,8 +1,17 @@
 #include <iostream>
 #include <string>
 
-int valor_letra[26]{1,3,3,2,1,4,2,4,1,8,5,1,3,1,1,3,10,1,1,1,1,4,4,8,4,6};
-std::string alfa[26]{"a","b",'c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}
+// prototipo da função.
+int indice_letra(int lenght);
+
+// Variável para acumular os valores encontrados no array valor_letra
+int soma;
+
+// Tabela de Arrays de controle
+int valor_letra[26] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 6};
+char alfabet[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+                    'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+
 std::string palavra_player1;
 
 int main(int argc, char const *argv[])
@@ -11,14 +20,28 @@ int main(int argc, char const *argv[])
 
     std::cout << "Jogador 1\nDigite uma palavra: ";
     std::cin >> palavra_player1;
- 
+
     int tamanho_palavra = palavra_player1.length();
 
-    for (int i=0;i<tamanho_palavra;i++)//função que mostrar o array
-    {
-        std::cout << "caracter["<<i<<"] = "<<palavra_player1[i]<<'\n';
+    indice_letra(tamanho_palavra);
 
+    return 0;
+}
+
+int indice_letra(int lenght)
+{
+    for (int i = 0; i < lenght; i++) // função que mostrar o array
+    {
+        // char letra=alfabet[1];
+        for (int j = 0; j < 26; j++)
+        {
+            if (char(palavra_player1[i]) == char(alfabet[j]))
+            {
+                soma = soma + (valor_letra[j]);
+                std::cout << "letra =" << char(palavra_player1[i]) <<"Valor letra =" << valor_letra[j]<<" soma= "<<soma<< '\n';
+            }
+        }
     }
-        std::cout<<'\n'<<"palavra_player1="<<palavra_player1<<'\n';    
+
     return 0;
 }
