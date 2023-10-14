@@ -6,7 +6,7 @@ int indice_letra(int lenght);
 
 
 // Variável para acumular os valores encontrados no array valor_letra
-int soma;
+int soma_player1;
 
 // Tabela de Arrays de controle
 int valor_letra[26] = {1, 5, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 2, 1, 4, 4, 8, 4, 6};
@@ -31,7 +31,7 @@ int main(int argc, char const *argv[])
     int tamanho_palavra = palavra_player1.length();
     indice_letra(tamanho_palavra);
 
-    std::cout <<"\nValor da palavra: " << soma << '\n';
+    std::cout <<"\nValor da palavra: " << soma_player1 << '\n';
     
     return 0;
 }
@@ -45,8 +45,8 @@ int indice_letra(int lenght)
         {
             if (char(palavra_player1[i]) == char(alfabet[j]))
             {
-                soma = soma + (valor_letra[j]);
-                //std::cout << "letra =" << char(palavra_player1[i]) << "Valor letra =" << valor_letra[j] << " soma= " << soma << '\n';
+                soma_player1 = soma_player1 + (valor_letra[j]);
+
             }
 
         }
