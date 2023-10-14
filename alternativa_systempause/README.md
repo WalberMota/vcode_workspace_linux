@@ -7,7 +7,7 @@ Método:
                 getchar();
                 scanf("c\n");
 
-O programa aguarda uma entrado do usuário <b> liinha 12</b>, no caso de ser introduzido um valor negativo, emite uma mensagem de valor inválido e aguarda o usúario teclar {ENTER} para uma nova entrada.
+O programa aguarda uma entrado do usuário <b> linha 12</b>, no caso de ser introduzido um valor negativo, emite uma mensagem de valor inválido e aguarda o usúario teclar {ENTER} para uma nova entrada.
 
 Explicando a linha 18: `scanf("%*[^\n]%*c")`:
 
