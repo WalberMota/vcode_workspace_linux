@@ -27,6 +27,7 @@ int main(int argc, char const *argv[])
 //jogador 1 ===================================================
     std::cout << "Jogador 1\nDigite uma palavra: ";
     std::cin >> palavra_player;
+    
     //passa para minuscula------------------------------
     for (int x = 0; x < palavra_player.length(); x++)
     {
@@ -35,10 +36,9 @@ int main(int argc, char const *argv[])
     std::cout << "\nEm minuscula= "<< palavra_player<<'\n';
     //------------------------------------------------------
 
-
     lenght = palavra_player.length();
-    indice_letra(lenght);
-    soma_player1=soma;    
+    //chama a função que calcular o valor da palavra
+    soma_player1=indice_letra(lenght);   
     std::cout <<"\nValor da palavra: " << soma_player1 << '\n';
 
 //jogador 2 ===================================================
@@ -54,10 +54,13 @@ int main(int argc, char const *argv[])
 
     lenght = palavra_player.length();
     //chama a função que calcular o valor da palavra
-    soma_player2=indice_letra(lenght);;
+    soma_player2=indice_letra(lenght);
     
     std::cout <<"\nValor da palavra: " << soma_player2 << '\n';
    
+   //Verifica o vencedor ===========================================
+
+   /* CODE HERE */
     return 0;
 }
 
