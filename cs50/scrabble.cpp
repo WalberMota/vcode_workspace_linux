@@ -29,9 +29,10 @@ int main(int argc, char const *argv[])
     std::cout << "\nEm minuscula= "<< palavra_player1<<'\n';
 
     int tamanho_palavra = palavra_player1.length();
-
     indice_letra(tamanho_palavra);
 
+    std::cout <<"\nValor da palavra: " << soma << '\n';
+    
     return 0;
 }
 
@@ -39,14 +40,15 @@ int indice_letra(int lenght)
 {
     for (int i = 0; i < lenght; i++) // função que mostrar o array
     {
-        // char letra=alfabet[1];
+
         for (int j = 0; j < 26; j++)
         {
             if (char(palavra_player1[i]) == char(alfabet[j]))
             {
                 soma = soma + (valor_letra[j]);
-                std::cout << "letra =" << char(palavra_player1[i]) << "Valor letra =" << valor_letra[j] << " soma= " << soma << '\n';
+                //std::cout << "letra =" << char(palavra_player1[i]) << "Valor letra =" << valor_letra[j] << " soma= " << soma << '\n';
             }
+
         }
     }
 
