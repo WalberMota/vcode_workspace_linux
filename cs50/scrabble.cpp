@@ -1,3 +1,6 @@
+
+// ----------------- ROTINA COM ERROS !!!!!!!!!!!!
+
 #include <iostream>
 #include <string>
 
