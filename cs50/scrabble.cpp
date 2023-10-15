@@ -9,11 +9,15 @@ bool testa_word(std::string word);
 void minuscula();
 
 // Variável para acumular os valores encontrados no array valor_letra
+std::string word_p1;
+std::string word_p2;
+
 int soma_player1;
 int soma_player2;
 int soma;
 int lenght;
 bool flag=false;
+
 
 // Tabela de Arrays de controle
 int valor_letra[26] = {2, 3, 3, 2, 1, 4, 2, 6, 1, 8, 5, 1, 3, 1, 2, 3, 7, 1, 1, 2, 3, 4, 4, 7, 4, 6};
@@ -29,55 +33,45 @@ int main(int argc, char const *argv[])
 // JOGADOR 1 ===================================================
   do
   {
+    system("clear");
     std::cout << "\nJogador 1\nDigite uma palavra: ";
-    std::cin.ignore();    
+    //std::cin.ignore();
+   
     getline(std::cin, palavra_player);
-
     testa_word(palavra_player);
-/*     if (flag==false)
-    {
-      std::cout << "\n\n\n\t ...formato invalido! tecle <ENTER> para continuar";
-      scanf("%*[^\n]%*c");
-      system("clear");
-    } */
 
   } while (flag==false);
-  
-//              passa para minuscula------------------------------
+    word_p1=palavra_player;
+
+            //           passa para minuscula------------------------------
     minuscula();
     lenght = palavra_player.length();
-    //          chama a função que calcular o valor da palavra
+            //          chama a função que calcular o valor da palavra
     soma_player1 = indice_letra(lenght);
 
 
 // JOGADOR 2 ===================================================
   do
   {
-    system("clear");
+    //system("clear");
     std::cout << "\nJogador 2\nDigite uma palavra: ";
-    std::cin.ignore();
+    //std::cin.ignore();
     getline(std::cin,palavra_player);
-
+    word_p2=palavra_player;
     testa_word(palavra_player);
- /*    if (flag==false)
-    {
-      std::cout << "\n\n\n\t ...formato invalido! tecle <ENTER> para continuar";
-      scanf("%*[^\n]%*c");
-      system("clear");
-    } */
 
   } while (flag==false);
 
-    // passa para minuscula ----------------------------------
-    minuscula();
 
+            // passa para minuscula ----------------------------------
+    minuscula();
     lenght = palavra_player.length();
     // chama a função que calcular o valor da palavra
     soma_player2 = indice_letra(lenght);
 
-    // Verifica o vencedor ===========================================
-    std::cout << "\n\nJogador 1: " << soma_player1 << " pontos" << '\n';
-    std::cout << "\nJogador 2: " << soma_player2 << " pontos" << '\n';
+// Verifica o vencedor ===========================================
+    std::cout << "\n\nJogador 1 com a palavra: "<< word_p1 <<", obteve " << soma_player1 << " pontos" << '\n';
+    std::cout << "\nJogador 2 com a palavra: "<< word_p2 <<", obteve " << soma_player2 << " pontos" << '\n';
     if (soma_player1 > soma_player2)
     {
         std::cout << "\n\tJogador 1 é o vencedor!";
