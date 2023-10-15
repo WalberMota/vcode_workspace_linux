@@ -22,7 +22,8 @@
 
 Objetivos:
 
-    Usar rotina básica para não aceitar espaços em branco e/ou números na entrada de dados do usuário.
+    Usar rotina básica para não aceitar espaços em branco
+    e/ou números na entrada de dados do usuário.
 
 
 15/10/2023   
