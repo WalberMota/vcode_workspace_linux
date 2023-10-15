@@ -1,5 +1,5 @@
 
-// ----------------- ROTINA COM ERROS !!!!!!!!!!!!
+// ----------------- EM DESENVOLVIMENTO --------------------------//
 
 #include <iostream>
 #include <string>
@@ -30,35 +30,47 @@ int main(int argc, char const *argv[])
 // JOGADOR 1 ===================================================
   do
   {
-    std::cout << "Jogador 1\nDigite uma palavra: ";
-    std::cin >> palavra_player;
+    std::cout << "\nJogador 1\nDigite uma palavra: ";
+    std::cin.ignore();    
+    getline(std::cin, palavra_player);
 
     testa_word(palavra_player);
+/*     if (flag==false)
+    {
+      std::cout << "\n\n\n\t ...formato invalido! tecle <ENTER> para continuar";
+      scanf("%*[^\n]%*c");
+      system("clear");
+    } */
 
   } while (flag==false);
   
 //              passa para minuscula------------------------------
     minuscula();
-/*     for (int x = 0; x < palavra_player.length(); x++)
-    {
-        palavra_player[x] = char(tolower(palavra_player[x]));
-    } */
-
     lenght = palavra_player.length();
     //          chama a função que calcular o valor da palavra
     soma_player1 = indice_letra(lenght);
 
 
 // JOGADOR 2 ===================================================
-    std::cout << "\n\nJogador 2\nDigite uma palavra: ";
-    std::cin >> palavra_player;
+  do
+  {
+    system("clear");
+    std::cout << "\nJogador 2\nDigite uma palavra: ";
+    std::cin.ignore();
+    getline(std::cin,palavra_player);
+
+    testa_word(palavra_player);
+ /*    if (flag==false)
+    {
+      std::cout << "\n\n\n\t ...formato invalido! tecle <ENTER> para continuar";
+      scanf("%*[^\n]%*c");
+      system("clear");
+    } */
+
+  } while (flag==false);
 
     // passa para minuscula ----------------------------------
     minuscula();
- /*    for (int x = 0; x < palavra_player.length(); x++)
-    {
-        palavra_player[x] = char(tolower(palavra_player[x]));
-    } */
 
     lenght = palavra_player.length();
     // chama a função que calcular o valor da palavra
@@ -116,17 +128,23 @@ bool testa_word(std::string word)
     for (int i = 0; i < word.length(); i++)
     {
 
-        if (isalpha(word[i]) && word[i] != ' ')
+        if (isalpha(word[i]))
         {
             flag = true;
         }
         else if (static_cast<int>(word[i]) == 32)
         {
+            std::cout << "\n\n\n\t ...formato invalido!\n\ttecle <ENTER> para continuar";
+            scanf("%*[^\n]%*c");
+            system("clear"); 
             flag = false;
             return flag;
         }
         else
         {
+            std::cout << "\n\n\n\t ...formato invalido!\n\ttecle <ENTER> para continuar";
+            scanf("%*[^\n]%*c");
+            system("clear");            
             flag = false;
             return flag;
         }
