@@ -131,6 +131,7 @@ bool testa_word(std::string word)
             scanf("%*[^\n]%*c");
             system("clear"); 
             flag = false;
+            std::cin.ignore();            
             return flag;
         }
         else
@@ -139,6 +140,7 @@ bool testa_word(std::string word)
             scanf("%*[^\n]%*c");
             system("clear");            
             flag = false;
+            std::cin.ignore();
             return flag;
         }
     }
