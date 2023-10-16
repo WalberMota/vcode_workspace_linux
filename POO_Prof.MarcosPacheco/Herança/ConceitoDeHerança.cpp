@@ -31,19 +31,15 @@ private:
 
 };
 
-//Agora declaramos uma classe que herda da classe Base, porém ela não tem nada está vazia
-//A classe derivada também é chamada de subclasse, classe filha/filho
+//Agora declaramos uma classe que herda da classe Base, parece vazia mas ela herdará todos os públicos da classe Base.
 class Derivada :public Base{};
 
 int main()
 {
 	
-	//Criamos um objeto a partir da classe Derivada
+	//Criamos um objeto Obj a partir da classe Derivada
 	Derivada Obj;
 	Obj.SolicitarNumeros();
-	/*Isso indica que uma classe herda tudo de sua classe Base(Superclasse) mas NÃO HERDA
-	OS ITENS PRIVADOS(PRIVATE) DA SUPERCLASSE(CLASSE BASE)*/
-	system("PAUSE");
-
+	
 	return 0;
 }
