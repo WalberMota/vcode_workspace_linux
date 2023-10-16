@@ -19,20 +19,12 @@ int main()
 	   to get a value from the range 0 to N
 	*/
 	srand(time(0));
-	/*srand() function is an inbuilt function in C++ STL, which is a header file
-	defined in <cstdlib>. srand() is used to initialize random number generators.
-	The srand() function sets the starting point for producing a series of 
-	pseudo-random integers. If srand() is not called, the rand() seed is set as 
-	if srand(1) were called at the program start. Any other value for seed sets 
-	the generator to a different starting point. 
-	Syntax: 
-			void srand( unsigned seed );
-			OR int srand( unsigned int seed);
-	Seeds the pseudo-random number generator used by rand() with the value seed.
-	Parameters
-	seed: A seed for a new sequence of pseudo-random numbers to be returned by
-	 successive calls to rand()
-	*/
+	/*A função srand() é uma função embutida na STL(Standard Template Library) do C++, que é um arquivo de cabeçalho definido em <cstdlib>. srand() é usado para inicializar geradores de números aleatórios.
+A função srand() define o ponto de partida para a produção de uma série de inteiros pseudo-aleatórios. Se srand() não for chamado, a semente rand() será definida como se srand(1) tivesse sido chamado no início do programa. Qualquer outro valor para seed define o gerador para um ponto inicial diferente.
+
+void srand(semente não assinada) ou int srand(semente int não assinada) - Semeia o gerador de números pseudo-aleatórios usado por Rand() com o valor seed, neste caso utilizando o relogio do computador como semente (seed).
+seed: Uma semente para uma nova sequência de números pseudo-aleatórios a ser retornada por chamadas sucessivas a Rand().
+*/
 
 	int fim=0;
 	cout<<"Quantos numeros aleatórios você deseja gerar ?";
