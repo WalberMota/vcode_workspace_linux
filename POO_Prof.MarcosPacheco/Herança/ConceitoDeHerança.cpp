@@ -1,8 +1,7 @@
 #include <iostream>
 
 
-//Classe Base também chamada de Superclasse, Classe Mãe/Pai
-class Base
+class Base //Classe Base também chamada de Superclasse
 {
 
 public:
@@ -18,15 +17,15 @@ public:
 //Aqui indica que os membros da seção privada só serão acessíveis dentro do código da classe.
 private:
 	float Num1, Num2;
-	float Soma(int Num1, int Num2)
-	{
-		return (Num1 + Num2);
-	}
 
-	//Veja que este método só poderá ser chamado(invocado) dentro do código da classe
+	//Estes métodos só poderão serem chamados(invocados) dentro do código da classe Base
 	void MostrarResultado(int Num1, int Num2)
 	{
 		std::cout << "Soma de: " << Num1 << " + " << Num2 << " = " << Soma(Num1, Num2) << "\n";
+	}
+		float Soma(int Num1, int Num2)
+	{
+		return (Num1 + Num2);
 	}
 
 };
