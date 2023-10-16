@@ -2,6 +2,8 @@
 // ----------------- EM DESENVOLVIMENTO (12/10/2023)--------------------------///
 #include <iostream>
 #include <string>
+#include <cstdlib>
+#include <ctime>
 
 // prototipo da função.
 int indice_letra(int lenght);
@@ -16,6 +18,7 @@ int soma_player1;
 int soma_player2;
 int soma;
 int lenght;
+int max_tamanho_word;
 bool flag=false;
 
 
@@ -29,11 +32,17 @@ std::string palavra_player;
 int main(int argc, char const *argv[])
 {
     system("clear");
+    srand(time(NULL));
+    max_tamanho_word=rand() % 8 + 4 ;
+
+    //std::cout << "\nTamanho máximo da palavra: " << max_tamanho_word<<'\n';
+
 
 // JOGADOR 1 ===================================================
   do
   {
-    system("clear");
+    //system("clear");
+    std::cout << "\nTamanho máximo da palavra: " << max_tamanho_word<<'\n';
     std::cout << "\nJogador 1\nDigite uma palavra: ";
     //std::cin.ignore();
    
@@ -54,8 +63,8 @@ int main(int argc, char const *argv[])
   do
   {
     //system("clear");
+    std::cout << "\n\nTamanho máximo da palavra: " << max_tamanho_word<<'\n';
     std::cout << "\nJogador 2\nDigite uma palavra: ";
-    //std::cin.ignore();
     getline(std::cin,palavra_player);
     word_p2=palavra_player;
     testa_word(palavra_player);
@@ -131,6 +140,7 @@ bool testa_word(std::string word)
             scanf("%*[^\n]%*c");
             system("clear"); 
             flag = false;
+            //std::cout << "\nTamanho máximo da palavra: " << max_tamanho_word<<'\n';
             std::cin.ignore();            
             return flag;
         }
@@ -140,6 +150,7 @@ bool testa_word(std::string word)
             scanf("%*[^\n]%*c");
             system("clear");            
             flag = false;
+            //std::cout << "\nTamanho máximo da palavra: " << max_tamanho_word<<'\n';
             std::cin.ignore();
             return flag;
         }
