@@ -3,7 +3,7 @@
  
 int main()
 {
-    std::string str("A busca pela perfeicao");
+    std::string str("E busca pela perfeicao");
  
  for(int i=0;i<str.length();i++)
     switch (str[i])
