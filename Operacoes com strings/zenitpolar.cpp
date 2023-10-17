@@ -50,10 +50,10 @@ int main()
  
 
     str.replace(str.begin(), str.begin() + 3, 1, 'A');
-
+*/
  
     std::cout << str << '\n';
 
-*/
+
 
 }
