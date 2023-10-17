@@ -3,54 +3,76 @@
  
 int main()
 {
-    std::string str("E busca pela perfeicao");
+    std::string str("A busca pela Perfeicao");
  
  for(int i=0;i<str.length();i++)
     switch (str[i])
     {
-    case 'z'|'Z':
+    case 'z':
         str.replace(i, 1, "p");
         break;
-    case 'e'|'E':
+    // ZENIT
+    case 'Z':
+        str.replace(i, 1, "P");
+        break;
+    case 'e':
         str.replace(i, 1, "o");
         break;
-    case 'n'|'N':
+    case 'E':
+        str.replace(i, 1, "O");
+        break;
+    case 'n':
         str.replace(i, 1, "l");
         break;
-    case 'i'|'I':
+    case 'N':
+        str.replace(i, 1, "L");
+        break;
+    case 'i':
         str.replace(i, 1, "a");
         break;
-    case 't'|'T':
+    case 'I':
+        str.replace(i, 1, "A");
+        break;
+    case 't':
         str.replace(i, 1, "r");
         break;
-    case 'p'|'P':
+    case 'T':
+        str.replace(i, 1, "R");
+        break;
+        //POLAR
+    case 'p':
         str.replace(i, 1, "z");
         break;
-    case 'o'|'O':
+    case 'P':
+        str.replace(i, 1, "Z");
+        break;        
+    case 'o':
         str.replace(i, 1, "e");
         break;
-    case 'l'|'L':
+    case 'O':
+        str.replace(i, 1, "E");
+        break;
+    case 'l':
         str.replace(i, 1, "n");
         break;
-    case 'a'|'A':
+    case 'L':
+        str.replace(i, 1, "N");
+        break;
+    case 'a':
         str.replace(i, 1, "i");
         break;
-    case 'r'|'R':
+    case 'A':
+        str.replace(i, 1, "I");
+        break;
+    case 'r':
         str.replace(i, 1, "t");
+        break;
+    case 'R':
+        str.replace(i, 1, "T");
         break;
     default:
         break;
     }
-/*
-    if (str[i]=='a')
-    {
-
-    }
-    
- 
-
-    str.replace(str.begin(), str.begin() + 3, 1, 'A');
-*/
  
     std::cout << str << '\n';
 
