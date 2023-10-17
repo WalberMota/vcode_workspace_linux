@@ -1,55 +1,66 @@
 #include <iostream>
-#include <string>
- 
+#include <cstring>
+
+
+void minuscula(std::string str);
+
+std::string phrase;
+
 int main()
 {
-    std::string str("The quest for perfection is an endless journey many of us have been on for as long as we can remember. We somehow think our mistakes or shortcomings are failures or make us “less than” rather than viewing them as lessons to be learned unique to us as individuals.");
- 
- for(int i=0;i<str.length();i++)
-    switch (str[i])
+    std::string str;
+    str="The quest for perfection is an endless journey many of us have been on for as long as we can remember. We somehow think our mistakes or shortcomings are failures or make us “less than” rather than viewing them as lessons to be learned unique to us as individuals.";
+minuscula(str);
+
+std::cout <<str<<'\n';
+
+ for(int i=0;i<phrase.length();i++)
+    switch (phrase[i])
     {
-    case 'a'|'A':
-        str.replace(i, 1, "4");
+    case 'a':
+        phrase.replace(i, 1, "4");
         break;
-    case 'i'|'I':
-        str.replace(i, 1, "1");
+    case 'i':
+        phrase.replace(i, 1, "1");
         break;
-    case 'o'|'O':
-        str.replace(i, 1, "0");
+    case 'o':
+        phrase.replace(i, 1, "0");
         break;
-    case 's'|'S':
-        str.replace(i, 1, "5");
+    case 's':
+        phrase.replace(i, 1, "5");
         break;
-    case 'z'|'Z':
-        str.replace(i, 1, "2");
+    case 'z':
+        phrase.replace(i, 1, "2");
         break;
-    case 'e'|'E':
-        str.replace(i, 1, "3");
+    case 'e':
+        phrase.replace(i, 1, "3");
         break;
-    case 't'|'T':
-        str.replace(i, 1, "7");
+    case 't':
+        phrase.replace(i, 1, "7");
         break;
-    case 'b'|'B':
-        str.replace(i, 1, "8");
+    case 'b':
+        phrase.replace(i, 1, "8");
         break;
-    case 'q'|'Q':
-        str.replace(i, 1, "9");
+    case 'q':
+        phrase.replace(i, 1, "9");
         break;
-    case 'g'|'G':
-        str.replace(i, 1, "6");
+    case 'g':
+        phrase.replace(i, 1, "6");
         break;
     default:
         break;
     }
-//    if (str[i]=='a')
-//    {
-//
-//    }
-    
- 
-/*
-    str.replace(str.begin(), str.begin() + 3, 1, 'A'); // (5)
-*/
- 
-    std::cout << str << '\n';
+
+    std::cout << phrase << '\n';
+}
+
+
+void minuscula(std::string str)
+{
+         for (int x = 0; x < str.length(); x++)
+    {
+        str[x] = char(tolower(str[x]));
+    }
+    phrase=str;
+
 }
