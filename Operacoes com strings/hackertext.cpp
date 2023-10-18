@@ -15,15 +15,18 @@ Propósito:  rotina que transcreve um texto para estilo Harcker.
 
 
 void minuscula(std::string str);
+void menu();
 
-std::string phrase;
+std::string phrase, str;
 
 int main()
 {
-    std::string str;
+/*     std::string str;
     str="The quest for perfection is an endless journey many of us have been on for as long as we can remember. We somehow think our mistakes or shortcomings are failures or make us “less than” rather than viewing them as lessons to be learned unique to us as individuals.";
-minuscula(str);
+ */
 
+menu();
+minuscula(str);
 std::cout <<str<<'\n';
 
  for(int i=0;i<phrase.length();i++)
@@ -74,5 +77,18 @@ void minuscula(std::string str)
         str[x] = char(tolower(str[x]));
     }
     phrase=str;
+
+}
+
+void menu()
+{
+
+    std::cout<< "###############################\n";
+    std::cout<< "#                             #\n";
+    std::cout<< "#        HACKER TEXT          #\n";
+    std::cout<< "#     v.01 - 2023 by WSM      #\n";
+    std::cout<< "#                             #\n";
+    std::cout<< "###############################\n";
+    getline (std::cin,str);
 
 }
