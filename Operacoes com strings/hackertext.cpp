@@ -12,6 +12,7 @@ Propósito:  rotina que transcreve um texto para estilo Harcker.
 
 #include <iostream>
 #include <cstring>
+#include <uchar.h>
 
 
 void minuscula(std::string str);
@@ -27,10 +28,11 @@ int main()
 
 menu();
 minuscula(str);
-std::cout <<str<<'\n';
+
+std::cout << '\n';
 
  for(int i=0;i<phrase.length();i++)
-    switch (phrase[i])
+    switch (wchar_t (phrase[i]))
     {
     case 'a':
         phrase.replace(i, 1, "4");
@@ -82,13 +84,13 @@ void minuscula(std::string str)
 
 void menu()
 {
-
-    std::cout<< "###############################\n";
-    std::cout<< "#                             #\n";
-    std::cout<< "#        HACKER TEXT          #\n";
-    std::cout<< "#     v.01 - 2023 by WSM      #\n";
-    std::cout<< "#                             #\n";
-    std::cout<< "###############################\n";
+    std::cout << "###############################\n";
+    std::cout << "#                             #\n";
+    std::cout << "#        HACKER TEXT          #\n";
+    std::cout << "#     v.01 - 2023 by WSM      #\n";
+    std::cout << "#                             #\n";
+    std::cout << "###############################\n";
+    std::cout << "\ndigite o texto : ";
     getline (std::cin,str);
 
 }
