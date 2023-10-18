@@ -11,7 +11,7 @@ int main()
 
     do
     {
-        std::cout << std::endl;
+        std::cout << '\n';
         std::cout<< "1. primeira opção\n";
         std::cout<< "2. segunda opção \n";
         std::cout<< "3. terceira opção \n";
