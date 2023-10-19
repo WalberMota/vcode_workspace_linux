@@ -1,10 +1,15 @@
 #include <iostream>
 #include <string>
- 
+
+void menu();
+
+std::string str;
+
 int main()
 {
-    std::string str("A busca pela Perfeicao");
- 
+    //std::string str("A busca pela Perfeicao");
+ menu();
+
  for(int i=0;i<str.length();i++)
     switch (str[i])
     {
@@ -76,6 +81,18 @@ int main()
  
     std::cout << str << '\n';
 
+}
 
+void menu()
+{
+    std::cout << "###############################\n";
+    std::cout << "#                             #\n";
+    std::cout << "#        CONVERSOR PARA       #\n";
+    std::cout << "#         ZENITPOLARNÊS       #\n";
+    std::cout << "#    v.01 - 10/2023 by WSM    #\n";
+    std::cout << "#                             #\n";
+    std::cout << "###############################\n";
+    std::cout << "\ndigite o texto : ";
+    getline (std::cin,str);
 
 }
