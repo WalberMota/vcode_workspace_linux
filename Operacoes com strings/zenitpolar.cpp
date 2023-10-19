@@ -7,7 +7,7 @@ std::string str;
 
 int main()
 {
-    //std::string str("A busca pela Perfeicao");
+
  menu();
 
  for(int i=0;i<str.length();i++)
