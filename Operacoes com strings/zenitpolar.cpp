@@ -79,7 +79,7 @@ int main()
         break;
     }
  
-    std::cout << str << '\n';
+    std::cout <<'\n'<< str << '\n';
 
 }
 
