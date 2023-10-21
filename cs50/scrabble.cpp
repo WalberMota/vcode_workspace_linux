@@ -1,6 +1,6 @@
 /*
 Autor: WalberMota
-Data da Criação: 26/04/2023
+Data da Criação: 12/10/2023
 Objetivos: Pequeno jogo - a soma dos valores das letras num arrays determina o valor das palavras.
 Linguagem C++
  */
