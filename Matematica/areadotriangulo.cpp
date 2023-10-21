@@ -1,6 +1,6 @@
 /*
 Autor: WalberMota
-Data da Criação: 26/04/2023
+Data da Criação: 12/10/2023
 Objetivos: calcula a área de um triângulo com controle do valor de input através de flags
 Linguagem C++
  */
