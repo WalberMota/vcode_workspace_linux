@@ -3,10 +3,15 @@
 
 class Aluno{
 
-public:
+private:
     int codigo;
-    //std::string nome;
+    std::string nome;
+
+public:
+    //Getters - as vezes chamados também accessor methods
     
+
+    //Setters - as vezes chamados mutator methods
 };
 
 
@@ -20,7 +25,7 @@ int main(int argc, char const *argv[])
                     dentro de um escopo então não precisamos dele muito tempo
     a2.codigo=100;
 
-    std::cout << a2 <<'\n';
+std::cout << a1->codigo <<'\n';
 
     return 0;
 }
