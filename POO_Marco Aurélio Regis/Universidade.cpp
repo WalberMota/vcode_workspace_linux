@@ -23,6 +23,11 @@ public:
     {
         this->codigo=codigo;
     }
+
+    void setNome(std::string nome)
+    {
+        this->nome=nome;
+    }
 };
 
 
