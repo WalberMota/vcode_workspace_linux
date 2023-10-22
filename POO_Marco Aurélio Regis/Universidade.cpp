@@ -41,7 +41,7 @@ int main(int argc, char const *argv[])
                     dentro de um escopo então não precisamos dele muito tempo
     a2.setCodigo(100);
 
-//std::cout << a1->codigo <<'\n';
+    std::cout << a1->getCodigo() <<'\n';
 
     return 0;
 }
