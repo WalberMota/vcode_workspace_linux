@@ -19,7 +19,7 @@ public:
     }
 
     //Setters - as vezes chamados mutator methods
-    void setCodigo()
+    void setCodigo(int codigo)
     {
         this->codigo=codigo;
     }
