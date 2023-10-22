@@ -9,7 +9,14 @@ private:
 
 public:
     //Getters - as vezes chamados também accessor methods
-    
+    int getCodigo()
+    {
+        return codigo;
+    }
+    std::string getNome()
+    {
+        return nome;
+    }
 
     //Setters - as vezes chamados mutator methods
 };
