@@ -9,6 +9,7 @@ private:
 
 public:
     //Getters - as vezes chamados também "accessor methods"
+    // aqui criaremos dois getters - um para o atributo 'codigo' e outro para o atributo 'nome'
     int getCodigo()
     {
         return codigo;
@@ -18,7 +19,8 @@ public:
         return nome;
     }
 
-    //Setters - as vezes chamados mutator methods
+    //Setters - as vezes chamados "mutator methods"
+    // aqui criaremos dois setters - um para o atributo 'codigo' e outro para o atributo 'nome'
     void setCodigo(int codigo)
     {
         this->codigo=codigo;
