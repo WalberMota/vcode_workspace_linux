@@ -23,10 +23,14 @@ public: //aqui ocorre o encapsulamento dos atributos da classe
     //geralmente 'void' porque somente atribui um valor para um atributo da classe.
     void setCodigo(int codigo)
     {
-        if (codigo<=0)//o encapsulamento isolou o atributo 'codigo' \
+        if (codigo<0)//o encapsulamento isolou o atributo 'codigo' \
                         e permitiu criar uma regra de negócio - código não pode ser negativo
         {
             codigo *=(-1);
+        }
+        if (codigo==0)
+        {
+            std::cout << "código não pode ser zero! Tente novamente..."
         }
         this->codigo=codigo;//o operador this referencia o parâmetro implicito de um atributo da classe.
     }
