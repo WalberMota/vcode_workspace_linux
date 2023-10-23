@@ -8,7 +8,7 @@ private:
     std::string nome;
 
 public:
-    //Getters - as vezes chamados também accessor methods
+    //Getters - as vezes chamados também "accessor methods"
     int getCodigo()
     {
         return codigo;
