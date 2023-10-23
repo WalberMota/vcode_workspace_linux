@@ -23,7 +23,7 @@ public:
     // aqui criaremos dois setters - um para o atributo 'codigo' e outro para o atributo 'nome'
     void setCodigo(int codigo)
     {
-        this->codigo=codigo;
+        this->codigo=codigo;//o operador this referencia o parâmetro implicito de um atributo da classe.
     }
 
     void setNome(std::string nome)
