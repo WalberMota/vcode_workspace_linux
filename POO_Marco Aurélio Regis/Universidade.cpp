@@ -21,7 +21,7 @@ public: //aqui ocorre o encapsulamento dos atributos da classe
     //Setters - as vezes chamados "mutator methods" em algumas literaturas.
     // aqui criaremos dois setters - um para o atributo 'codigo' e outro para o atributo 'nome'
     //geralmente 'void' porque somente atribui um valor para um atributo da classe.
-    void setCodigo(int codigo).
+    void setCodigo(int codigo)
     {
         this->codigo=codigo;//o operador this referencia o parâmetro implicito de um atributo da classe.
     }
@@ -35,15 +35,16 @@ public: //aqui ocorre o encapsulamento dos atributos da classe
 
 int main(int argc, char const *argv[])
 {
-    Aluno *a1=new Aluno(); // o objeto é armazenado na HEAP, quando precisamos do \
-                                objeto por longo período na aplicação.
+    Aluno *a1=new Aluno(); // aqui o objeto é armazenado na HEAP, quando precisamos do \
+                                objeto por longo período na aplicação. Quando não for mais útil\
+                                teremos que usar 'delete' para liberar da memória.
     //somente altera o atributo codigo usando o método setCodigo (encapsulamento).
-    a1->setCodigo(100); //aqui neste caso da HEAP estamos trabalhando com ponteiros.    
+    a1->setCodigo(-500); //aqui neste caso da HEAP estamos trabalhando com ponteiros.    
 
-    std::cout << a1->getCodigo(-500);
+    std::cout << a1->getCodigo();
 
-    Aluno a2;   //o objeto criado é armazenado na STACK (pilha). Aundo a vida dele está delimitada\
-                    dentro de um escopo então não precisamos dele muito tempo
+    Aluno a2;   //aqui o objeto criado é armazenado na STACK (pilha). Aundo a vida dele está delimitada\
+                    dentro de um escopo então não precisamos dele muito tempo (deleção automatica).
     a2.setCodigo(100);
 
     std::cout << a1->getCodigo() <<'\n';
