@@ -30,9 +30,12 @@ public: //aqui ocorre o encapsulamento dos atributos da classe
         }
         if (codigo==0)
         {
-            std::cout << "código não pode ser zero! Tente novamente..."
+            std::cout << "código não pode ser zero! Tente novamente...";
         }
+        else
+        {
         this->codigo=codigo;//o operador this referencia o parâmetro implicito de um atributo da classe.
+        }
     }
 
     void setNome(std::string nome)
@@ -48,7 +51,7 @@ int main(int argc, char const *argv[])
                                 objeto por longo período na aplicação. Quando não for mais útil\
                                 teremos que usar 'delete' para liberar da memória.
     //somente altera o atributo codigo usando o método setCodigo (encapsulamento).
-    a1->setCodigo(-500); //aqui neste caso da HEAP estamos trabalhando com ponteiros.    
+    a1->setCodigo(0); //aqui neste caso da HEAP estamos trabalhando com ponteiros.    
 
     std::cout << "Código aluno a1 = " << a1->getCodigo()<<'\n';
 
