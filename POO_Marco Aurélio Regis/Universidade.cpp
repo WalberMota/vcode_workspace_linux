@@ -37,7 +37,10 @@ int main(int argc, char const *argv[])
 {
     Aluno *a1=new Aluno(); // o objeto é armazenado na HEAP, quando precisamos do \
                                 objeto por longo período na aplicação.
+    //somente altera o atributo codigo usando o método setCodigo (encapsulamento).
     a1->setCodigo(100); //aqui neste caso da HEAP estamos trabalhando com ponteiros.    
+
+    std::cout << a1->getCodigo(-500);
 
     Aluno a2;   //o objeto criado é armazenado na STACK (pilha). Aundo a vida dele está delimitada\
                     dentro de um escopo então não precisamos dele muito tempo
