@@ -8,7 +8,7 @@ private:
     std::string nome;
 
 public:
-    //Getters - as vezes chamados também "accessor methods"
+    //Getters - as vezes chamados também "accessor methods" em algumas literaturas.
     // aqui criaremos dois getters - um para o atributo 'codigo' e outro para o atributo 'nome'
     int getCodigo()
     {
@@ -19,7 +19,7 @@ public:
         return nome;
     }
 
-    //Setters - as vezes chamados "mutator methods"
+    //Setters - as vezes chamados "mutator methods" em algumas literaturas.
     // aqui criaremos dois setters - um para o atributo 'codigo' e outro para o atributo 'nome'
     void setCodigo(int codigo)
     {
