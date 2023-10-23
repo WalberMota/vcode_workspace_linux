@@ -7,7 +7,7 @@ private:
     int codigo;
     std::string nome;
 
-public:
+public: //aqui ocorre o encapsulamento dos atributos da classe
     //Getters - as vezes chamados também "accessor methods" em algumas literaturas.
     // aqui criaremos dois getters - um para o atributo 'codigo' e outro para o atributo 'nome'
     int getCodigo()
@@ -18,10 +18,10 @@ public:
     {
         return nome;
     }
-
     //Setters - as vezes chamados "mutator methods" em algumas literaturas.
     // aqui criaremos dois setters - um para o atributo 'codigo' e outro para o atributo 'nome'
-    void setCodigo(int codigo)
+    //geralmente 'void' porque somente atribui um valor para um atributo da classe.
+    void setCodigo(int codigo).
     {
         this->codigo=codigo;//o operador this referencia o parâmetro implicito de um atributo da classe.
     }
