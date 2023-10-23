@@ -23,6 +23,10 @@ public: //aqui ocorre o encapsulamento dos atributos da classe
     //geralmente 'void' porque somente atribui um valor para um atributo da classe.
     void setCodigo(int codigo)
     {
+        if (codigo<=0)
+        {
+            codigo *=(-1);
+        }
         this->codigo=codigo;//o operador this referencia o parâmetro implicito de um atributo da classe.
     }
 
@@ -41,13 +45,13 @@ int main(int argc, char const *argv[])
     //somente altera o atributo codigo usando o método setCodigo (encapsulamento).
     a1->setCodigo(-500); //aqui neste caso da HEAP estamos trabalhando com ponteiros.    
 
-    std::cout << a1->getCodigo();
+    std::cout << "Código aluno a1 = " << a1->getCodigo()<<'\n';
 
     Aluno a2;   //aqui o objeto criado é armazenado na STACK (pilha). Aundo a vida dele está delimitada\
                     dentro de um escopo então não precisamos dele muito tempo (deleção automatica).
     a2.setCodigo(100);
 
-    std::cout << a1->getCodigo() <<'\n';
+    std::cout << "Código aluno a2 = " << a2.getCodigo() <<'\n';
 
     return 0;
 }
