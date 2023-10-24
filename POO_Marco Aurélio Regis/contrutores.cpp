@@ -50,9 +50,9 @@ public:
             std::cout << "código não pode ser zero! Tente novamente...";
         }
         else
-        {
-        this->codigo=codigo;//o operador this referencia o parâmetro implicito de um atributo da classe.
-        }
+            this->codigo=codigo;//o operador this referencia o parâmetro\
+                                  implicito de um atributo da classe.
+        
     }
 
     void setNome(std::string nome)
@@ -64,19 +64,18 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    Aluno *a1=new Aluno(105,"João"); // devido o construtor quando o objeto\
-                                         é criado é neecessário passar parâmetros
     
-    a1->setCodigo(0); 
+    Aluno *a1=new Aluno(-105,"João"); // devido o construtor quando o objeto\
+                                         é criado é neecessário passar parâmetros
 
-    std::cout << "Código aluno a1 = " << a1->getCodigo()<<'\n';
+    std::cout << "\nCódigo aluno a1 = " << a1->getCodigo()<<'\n';
+    std::cout << "Nome   aluno a1 = " << a1->getNome()<<'\n';
 
     Aluno a2(2010,"Maria");// devido o construtor quando o objeto\
                               é criado é neecessário passar parâmetros
-                    
-    a2.setCodigo(100);
-
-    std::cout << "Código aluno a2 = " << a2.getCodigo() <<'\n';
-
+ 
+    std::cout << "\nCódigo aluno a2 = " << a2.getCodigo() <<'\n';
+    std::cout << "Nome   aluno a2 = " << a2.getNome() <<'\n';
+    //delete(a1);
     return 0;
 }
