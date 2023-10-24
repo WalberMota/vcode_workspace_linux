@@ -41,7 +41,7 @@ public:
     void setCodigo(int codigo)
     {
         if (codigo<0)//o encapsulamento isolou o atributo 'codigo' \
-                        e permitiu criar uma regra de negócio - código não pode ser negativo
+                        e permitiu criar uma REGRA DE NEGÓCIOS - código não pode ser negativo
         {
             codigo *=(-1);
         }
