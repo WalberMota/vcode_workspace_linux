@@ -7,7 +7,8 @@ class Pessoa{
     }
 };
 
-class Habilidades : public Pessoa{
+ // coloca-se 'public:' e o nome da classe de onde os membros serão herdados
+ class Habilidades : public Pessoa{
   public:
     void idioma(){
       std::cout << "Português Brasileiro" << '\n';
