@@ -5,7 +5,7 @@ Uma classe pode ter mais de um construtor.
 Um construtor pode ter zero, um ou mais parâmetros.
 Um construtor não tem valor de retorno.
 Um construtor é sempre chamado quando um objeto pe criado(devido à primeira definição).
-*/
+*/ 
 
 #include <iostream>
 #include <string>
@@ -17,7 +17,7 @@ private:
     std::string nome;
 
 public:
-    //Construtor
+    //Construtor - é o tipo com argumento ou chamado de construtor parametrizado
     Aluno(int codigo, std::string nome)
     {
         this->setCodigo(codigo);
@@ -77,6 +77,7 @@ int main(int argc, char const *argv[])
  
     std::cout << "\nCódigo aluno a2 = " << a2.getCodigo() <<'\n';
     std::cout << "Nome   aluno a2 = " << a2.getNome() <<'\n';
-    delete(a1);
+    delete(a1); // Para não deixar lixo de memória - como tudo ocorre dentro da função main\
+                   Não é necessário. a2 por estar na pilha é automaticamente destruida quando main acaba.
     return 0;
 }
