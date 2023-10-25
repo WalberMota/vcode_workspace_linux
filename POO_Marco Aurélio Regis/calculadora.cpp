@@ -1,3 +1,5 @@
+//exercicio com criação de constructor
+
 #include <iostream>
 
 class Calculadora
