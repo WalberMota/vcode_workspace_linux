@@ -17,7 +17,7 @@ int main()
         std::cout<< "3. terceira opção \n";
         std::cout<< "4. Sair\n";
         std::cout << "Opção: ";
-        std::cin>>choice; // selecina o menu pelo numero 1,2 ou 3, sair com opção 4
+        std::cin>>choice; // seleciona o menu pelo numero 1,2 ou 3, sair com opção 4
 
         switch (choice)
         {
