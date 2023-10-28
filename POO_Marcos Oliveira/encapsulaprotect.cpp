@@ -10,22 +10,18 @@
 //Cria a classe base [Pessoa]
 class Pessoa{
  
-	private:
+	private: //só pode ser chamada por método dentro desta classe
 	 int idade{27};
 
-	protected:
+	protected://pode ser chamada por esta classe ou por classes que herdaram esta
 	 double altura{1.71};
 
-	public:
+	public://pode ser chamada de qualquer parte do programa.
     void nome()
     {
       std::cout << "Codesildo Cemazmaiz" << '\n';
     }
 
-	double display_altura()
-	{
-		return altura;
-	}
 	int display_idade()
 	{
 		return idade;
@@ -40,6 +36,11 @@ class Habilidades : public Pessoa
 	{
       std::cout << "Programar em C++" << '\n';
     }
+	double display_altura() //esta função-membro como protected pode ser chamada aqui por heração \
+	 						mas não de fora de uma classe (p.exe. da main).
+	{
+		return altura;
+	}
 };
 
 class Dados : public Habilidades
