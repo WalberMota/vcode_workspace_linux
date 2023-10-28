@@ -1,6 +1,6 @@
 /*
  Estudo de POO_prof. Marcos Oliveira
- Encapsulamento utilizando herança múltipla:
+ Encapsulamento utilizando herança múltipla e proteção de membros:
  A classe Dados herda funções-membros do classe pai [Habilidades]
  e da classe avô [Pessoa].
  */
