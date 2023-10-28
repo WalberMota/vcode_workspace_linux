@@ -55,9 +55,9 @@ int main( int argc , char **argv ){
 	std::cout << "Habilidade dele é: ";
 	dados.idioma(); //função-membro 'idioma' chamada por herança da classe habilidade.
 
-	//chama o atributo privado 'idade'
+	//chama o atributo privado(private) 'idade'
 	std::cout << "A idade dele é: " << dados.display_idade() <<'\n';
-	//chama o atributo privado 'altura'
+	//chama o atributo protegido (protected) 'altura'
 	std::cout << "A altura dele é: " << dados.display_altura() <<'\n';
 
 }
