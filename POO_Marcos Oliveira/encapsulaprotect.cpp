@@ -50,15 +50,15 @@ class Dados : public Habilidades
 int main( int argc , char **argv ){
 	Dados dados;
 
-	std::cout << "O nome dele é: ";
+	std::cout << "O nome(public herdado avô) dele é: ";
 	dados.nome(); //função-membro 'nome' chamada por herança da classe pessoa.
   
-	std::cout << "Habilidade dele é: ";
+	std::cout << "Habilidade(public herdado pai) dele é: ";
 	dados.idioma(); //função-membro 'idioma' chamada por herança da classe habilidade.
 
 	//chama o atributo privado(private) 'idade'
-	std::cout << "A idade dele é: " << dados.display_idade() <<'\n';
+	std::cout << "A idade(private herdado avô) dele é: " << dados.display_idade() <<'\n';
 	//chama o atributo protegido (protected) 'altura'
-	std::cout << "A altura dele é: " << dados.display_altura() <<'\n';
+	std::cout << "A altura(protected herdado avô) dele é: " << dados.display_altura() <<'\n';
 
 }
