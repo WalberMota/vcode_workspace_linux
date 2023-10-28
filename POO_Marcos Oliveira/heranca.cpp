@@ -23,10 +23,12 @@ class Pessoa{
 int main( int argc , char **argv ){
   Habilidades hab;// é criada um obj chamado hab da classe habilidade
   std::cout << "O nome dele é: ";
-  hab.nome(); //a herança possibilita chamar a função-membro da classe pessoa.
+
+  hab.nome(); //função-membro 'nome' chamada por herança da classe pessoa.
   std::cout << "idade: ";
-  hab.idade();
+  hab.idade();//função-membro 'idade' chamada por herança da classe pessoa.
+  
   std::cout << "Habilidade dele é: ";
-  hab.idioma(); //chama a função-membro próprio da classe habilidade.
+  hab.idioma(); //função-membro que pertence à classe habilidade.
   return 0;
 }

@@ -19,5 +19,6 @@ int main( int argc , char **argv ){
   Hello* hello;
   hello->helloworld();
   return 0;
+  delete hello;
 }
 */
