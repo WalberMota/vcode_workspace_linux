@@ -13,7 +13,7 @@ class Pessoa{
 	private: //só pode ser chamada por método dentro desta classe
 	 int idade{27};
 
-	protected://pode ser chamada por esta classe ou por classes que herdaram esta
+	protected://pode ser chamada por esta classe ou por classes derivadas
 	 double altura{1.71};
 
 	public://pode ser chamada de qualquer parte do programa.
