@@ -1,6 +1,11 @@
 /*
 Exemplo do uso de construtores e destrutores
 com uso de ncurses.
+
+Para compilar usar:
+  g++ construtor_destrutor.cpp -lncurses -ltinfo -o output
+  ou 
+  g++ construtor_destrutor.cpp -lncurses -ltinfo
 */
 
 #include <iostream>
