@@ -33,7 +33,7 @@ class Qualquer {
 
 };
 
-int main( int argc , char **argv )
+int main()
 {
   Qualquer q;//quando o objeto é criado automaticamente ele inicia a tela do ncurses
   q.uma_funcao_membro_qualquer(); //chamada comum de função-membro
