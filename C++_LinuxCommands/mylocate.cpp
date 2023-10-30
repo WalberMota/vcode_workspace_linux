@@ -1,3 +1,12 @@
+/*
+O programa localiza arquivos utilizando o comando locate do CLI do Linux
+procura todos os arquivos que possuam a palavra digitada
+o usuário caso saiba o tipo de arquivo que procura pode iniseeriir a extensão
+do mesmo
+
+Programa em construção : Falta principalente controle de excessões.
+*/
+
 #include<iostream>
 #include <string>
 
