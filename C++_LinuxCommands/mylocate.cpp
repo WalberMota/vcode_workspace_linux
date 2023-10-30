@@ -10,7 +10,7 @@ locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM)
 i5-5200U CPU @ 2.20GHz (306D4)
 ===========================================================================
 - O programa localiza arquivos utilizando o comando locate do CLI do Linux
-- Procura todos os arquivos que possuam a palavra digitada ou part dela
+- Procura todos os arquivos que possuam a palavra digitada ou parte dela
 - o usuário caso saiba o tipo de arquivo que procura pode inserir a extensão
 
 Programa em construção : Falta controle de excessões.
