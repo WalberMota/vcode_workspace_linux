@@ -6,16 +6,18 @@ char *c;
 int main() 
 {
 	std::string nomeprog, var1,tipo;
-	char resp,c;
+	char resp;
 
 	std::cout<<"localizador de Arquivos;\n";
-	std::cout<< "Digite a nome do programa ou parte do nome  do programa: ";
+	std::cout<< "\nDigite a nome do programa ou parte do nome  do programa: ";
 	getline(std::cin,nomeprog);
-	std::cout<< "Você sabe qual o tipo do arquivo de procura (a extensão)?(S/N) ";
+    //std::cin.ignore();
+	std::cout<< "\nVocê sabe qual o tipo do arquivo de procura (a extensão)?(S/N) ";
 	std::cin >>resp;
 	if (resp=='s'||resp=='S')
 	{
-		std::cout<< "Digite a extensão do arquivo sem ponto(p.ex: pdf) : ";
+		std::cout<< "\nDigite a extensão do arquivo(p.ex: pdf) : ";
+		std::cin.ignore();
 		getline(std::cin,tipo);	
 		std::cout << "\n\n";
 		var1 = "locate -i "+ nomeprog + " |grep  "+ tipo;
@@ -24,8 +26,8 @@ int main()
 	}
 	else
 	{
-		std::cout<< "Digite a extensão do arquivo sem ponto(p.ex: pdf) : ";
-		getline(std::cin,tipo);	
+		//std::cout<< "\nDigite a extensão do arquivo sem ponto(p.ex: pdf) : ";
+		//getline(std::cin,tipo);	
 		std::cout << "\n\n";
 		var1 = "locate -i "+ nomeprog;
 		const char *c = var1.c_str();
