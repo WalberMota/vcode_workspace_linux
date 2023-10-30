@@ -11,7 +11,7 @@ int main()
 	getline(std::cin,nomeprog);
 	std::cout<< "Se souber digite a extensão do arquivo sem ponto(p.ex: pdf) : ";
 	getline(std::cin,tipo);	
-	
+	std::cout << "\n\n";
 	var1 = "locate -i "+ nomeprog + " |grep  "+ tipo;
 	const char *c = var1.c_str();
 
