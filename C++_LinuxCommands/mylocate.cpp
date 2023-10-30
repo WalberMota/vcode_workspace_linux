@@ -39,6 +39,7 @@ int main()
 		std::cout << "\n\n";
 		var1 = "locate -i "+ nomeprog + " |grep  "+ tipo;
 		const char *c = var1.c_str();
+		//std::cout <<"Comando : "<<c<<'\n';
 		system(c);
 	}
 	else
@@ -50,8 +51,9 @@ int main()
 		const char *c = var1.c_str();
 		system(c);
 	}
-	std::cout << "\nListagem terminada : "<<c<<'\n';
-	std::cout << "Fim do processamento!\n" << '\n';
+	std::cout << "\n***************************"<<'\n';
+	std::cout << "* Processamento concluido *"<<'\n';
+	std::cout << "***************************"<<'\n';
 
 	return 0;
 }
