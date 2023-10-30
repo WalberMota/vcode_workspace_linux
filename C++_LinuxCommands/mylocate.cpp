@@ -1,6 +1,4 @@
 /*
-
-
 Programa:
 Escrito por: Walber Mota
 Linguagem: C++
