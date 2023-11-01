@@ -3,7 +3,7 @@ Programa:
 Escrito por: Walber Mota
 Linguagem: C++
 Data da Criação: 11/07/2023
-Version 01.10 - mod.31/10/2023
+Version 01.13 - mod.01/11/2023
 locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM)
 i5-5200U CPU @ 2.20GHz (306D4)
 ===========================================================================
