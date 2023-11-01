@@ -10,6 +10,7 @@ i5-5200U CPU @ 2.20GHz (306D4)
 - O programa localiza arquivos utilizando o comando locate do CLI do Linux
 - Procura todos os arquivos que possuam a palavra digitada ou parte dela
 - o usuário caso saiba o tipo de arquivo que procura pode inserir a extensão
+- A atualização da base de dados do Linux garante total acerto na busca.
 
 Programa em construção : Falta controle de excessões.
 ============================================================================
@@ -26,7 +27,7 @@ int main()
 	char resp;
 	system("clear");
 	std::cout << "********    Localizador de Arquivos   ***********\n";
-	std::cout << "\nDeseja atualizar a base de Dados para uma procura mais eficiente ?";
+	std::cout << "\nDeseja atualizar a Base de Dados (recomendado) ?";
 	std::cin >>resp;
 	if (resp=='S' | resp =='s')
 	{
@@ -65,8 +66,6 @@ int main()
 
 void localiza(std::string arg)
 {
-	
     const char *c = arg.c_str();
 	system(c);
-
 }
