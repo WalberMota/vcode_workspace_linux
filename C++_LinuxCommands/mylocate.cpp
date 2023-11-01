@@ -20,11 +20,9 @@ Programa em construção : Falta controle de excessões.
 
 void localiza(std::string arg);
 std::string nomeprog, var1,tipo;
-//const char *c;
 
 int main() 
 {
-	//std::string nomeprog, var1,tipo;
 	char resp;
 	system("clear");
 	std::cout << "********    Localizador de Arquivos   ***********\n";
