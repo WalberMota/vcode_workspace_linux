@@ -18,7 +18,6 @@ Programa em construção : Falta controle de excessões.
 #include<iostream>
 #include <string>
 
-char *c;
 
 int main() 
 {
