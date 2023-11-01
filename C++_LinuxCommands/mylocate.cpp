@@ -33,7 +33,7 @@ int main()
 	if (resp=='S' | resp =='s')
 	{
 		system("sudo updatedb");
-		std::cout<<"\n A Base de Dados foi atualizada!"
+		std::cout<<"\nA Base de Dados foi atualizada!\n";
 	}
 	std::cin.ignore();
 	
