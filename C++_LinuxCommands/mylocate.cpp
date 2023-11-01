@@ -28,9 +28,18 @@ int main()
 	char resp;
 	system("clear");
 	std::cout << "********    Localizador de Arquivos   ***********\n";
+	std::cout << "\nDeseja atualizar a base de Dados para uma procura mais eficiente ?";
+	std::cin >>resp;
+	if (resp=='S' | resp =='s')
+	{
+		system("sudo updatedb");
+		std::cout<<"\n A Base de Dados foi atualizada!"
+	}
+	std::cin.ignore();
+	
 	std::cout << "\nDigite a nome completo ou parcial do arquivo: ";
 	getline(std::cin,nomeprog);
-    //std::cin.ignore();
+    
 	std::cout << "\nVocê sabe qual a extensão(o tipo) do aquivo?(S/N): ";
 	std::cin >>resp;
 	if (resp=='s'||resp=='S')
@@ -58,6 +67,7 @@ int main()
 
 void localiza(std::string arg)
 {
+	
     const char *c = arg.c_str();
 	system(c);
 
