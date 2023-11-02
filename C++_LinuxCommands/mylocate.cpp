@@ -13,6 +13,7 @@ i5-5200U CPU @ 2.20GHz (306D4)
 - A atualização da base de dados do Linux garante total acerto na busca.
 
 Programa em construção : Falta controle de excessões.
+						 Falta verificar a necessidade de atualizar com 'upadatedb'
 ============================================================================
 */
 
