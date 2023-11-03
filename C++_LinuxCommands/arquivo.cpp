@@ -4,7 +4,7 @@
 #include <vector>
 
 std::string linha,casa,str;
-
+std::vector <char> vet[100];
 
 int main(int argc, char const *argv[])
 {   //tomar como base o programa.
@@ -32,15 +32,12 @@ int main(int argc, char const *argv[])
             std::cout << linha <<'\n';
             casa=linha;
         }
-
-
     }
     else
     {
-
         std::cout << "Não foi possivel abrir o arquivo !"<<'\n';
     }
-    std::vector <char> vet[100];
+
     for(int i=0;i<6;i++)
     {
     vet->push_back(casa[i+30]);
