@@ -25,13 +25,13 @@ int main()
             std::cout << linha << '\n';
 
         }
-            std::string::reverse_iterator rit = registra.rbegin();
+/*             std::string::reverse_iterator rit = registra.rbegin();
             std::cout<<"Texto invertido: ";
             while (rit != registra.rend())
             {
                 std::cout << *rit;
                 ++rit;
-            }
+            } */
 
         outfile.close();
     }
