@@ -37,7 +37,7 @@ int main(int argc, char const *argv[])
     {
         std::cout << "Não foi possivel abrir o arquivo !"<<'\n';
     }
-    //salva o mês e o dia da criaçao da arquvo plocate.db na variável vetor 'vet'
+    //salva o mês e o dia da criaçao da arquivo plocate.db na variável vetor 'vet'
     for(int i=0;i<6;i++)
     {
     vet->push_back(casa[i+30]);
