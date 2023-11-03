@@ -7,7 +7,7 @@ std::string linha, registra;
 
 int main()
 {
-    system("ls ~/Desktop -lh > dat");
+    system("ls -lh > dat");
 
     std::fstream outfile; // fstream - leitura e escrita
     outfile.open("dat", std::ios::in);
