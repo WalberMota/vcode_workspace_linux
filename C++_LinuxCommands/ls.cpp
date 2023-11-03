@@ -21,9 +21,9 @@ int main()
         {
             getline(outfile, linha);
             if (linha!="")
-                registra=linha;
+                //registra=linha;
             std::cout << "tamanho = " << linha.length() << "\n\n";
-            //std::cout<<"Texto no arquivo: ";            
+            std::cout<<"Texto no arquivo: ";            
             std::cout << linha << '\n';
 
         }
@@ -31,7 +31,7 @@ int main()
     }
     else
     {
-        std::cout << "ERRO: arquivo não foi aberto ou não existe" << '\n';
+     //   std::cout << "ERRO: arquivo não foi aberto ou não existe" << '\n';
     }
 
     return 0;
