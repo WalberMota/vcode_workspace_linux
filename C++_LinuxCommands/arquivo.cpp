@@ -25,9 +25,13 @@ int main(int argc, char const *argv[])
     fprintf(arquivo,"%d", inteiro);
 
     printf("Digite um numero decimal: ");
-    scanf("%f",&decimal);
+    scanf("%f",&decimal);   
     fprintf(arquivo,"%d", decimal);
+    
+    printf("\n\n");
+    arquivo = fclose();
 
+        
 
 
 
