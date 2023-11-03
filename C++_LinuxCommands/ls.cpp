@@ -23,17 +23,18 @@ int main()
             //registra=linha;
             std::cout << "tamanho = " << linha.length() << "\n\n";
             std::cout << linha << "\n\n";
-            std::cout << linha[34] << '\n';
-
+            std::cout << linha[35] << '\n';
+            registra=linha[34]+linha[35];
 
         }
-
+        
         //outfile.close();
     }
     else
     {
      //   std::cout << "ERRO: arquivo não foi aberto ou não existe" << '\n';
     }
+    std::cout<<registra;
     //outfile.close();
     return 0;
 }
