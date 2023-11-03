@@ -15,6 +15,8 @@ int main(int argc, char const *argv[])
     //a - ediita mantendo o conteudo
     arquivo=fopen(nome,"w");
 
+    printf("digite um texto para colocar no arquivo: ")
+
     
     return 0;
 }
