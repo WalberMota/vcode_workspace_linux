@@ -3,38 +3,58 @@
 #include <fstream> // std::ofstream
 #include <string>
 
-std::string linha, registra;
+
+std::string linha, registra, saida;
 
 int main()
 {
 
-    system("ls -lh /var/lib/plocate/plocate.db > dat");
-    system("clear");
     std::fstream outfile; // fstream - leitura e escrita
-    outfile.open("dat", std::ios::in);
+    outfile.open("dat");//, std::ios::in);
 
     if (outfile.is_open())
     {
-
+        std::cout<<"Texto no arquivo: ";
         // outfile.open("dat", std::ios::in);
         while (!outfile.eof())
         {
             getline(outfile, linha);
-            //registra=linha;
-            std::cout << "tamanho = " << linha.length() << "\n\n";
-            std::cout << linha << "\n\n";
-            std::cout << linha[35] << '\n';
-            registra=linha[34]+linha[35];
+            if (linha!="")
+                registra=linha;
+            
+            std::cout << linha << '\n';
 
         }
-        
-        //outfile.close();
+            std::string::iterator it = registra.begin();
+            std::cout<<"==>";
+            for(int i=0;i<36;i++)
+            {
+                saida[i]=it[i];
+                if (it[i]=='w')
+                {
+                    std::cout<<it[i];
+                }
+
+
+            }
+
+
+
+
+
+/*             while (rit != registra.end())
+            {
+                std::cout << *rit;
+                ++rit;
+            } */
+
+        outfile.close();
     }
     else
     {
-     //   std::cout << "ERRO: arquivo não foi aberto ou não existe" << '\n';
+        std::cout << "ERRO: arquivo não foi aberto ou não existe" << '\n';
     }
-    std::cout<<registra;
-    //outfile.close();
+
+
     return 0;
 }
