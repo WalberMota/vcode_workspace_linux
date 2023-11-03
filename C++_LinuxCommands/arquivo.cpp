@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
     
     //w - apaga todo o conteudo e edita o arquivo
     //r - le o arquivo
-    //a - ediita mantendo o conteudo
+    //a - edita mantendo o conteudo
     arquivo=fopen(nome,"w");
 
     printf("digite um texto para colocar no arquivo: ");
@@ -21,8 +21,11 @@ int main(int argc, char const *argv[])
     fprintf(arquivo,"%s\n",string);
     printf("Digite um numero inteiro: ");
     scanf("%d",&inteiro);
+    fprintf(arquivo,"%d", inteiro);
+    printf("Digite um numero decimal: ");
+    scanf("%f",&inteiro);
 
-    
+
 
 
 
