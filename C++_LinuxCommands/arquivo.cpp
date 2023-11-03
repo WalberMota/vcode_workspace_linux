@@ -1,9 +1,9 @@
-#include<iostream>
-#include<fstream>
+#include <iostream>
+#include <fstream>
 #include <string>
+#include <vector>
 
-std::string casa;
-
+std::string linha,casa,str;
 
 
 int main(int argc, char const *argv[])
@@ -20,6 +20,8 @@ int main(int argc, char const *argv[])
     arquivoOut << "3 - Família\n";
     arquivoOut.close();
  */
+    system("ls /var/lib/plocate/plocate.db -lh > ls");
+
     std::ifstream arquivoIn;
     std::string linha;
     arquivoIn.open("ls");
@@ -30,7 +32,7 @@ int main(int argc, char const *argv[])
             std::cout << linha <<'\n';
             casa=linha;
         }
-        std::cout <<"==>"<< casa;
+
 
     }
     else
@@ -38,7 +40,13 @@ int main(int argc, char const *argv[])
 
         std::cout << "Não foi possivel abrir o arquivo !"<<'\n';
     }
-
+    std::vector <char> vet[100];
+    for(int i=0;i<6;i++)
+    {
+    vet->push_back(casa[i+30]);
+    }    
     
+    std::string str(vet->begin(),vet->end());
+    std::cout <<"final : "<<str;
     return 0;
 }
