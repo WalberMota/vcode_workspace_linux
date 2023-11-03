@@ -7,7 +7,7 @@ std::string linha,casa,str;
 std::vector <char> vet[100];
 
 int main(int argc, char const *argv[])
-{   //tomar como base o programa.
+{   //tomar como base o programa para entender o sentido OUT e IN
     //ofstream - sai do programa. (out). Abre o arquivo para receber.
     //ifstream - entra no programa. (in). Abre o arquivo para ler
     //fstram   - pode fazer a abertura do arquivo para ler e escrever.
