@@ -20,19 +20,20 @@ int main()
         while (!outfile.eof())
         {
             getline(outfile, linha);
-            if (linha!="")
-                //registra=linha;
+            //registra=linha;
             std::cout << "tamanho = " << linha.length() << "\n\n";
-            //std::cout<<"Texto no arquivo: ";            
-            std::cout <<"Texto no arquivo: " << linha << '\n';
+            std::cout << linha << "\n\n";
+            std::cout << linha[34] << '\n';
+
 
         }
-        outfile.close();
+
+        //outfile.close();
     }
     else
     {
      //   std::cout << "ERRO: arquivo não foi aberto ou não existe" << '\n';
     }
-
+    //outfile.close();
     return 0;
 }
