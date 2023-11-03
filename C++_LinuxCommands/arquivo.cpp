@@ -20,8 +20,8 @@ int main(int argc, char const *argv[])
     arquivoOut << "3 - Família\n";
     arquivoOut.close();
  */
+    //cria o arquivo 'ls' com a listagem de plocatee.db
     system("ls /var/lib/plocate/plocate.db -lh > ls");
-
     std::ifstream arquivoIn;
     std::string linha;
     arquivoIn.open("ls");
