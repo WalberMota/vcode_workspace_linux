@@ -22,7 +22,7 @@ int main()
             getline(outfile, linha);
             if (linha!="")
                 registra=linha;
-            std::cout << "tamanho = " << linha.length() << '\n';
+            std::cout << "tamanho = " << linha.length() << '\n\n';
             std::cout << linha << '\n';
 
         }
