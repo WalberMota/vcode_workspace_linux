@@ -1,6 +1,8 @@
 #include<iostream>
 #include<fstream>
+#include<string>
 
+std::string meu;
 
 int main(int argc, char const *argv[])
 {   //tomar como base o programa.
@@ -8,15 +10,12 @@ int main(int argc, char const *argv[])
     //ifstream - entra no programa. (in). Abre o arquivo para ler
     //fstram   - pode fazer a abertura do arquivo para ler e escrever.
 
-    std::ofstream arquivo;
+    std::ofstream arquivo; // armazena no arquivo apagando o conteudo anterior.
+    // para adicionar usar:    arquivo.open("ls",std::ofstream::ios_base::app);
     arquivo.open("ls");
+    arquivo << "casa";
     
-    
-    
-    
-    
-    
-    //arquivo.close();
+    arquivo.close();
 
     
     return 0;
