@@ -26,13 +26,6 @@ int main()
             std::cout << linha << '\n';
 
         }
-/*             std::string::reverse_iterator rit = registra.rbegin();
-            std::cout<<"Texto invertido: ";
-            while (rit != registra.rend())
-            {
-                std::cout << *rit;
-                ++rit;
-            } */
 
         outfile.close();
     }
@@ -40,24 +33,6 @@ int main()
     {
         std::cout << "ERRO: arquivo não foi aberto ou não existe" << '\n';
     }
-
-    /*
-        std::string::reverse_iterator rit = pw.rbegin();
-        while (rit != pw.rend())
-        {
-            outfile << *rit;
-            std::cout << *rit;
-            ++rit;
-        }
-
-        std::ofstream outfile("test.txt");
-
-        for (int n = 0; n < 100; ++n)
-        {
-            outfile << n << " ";
-            // outfile.flush();
-        }
-    */
 
     return 0;
 }
