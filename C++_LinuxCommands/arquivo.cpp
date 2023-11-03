@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
     char string[100], nome[100];
 
     printf("Digite o nome do arquivo a ser editado");
-    fgets(nome);
+    gets(nome);
     
     //w - apaga todo o conteudo e edita o arquivo
     //r - le o arquivo
@@ -17,6 +17,7 @@ int main(int argc, char const *argv[])
 
     printf("digite um texto para colocar no arquivo: ");
     fflush(stdin); // limpa o buffer de entrada
+    gets(string);
     
     return 0;
 }
