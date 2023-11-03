@@ -9,6 +9,7 @@ int main(int argc, char const *argv[])
     //fstram   - pode fazer a abertura do arquivo para ler e escrever.
 
     std::ofstream arquivo;
+    arquivo.open("ls");
     
     
     
