@@ -31,7 +31,9 @@ int main(int argc, char const *argv[])
     printf("\n\n");
     arquivo = fclose();
 
-        
+    //LE ARQUIVO
+    arquivo = fopen(nome,"r");
+
 
 
 
