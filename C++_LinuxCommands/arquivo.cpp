@@ -1,5 +1,10 @@
 #include<iostream>
 #include<fstream>
+#include <string>
+
+std::string casa;
+
+
 
 int main(int argc, char const *argv[])
 {   //tomar como base o programa.
@@ -23,10 +28,9 @@ int main(int argc, char const *argv[])
         while (getline(arquivoIn,linha))
         {
             std::cout << linha <<'\n';
+            casa=linha;
         }
-        
-
-
+        std::cout <<"==>"<< casa;
 
     }
     else
