@@ -7,6 +7,7 @@ std::string linha, registra;
 
 int main()
 {
+    system("clear");
     system("ls -lh /var/lib/plocate/plocate.db > dat");
 
     std::fstream outfile; // fstream - leitura e escrita
