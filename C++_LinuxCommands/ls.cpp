@@ -7,7 +7,7 @@ std::string linha, registra;
 
 int main()
 {
-    system("ls -lh > dat");
+    system("ls -lh /var/lib/plocate/plocate.db > dat");
 
     std::fstream outfile; // fstream - leitura e escrita
     outfile.open("dat", std::ios::in);
@@ -21,7 +21,7 @@ int main()
             getline(outfile, linha);
             if (linha!="")
                 registra=linha;
-            
+            std::cout << "tamanho = " << linha.length() << '\n';
             std::cout << linha << '\n';
 
         }
