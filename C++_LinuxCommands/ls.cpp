@@ -3,11 +3,11 @@
 #include <fstream> // std::ofstream
 #include <string>
 
-
 std::string linha, registra;
 
 int main()
 {
+    system("ls ~/Desktop -lh > dat");
 
     std::fstream outfile; // fstream - leitura e escrita
     outfile.open("dat", std::ios::in);
