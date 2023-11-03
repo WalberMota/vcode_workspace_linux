@@ -10,9 +10,13 @@ int main(int argc, char const *argv[])
     std::ofstream arquivoOut; // armazena no arquivo apagando o conteudo anterior.
     // para adicionar usar:    arquivo.open("ls",std::ofstream::ios_base::app);
     arquivoOut.open("ls");
-    arquivoOut << "casa";
-    
+    arquivoOut << "1 - Bicicleta\n";
+    arquivoOut << "2 - Carro\n";
+    arquivoOut << "3 - Família\n";
     arquivoOut.close();
+
+    std::ifstream arquivoIn;
+    std::string linha;
 
     
     return 0;
