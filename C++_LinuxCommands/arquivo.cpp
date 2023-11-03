@@ -19,12 +19,14 @@ int main(int argc, char const *argv[])
     fflush(stdin); // limpa o buffer de entrada
     gets(string);
     fprintf(arquivo,"%s\n",string);
+    
     printf("Digite um numero inteiro: ");
     scanf("%d",&inteiro);
     fprintf(arquivo,"%d", inteiro);
-    printf("Digite um numero decimal: ");
-    scanf("%f",&inteiro);
 
+    printf("Digite um numero decimal: ");
+    scanf("%f",&decimal);
+    fprintf(arquivo,"%d", decimal);
 
 
 
