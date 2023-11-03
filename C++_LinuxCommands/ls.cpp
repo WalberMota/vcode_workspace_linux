@@ -23,8 +23,8 @@ int main()
             if (linha!="")
                 //registra=linha;
             std::cout << "tamanho = " << linha.length() << "\n\n";
-            std::cout<<"Texto no arquivo: ";            
-            std::cout << linha << '\n';
+            //std::cout<<"Texto no arquivo: ";            
+            std::cout <<"Texto no arquivo: " << linha << '\n';
 
         }
         outfile.close();
