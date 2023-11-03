@@ -17,6 +17,19 @@ int main(int argc, char const *argv[])
 
     std::ifstream arquivoIn;
     std::string linha;
+    arquivoIn.open("ls");
+    if(arquivoIn.is_open())
+    {
+
+
+
+
+    }
+    else
+    {
+
+        
+    }
 
     
     return 0;
