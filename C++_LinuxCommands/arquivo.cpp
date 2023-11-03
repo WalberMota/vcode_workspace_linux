@@ -18,6 +18,17 @@ int main(int argc, char const *argv[])
     printf("digite um texto para colocar no arquivo: ");
     fflush(stdin); // limpa o buffer de entrada
     gets(string);
+    fprintf(arquivo,"%s\n",string);
+    printf("Digite um numero inteiro: ");
+    scanf("%d",&inteiro);
+
+    
+
+
+
+
+
+
     
     return 0;
 }
