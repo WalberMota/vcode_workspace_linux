@@ -1,9 +1,13 @@
 /* rotina modificada da pergunta do usuário Daniel Marchi(Enviado em 06/06/2013 - 11:20h)
    e respondida por Guilherme(guipsp)
-// https://www.vivaolinux.com.br/topico/C-C++/Converter-um-vetor-em-uma-String-1
-*/
+   https://www.vivaolinux.com.br/topico/C-C++/Converter-um-vetor-em-uma-String-1
 
-//programa gerador de CPF válido. O valor pode ser verificado em https://www.4devs.com.br/validador_cpf
+Programa gerador de CPF válido. O valor pode ser verificado em:
+   https://www.4devs.com.br/validador_cpf
+
+03/11/2023 v 01.00
+
+*/
 
 #include <iostream>
 #include <time.h>
