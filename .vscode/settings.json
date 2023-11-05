@@ -62,8 +62,5 @@
     "stop_token": "cpp",
     "thread": "cpp"
   },
-    "C_Cpp_Runner.useAddressSanitizer": false,
-    "code-runner.runInTerminal": true,
-    "C_Cpp.dimInactiveRegions": true,
-    
+
 }
