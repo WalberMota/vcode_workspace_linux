@@ -10,15 +10,15 @@ int main(int argc, char const *argv[])
 
     std::cout << std::showpoint;
     std::cout << "d :" << d << '\n';
-    std::cout << "e :" << d << '\n';
-    std::cout << "f :" << d << '\n';
-    std::cout << "g :" << d << '\n';
+    std::cout << "e :" << e << '\n';
+    std::cout << "f :" << f << '\n';
+    std::cout << "g :" << g << '\n';
 
     std::cout <<"\n\n"<< std::noshowpoint;
     std::cout << "d :" << d << '\n';
-    std::cout << "e :" << d << '\n';
-    std::cout << "f :" << d << '\n';
-    std::cout << "g :" << d << '\n';
+    std::cout << "e :" << e << '\n';
+    std::cout << "f :" << f << '\n';
+    std::cout << "g :" << g << '\n';
 
 
 
