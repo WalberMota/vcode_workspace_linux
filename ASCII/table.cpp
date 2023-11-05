@@ -1,6 +1,4 @@
 #include<iostream>
-#include <iomanip>//para setw e setprecision
-
 
 
 int main(int argc, char const *argv[])
