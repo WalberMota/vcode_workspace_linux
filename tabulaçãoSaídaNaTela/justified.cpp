@@ -9,22 +9,27 @@ Objetivos: Ajuste de saida na tela
 
 int main()
 {
-   std::cout << "\nJustificação de tabela à direita em coluna de com 15 caracteres: " << "\n\n";
+//colocar os código de escape (line feed) separado dos textos.
 
-    int col_width{15};
+   std::cout << '\n';
+   std::cout << "Justificação de tabela à direita em coluna de com 13 caracteres: " << "\n\n";
+
+    int col_width{13};
+
     std::cout << std::right;
-
-    std::cout << std::setw(col_width) << "Primeiro Nome" << std::setw(col_width) << "Sobrenome" << std::setw(col_width) << "Idade\n";
+    std::cout << std::setw(col_width) << "Primeiro Nome" << std::setw(col_width) \
+              << "Sobrenome" << std::setw(col_width) << "Idade"<<'\n'; 
     std::cout << std::setw(col_width) << "Daniel" << std::setw(col_width) << "Gray" << std::setw(col_width) << "32"<<'\n';
     std::cout << std::setw(col_width) << "Jordan" << std::setw(col_width) << "Woody" << std::setw(col_width) << "18"<<'\n';
     std::cout << std::setw(col_width) << "Stanley" << std::setw(col_width) << "Park" << std::setw(col_width) << "54"<<'\n';
 
 
-//aqui faz é recomendado colocar o código de escape de line feed fora do texto.
-    std::cout << "\n\nJustificação de tabela à esquerda em coluna com 15 caracteres: " << "\n\n";
-    // col_width=20; 
+    std::cout << "\n\n";
+    std::cout << "Justificação de tabela à esquerda em coluna com 15 caracteres: " << "\n\n";
+    col_width=15; // dois caracteres a mais para evitar que os nomes das colunas fiquem colados
     std::cout << std::left;
-    std::cout << std::setw(col_width) << "Primeiro Nome" << std::setw(col_width) << "Sobrenome" << std::setw(col_width) << "Idade"<<'\n';
+    std::cout << std::setw(col_width) << "Primeiro Nome" << std::setw(col_width)\
+              << "Sobrenome" << std::setw(col_width) << "Idade"<<'\n';
     std::cout << std::setw(col_width) << "Daniel" << std::setw(col_width) << "Gray" << std::setw(col_width) << "32"<<'\n';
     std::cout << std::setw(col_width) << "Jordan" << std::setw(col_width) << "Woody" << std::setw(col_width) << "18"<<'\n';
     std::cout << std::setw(col_width) << "Stanley" << std::setw(col_width) << "Park" << std::setw(col_width) << "54"<<'\n';
