@@ -34,6 +34,15 @@ int main()
     std::cout << std::setw(col_width) << "Jordan" << std::setw(col_width) << "Woody" << std::setw(col_width) << "18"<<'\n';
     std::cout << std::setw(col_width) << "Stanley" << std::setw(col_width) << "Park" << std::setw(col_width) << "54"<<'\n';
 
+// Internal Justified : o sinal é justifcado à esquerda e o dado à direta.
+    std::cout << '\n';
+    std::cout << "Internal Justified: " << '\n';
+    std::cout << std::right;
+    std::cout << std::setw(7) << -1235 << '\n';
+    std::cout << std::internal;
+    std::cout << std::setw(7) << -1235 << '\n';
+
 
     return EXIT_SUCCESS;
+
 }
