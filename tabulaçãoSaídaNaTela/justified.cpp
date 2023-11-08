@@ -192,7 +192,7 @@ double e {101.99};
 double f {12.00};
 int    g {45};
 
-std::cout << std::setprecision(6);
+std::cout << std::setprecision(6); //coloca a precisão no valor default
 std::cout << "noshowpoint (default): " <<std::dec << '\n';
 std::cout << "d: " << d << '\n';
 std::cout << "e: " << e << '\n';
@@ -200,7 +200,7 @@ std::cout << "f: " << f << '\n';
 std::cout << "g: " << g << '\n';
 
 std::cout << "\nshowpoint: " << '\n';
-std::cout <<std::showpoint << '\n';
+std::cout <<std::showpoint << '\n'; //força a exibição do ponto decimal, exceto para tipos 'int'
 std::cout << "d: " << d << '\n';
 std::cout << "e: " << e << '\n';
 std::cout << "f: " << f << '\n';
