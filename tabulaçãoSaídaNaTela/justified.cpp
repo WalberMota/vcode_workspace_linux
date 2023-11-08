@@ -80,7 +80,7 @@ std::cout << "\n\n";
 
 std::cout << "Sem uso de 'showpos' " << '\n';
 std::cout << "numero positivo: " << numero_pos << '\n';
-std::cout << "numero negativo: " << numero_neg << '\n';
+std::cout << "numero negativo: " << numero_neg << "\n\n";
 
 std::cout << "Com uso de 'showpos' " << '\n';
 std::cout << std::showpos;
