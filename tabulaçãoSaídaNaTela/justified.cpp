@@ -95,9 +95,9 @@ std::cout << "numero negativo: " << numero_neg << "\n\n";
 //Exibindo em diferentes sistemas numericos: std::dec, std::hex,std::oct
 
 
-int num_pos {235};
-int num_neg {-235};
-double num_double {235.32};
+int num_pos {67};
+int num_neg {-86};
+double num_double {45.32};
 
 std::cout << "\n\n*******************\n";
 
