@@ -160,6 +160,11 @@ std::cout << "a: " << a << "\n";
 std::cout << "b: " << b << "\n";
 std::cout << "c: " << c << "\n";
 
+std::cout << "\nForçando o default com 'std::unsetf (std::ios::scientific|std::iios::fixed)'" << '\n';
+std::cout.unsetf(std::ios::scientific | std::ios::fixed); //Hack
+std::cout << "a: " << a << "\n";
+std::cout << "b: " << b << "\n";
+std::cout << "c: " << c << "\n";
 
     return EXIT_SUCCESS;
 
