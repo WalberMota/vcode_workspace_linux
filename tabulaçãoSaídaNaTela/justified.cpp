@@ -60,7 +60,7 @@ int main()
 bool condicao1 {true};
 bool condicao2 {false};
 
-std::cout << "\n\n*******************";
+std::cout << "\n\n*******************\n";
 std::cout << "condição 1: " << condicao1 << '\n';
 std::cout << "condição 2: " << condicao2 << '\n';
 
