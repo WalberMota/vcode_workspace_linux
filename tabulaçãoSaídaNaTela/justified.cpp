@@ -72,7 +72,7 @@ std::cout << std::noboolalpha;
 std::cout << "\ncondição 1: " << condicao1 << '\n';
 std::cout << "condição 2: " << condicao2 << '\n';
 
-//mostrando o sinal + dos numeros positivos
+//showpos e noshowpos : mostra ou oculta o sinal de positivo.
 
 int numero_pos {34};
 int numero_neg {-25};
