@@ -172,7 +172,8 @@ std::cout << "\n\n*******************\n";
 
 a = 3.1415926535897932384626433832795;
 
-std::cout << "a precisão padrão é (6): " << a << "\n";
+std::cout << "precisão numérica no terminal" <<'\n';
+std::cout << "default = (6): " << a << "\n";
 std::cout << std::setprecision(10);
 std::cout << "precisão (10): " << a << "\n";
 std::cout << std::setprecision(20);
