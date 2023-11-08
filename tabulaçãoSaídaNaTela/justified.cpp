@@ -136,10 +136,22 @@ std::cout << std::uppercase;
 std::cout << "num_pos (dec): " << std::dec << num_pos << '\n';
 std::cout << "num_neg (hex): " << std::hex << num_pos << '\n';
 
+//notação científica e fixa no terminal
 
+double a{3.1415926535897932384626433832795};
+double b{2006.0};
+double c{1.34e-10};
 
+std::cout << "\n\n*******************\n";
+std::cout << "valores double como default a notação científica é usada quando necessário" << '\n';
+std::cout << "a: " << a << "\n";
+std::cout << "b: " << b << "\n";
+std::cout << "c: " << c << "\n";
 
-
+std::cout << "\nvalores double (fixados com std::fixed)" << '\n';
+std::cout << "a: " << a << "\n";
+std::cout << "b: " << b << "\n";
+std::cout << "c: " << c << "\n";
 
     return EXIT_SUCCESS;
 
