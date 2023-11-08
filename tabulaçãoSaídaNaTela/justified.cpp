@@ -106,17 +106,17 @@ std::cout << "num_pos: " << num_pos << '\n';
 std::cout << "num_neg: " << num_neg << '\n';
 std::cout << "num_double: " << num_double << "\n\n";
 
-std::cout << "\nNúmeros Positivos em diferentes Bases"<<'\n';
+std::cout << "\nNúmero Positivo em diferentes Bases"<<'\n';
 std::cout << "num_pos (dec): " << std::dec << num_pos << '\n';
 std::cout << "num_neg (hex): " << std::hex << num_pos << '\n';
 std::cout << "num_double (oct): " << std::oct << num_pos << '\n';
 
-std::cout << "\nNúmeros Negativos em Diferentes Bases"<<'\n';
+std::cout << "\nNúmero Negativo em Diferentes Bases"<<'\n';
 std::cout << "num_pos (dec): " << std::dec << num_neg << '\n';
 std::cout << "num_neg (hex): " << std::hex << num_neg << '\n';
 std::cout << "num_double (oct): " << std::oct << num_neg << '\n';
 
-std::cout << "\nNúmeros Double em Diferentes Bases"<<'\n';
+std::cout << "\nNúmero Double em Diferentes Bases"<<'\n';
 std::cout << "num_pos (dec): " << std::dec << num_double << '\n';
 std::cout << "num_neg (hex): " << std::hex << num_double << '\n';
 std::cout << "num_double (oct): " << std::oct << num_double << '\n';
