@@ -11,7 +11,7 @@ int main()
 {
 //colocar os código de escape (line feed) separado dos textos.
 
-   std::cout << '\n*******************';
+   std::cout << "\n*******************";
    std::cout << "Justificação de tabela à direita em coluna de com 13 caracteres: " << "\n\n";
 
     int col_width{13};
@@ -35,7 +35,7 @@ int main()
     std::cout << std::setw(col_width) << "Stanley" << std::setw(col_width) << "Park" << std::setw(col_width) << "54"<<'\n';
 
 // Internal Justified : o sinal é justifcado à esquerda e o dado à direta.
-    std::cout << '\n*******************';
+    std::cout << "\n*******************";
     std::cout << "Internal Justified: " << '\n';
     std::cout << std::right;
     std::cout << std::setw(7) << -1235 << '\n';
