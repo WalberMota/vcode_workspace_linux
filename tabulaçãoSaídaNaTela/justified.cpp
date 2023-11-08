@@ -62,15 +62,15 @@ bool condicao2 {false};
 
 std::cout << "\n\n";
 std::cout << "condição 1: " << condicao1 << '\n';
-std::cout << "condição 1: " << condicao2 << '\n';
+std::cout << "condição 2: " << condicao2 << '\n';
 
 std::cout << std::boolalpha;
 std::cout << "\ncondição 1: " << condicao1 << '\n';
-std::cout << "condição 1: " << condicao2 << '\n';
+std::cout << "condição 2: " << condicao2 << '\n';
 
 std::cout << std::noboolalpha;
 std::cout << "\ncondição 1: " << condicao1 << '\n';
-std::cout << "condição 1: " << condicao2 << '\n';
+std::cout << "condição 2: " << condicao2 << '\n';
 
 
 
