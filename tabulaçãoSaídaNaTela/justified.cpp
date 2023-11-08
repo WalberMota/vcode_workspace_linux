@@ -65,11 +65,11 @@ std::cout << "condição 1: " << condicao1 << '\n';
 std::cout << "condição 1: " << condicao2 << '\n';
 
 std::cout << std::boolalpha;
-std::cout << "condição 1: " << condicao1 << '\n';
+std::cout << "\ncondição 1: " << condicao1 << '\n';
 std::cout << "condição 1: " << condicao2 << '\n';
 
 std::cout << std::noboolalpha;
-std::cout << "condição 1: " << condicao1 << '\n';
+std::cout << "\ncondição 1: " << condicao1 << '\n';
 std::cout << "condição 1: " << condicao2 << '\n';
 
 
