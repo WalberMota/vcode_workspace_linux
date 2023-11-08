@@ -179,6 +179,26 @@ std::cout << "precisão (10): " << a << "\n";
 std::cout << std::setprecision(20);
 std::cout << "precisão (20): " << a << "\n";
 
+//se a precisão é maior que a suportada pelo tipo numérico. O restante é truncado.
+
+
+//showpoint e noshowpoiint: mostra zero à direita, se necessário
+
+std::cout << "\n\n*******************\n";
+
+double d {34.1};
+double e {101.99};
+double f {12.00};
+int    g {45};
+
+
+std::cout << "noshowpoint (default): " << '\n';
+std::cout << "d: " << d << '\n';
+std::cout << "e: " << e << '\n';
+std::cout << "f: " << f << '\n';
+std::cout << "g: " << g << '\n';
+
+
 
     return EXIT_SUCCESS;
 
