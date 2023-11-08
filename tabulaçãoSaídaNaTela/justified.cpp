@@ -104,7 +104,18 @@ std::cout << "\n\n*******************\n";
 std::cout << "Formato base padrão"<<'\n';
 std::cout << "num_pos: " << num_pos << '\n';
 std::cout << "num_neg: " << num_neg << '\n';
-std::cout << "num_double: " << num_double << '\n';
+std::cout << "num_double: " << num_double << "\n\n";
+
+std::cout << "Números Positivos em diferentes Bases"<<'\n';
+std::cout << "num_pos (dec): " << std::dec << num_pos << '\n';
+std::cout << "num_neg (hex): " << std::hex << num_pos << '\n';
+std::cout << "num_double (oct): " << std::oct << num_pos << '\n';
+
+std::cout << "Números Negativos em Diferentes Bases"<<'\n';
+std::cout << "num_pos (dec): " << std::dec << num_neg << '\n';
+std::cout << "num_neg (hex): " << std::hex << num_neg << '\n';
+std::cout << "num_double (oct): " << std::oct << num_neg << '\n';
+
 
 
 
