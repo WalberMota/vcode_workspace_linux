@@ -183,6 +183,7 @@ std::cout << "precisão (20): " << a << "\n";
 
 
 //showpoint e noshowpoiint: mostra zero à direita, se necessário
+//força a saída do ponto decimal
 
 std::cout << "\n\n*******************\n";
 
