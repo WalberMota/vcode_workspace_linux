@@ -121,6 +121,24 @@ std::cout << "num_pos (dec): " << std::dec << num_double << '\n';
 std::cout << "num_neg (hex): " << std::hex << num_double << '\n';
 std::cout << "num_double (oct): " << std::oct << num_double << '\n';
 
+//Uso de uppercase e nouppercase (maiúscula e minúscula):
+int num_pos {67};
+
+std::cout << "\n\n*******************\n";
+
+std::cout << "\nO padrão é nouppercase"<<'\n';
+std::cout << "num_pos (dec): " << std::dec << num_pos << '\n';
+std::cout << "num_neg (hex): " << std::hex << num_pos << '\n';
+std::cout << "num_double (oct): " << std::oct << num_pos << '\n';
+
+std::cout << "\nUsando uppercase"<<'\n';
+std::cout << std::uppercase;
+std::cout << "num_pos (dec): " << std::dec << num_pos << '\n';
+std::cout << "num_neg (hex): " << std::hex << num_pos << '\n';
+std::cout << "num_double (oct): " << std::oct << num_pos << '\n';
+
+
+
 
 
     return EXIT_SUCCESS;
