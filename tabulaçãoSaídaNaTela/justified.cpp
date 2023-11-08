@@ -166,6 +166,19 @@ std::cout << "a: " << a << "\n";
 std::cout << "b: " << b << "\n";
 std::cout << "c: " << c << "\n";
 
+//uso de setprecision() para determinar o numero de dígitos em numeração com ponto flutuante.
+
+std::cout << "\n\n*******************\n";
+
+a = 3.1415926535897932384626433832795;
+
+std::cout << "a precisão padrão é (6): " << a << "\n";
+std::cout << std::setprecision(10);
+std::cout << "precisão (10): " << a << "\n";
+std::cout << std::setprecision(20);
+std::cout << "precisão (20): " << a << "\n";
+
+
     return EXIT_SUCCESS;
 
 }
