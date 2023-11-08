@@ -116,10 +116,10 @@ std::cout << "num_pos (dec): " << std::dec << num_neg << '\n';
 std::cout << "num_neg (hex): " << std::hex << num_neg << '\n';
 std::cout << "num_double (oct): " << std::oct << num_neg << '\n';
 
-std::cout << "\nNúmeros Negativos em Diferentes Bases"<<'\n';
-std::cout << "num_pos (dec): " << std::dec << num_neg << '\n';
-std::cout << "num_neg (hex): " << std::hex << num_neg << '\n';
-std::cout << "num_double (oct): " << std::oct << num_neg << '\n';
+std::cout << "\nNúmeros Double em Diferentes Bases"<<'\n';
+std::cout << "num_pos (dec): " << std::dec << num_double << '\n';
+std::cout << "num_neg (hex): " << std::hex << num_double << '\n';
+std::cout << "num_double (oct): " << std::oct << num_double << '\n';
 
 
 
