@@ -154,6 +154,13 @@ std::cout << "a: " << a << "\n";
 std::cout << "b: " << b << "\n";
 std::cout << "c: " << c << "\n";
 
+std::cout << "\nvalores double (forçando o formato científico com std::scientific)" << '\n';
+std::cout << std::scientific;
+std::cout << "a: " << a << "\n";
+std::cout << "b: " << b << "\n";
+std::cout << "c: " << c << "\n";
+
+
     return EXIT_SUCCESS;
 
 }
