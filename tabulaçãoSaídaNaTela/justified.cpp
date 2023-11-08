@@ -199,7 +199,7 @@ std::cout << "f: " << f << '\n';
 std::cout << "g: " << g << '\n';
 
 std::cout << "\nshowpoint: " << '\n';
-std::cout << std::showpoint << '\n';
+std::cout << std::setprecision(6) <<std::showpoint << '\n';
 std::cout << "d: " << d << '\n';
 std::cout << "e: " << e << '\n';
 std::cout << "f: " << f << '\n';
