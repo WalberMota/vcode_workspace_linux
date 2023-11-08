@@ -76,6 +76,7 @@ std::cout << "condição 2: " << condicao2 << '\n';
 
 int numero_pos {34};
 int numero_neg {-25};
+std::cout << "\n\n";
 
 std::cout << "Sem uso de 'showpos' " << '\n';
 std::cout << "numero positivo: " << numero_pos << '\n';
