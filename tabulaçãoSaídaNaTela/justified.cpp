@@ -122,7 +122,7 @@ std::cout << "num_neg (hex): " << std::hex << num_double << '\n';
 std::cout << "num_double (oct): " << std::oct << num_double << '\n';
 
 //Uso de uppercase e nouppercase (maiúscula e minúscula):
-int num_pos {67};
+num_pos = 67;
 
 std::cout << "\n\n*******************\n";
 
