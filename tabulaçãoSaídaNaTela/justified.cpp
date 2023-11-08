@@ -92,6 +92,19 @@ std::cout << std::noshowpos;
 std::cout << "numero positivo: " << numero_pos << '\n';
 std::cout << "numero negativo: " << numero_neg << "\n\n";
 
+//Exibindo em diferentes sistemas numericos: std::dec, std::hex,std::oct
+
+
+int num_pos {71765};
+int num_neg {-47347};
+double num_double {498.32};
+
+std::cout << "\n\n*******************\n";
+
+std::cout << "Formato base padrão"<<'\n';
+std::cout << "num_pos: " << num_pos << '\n';
+std::cout << "num_neg: " << num_neg << '\n';
+std::cout << "num_double: " << num_double << '\n';
 
 
 
