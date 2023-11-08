@@ -55,6 +55,29 @@ int main()
     std::cout << std::setw(col_width) << "Jordan" << std::setw(col_width) << "Woody" << std::setw(col_width) << "18"<<'\n';
     std::cout << std::setw(col_width) << "Stanley" << std::setw(col_width) << "Park" << std::setw(col_width) << "54"<<'\n';
 
+//boolapha e noboolalpha: controla o formato apresentado na tela por um booleano(1/0 ou true/false)
+
+bool condicao1 {true};
+bool condicao2 {false};
+
+std::cout << "\n\n";
+std::cout << "condição 1: " << condicao1 << '\n';
+std::cout << "condição 1: " << condicao2 << '\n';
+
+std::cout << std::boolalpha;
+std::cout << "condição 1: " << condicao1 << '\n';
+std::cout << "condição 1: " << condicao2 << '\n';
+
+std::cout << std::noboolalpha;
+std::cout << "condição 1: " << condicao1 << '\n';
+std::cout << "condição 1: " << condicao2 << '\n';
+
+
+
+
+
+
+
     return EXIT_SUCCESS;
 
 }
