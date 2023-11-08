@@ -152,7 +152,7 @@ std::cout << "\nvalores double (fixados com std::fixed)" << '\n';
 std::cout << std::fixed;
 std::cout << "a: " << a << "\n";
 std::cout << "b: " << b << "\n";
-std::cout << "c: " << c << "\n";
+std::cout << "c: " << c << " o numero é tão pequeno que no formato fixed fiica representado como zero\n";
 
 std::cout << "\nvalores double (forçando o formato científico com std::scientific)" << '\n';
 std::cout << std::scientific;
