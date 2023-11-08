@@ -192,7 +192,7 @@ double f {12.00};
 int    g {45};
 
 
-std::cout << "noshowpoint (default): " << '\n';
+std::cout << "noshowpoint (default): " <<std::dec << '\n';
 std::cout << "d: " << d << '\n';
 std::cout << "e: " << e << '\n';
 std::cout << "f: " << f << '\n';
