@@ -149,6 +149,7 @@ std::cout << "b: " << b << "\n";
 std::cout << "c: " << c << "\n";
 
 std::cout << "\nvalores double (fixados com std::fixed)" << '\n';
+std::cout << std::fixed;
 std::cout << "a: " << a << "\n";
 std::cout << "b: " << b << "\n";
 std::cout << "c: " << c << "\n";
