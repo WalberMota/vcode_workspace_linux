@@ -45,7 +45,7 @@ int main()
 // Tabela com caracter preenchendo os espaços em branco.
     std::cout << "\n\n*******************\n";
     
-    std::cout << "Justificação de tabela à esquerda em coluna com 15 caracteres: " << "\n\n";
+    std::cout << "Justificação com preenchimento dos espppaços em branco com caracter qualquer" << "\n\n";
     col_width=15; // dois caracteres a mais para evitar que os nomes das colunas fiquem colados
     std::cout << std::left;
     std::cout << std::setw(col_width) << "Primeiro Nome" << std::setw(col_width)\
