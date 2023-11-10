@@ -23,6 +23,9 @@
     double exponential = std::exp(10);
     std::cout << "O exponecial de 10 é : " << exponential << '\n';
 
+    std::cout << "\n***** Usando pow(x,y)\n";
+    std::cout << "5 elevado ao quadrado é : " << pow (5, 2); // cinco elevado ao quadrado
+
 
     
 
