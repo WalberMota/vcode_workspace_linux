@@ -7,7 +7,9 @@
 
     //floor
     std::cout << std::floor(peso) << '\n';
-       
+    //ceil
+    std::cout << std::ceil(peso) << '\n';
+    
     return 0;
  }
  
