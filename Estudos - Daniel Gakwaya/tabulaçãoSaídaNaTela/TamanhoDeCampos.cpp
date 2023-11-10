@@ -6,7 +6,7 @@ Data da Criação: 14/07/2023
 Version 01.00 
 locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM)
 i5-5200U CPU @ 2.20GHz (306D4)
-Propósito:  Estudo de formação de campos na saiida de tela
+Propósito:  Estudo de formação de campos na saida de tela
 */
 #include <iostream>
 #include <iomanip>//para setw e setprecision
