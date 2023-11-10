@@ -16,9 +16,14 @@
     std::cout << "\n***** Usando std::abs\n";
     std::cout << valor1 << " tem valor absoluto (abs) de " << std::abs(valor1) << '\n';
     std::cout << peso << " tem valor absoluto (abs) de " << std::abs(peso) << '\n';
+
 //O número e é uma constante matemática que é a base dos logaritmos naturais.\
   Por vezes é chamado número de Euler e equivale a aprox. 2.718281828459045235360
     std::cout << "\n***** Usando exp(x)=e^{x}\n";
+    double exponential = std::exp(10);
+    std::cout << "O exponecial de 10 é : " << exponential << '\n';
+
+
     
 
     return 0;
