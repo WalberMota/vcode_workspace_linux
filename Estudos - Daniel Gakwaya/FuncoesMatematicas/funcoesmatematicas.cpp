@@ -25,7 +25,7 @@
 
     std::cout << "\n***** Usando pow(x,y)\n";
     std::cout << "5 elevado ao quadrado é : " << pow (5, 2); // cinco elevado ao quadrado
-    std::cout << "2 elevado ao cubo é : " << pow (2, 3); // cinco elevado ao quadrado
+    std::cout << "\n2 elevado ao cubo é : " << pow (2, 3); //cinco elevado ao quadrado
 
 
     
