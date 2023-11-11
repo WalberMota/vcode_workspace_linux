@@ -8,11 +8,10 @@ int main(int argc, char const *argv[])
     std::cout <<"\nh = " << h <<"(" << sizeof(h) << " bytes)";
 
     //uso de size_t em for loop
-    std::cout <<'\n';
+    std::cout << "\n\n";
     for (size_t i{0};i<5;i++)
     {
         std::cout << "Eu gosto de c++\n";
-
     }
 
     return 0;
