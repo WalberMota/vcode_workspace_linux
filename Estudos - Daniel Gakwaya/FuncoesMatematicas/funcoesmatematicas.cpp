@@ -35,7 +35,7 @@ base e. Há também outra função que usa a base 10 chamada log10
 std::cout << "\n\n";
 std::cout << "Log; para obter 54.59, você deve elevar e à potencia: " << std::log(54.59) << '\n';
 
-std::cout << "Para obter 10000, você deve elevar 10 à potencia: " << std::log(54.59) << '\n';
+std::cout << "Para obter 10000, você deve elevar 10 à potencia: " << std::log10(10000) << '\n';
 
     
 
