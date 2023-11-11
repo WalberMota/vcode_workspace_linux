@@ -27,6 +27,15 @@
     std::cout << "5 elevado ao quadrado é : " << pow (5, 2); // cinco elevado ao quadrado
     std::cout << "\n2 elevado ao cubo é : " << pow (2, 3); //cinco elevado ao quadrado
 
+/*log : é a função reversa de pow. Se 2³ = 8, log de 8 na base 2 = 3. Log é como perguntar
+"qual expoente devemos elevar 2 para obter o resultado 8". Log por padrão calcula  o log na
+base e. Há também outra função que usa a base 10 chamada log10
+*/
+//tente a função reversa de e⁴ = 54.59, ele será o log 54.59 na base e = ?
+std::cout << "\n\n";
+std::cout << "Log; para obter 54.59, você deve elevar e à potencia: " << std::log(54.59) << '\n';
+
+std::cout << "Para obter 10000, você deve elevar 10 à potencia: " << std::log(54.59) << '\n';
 
     
 
