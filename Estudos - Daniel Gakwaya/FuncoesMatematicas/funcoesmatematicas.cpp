@@ -21,7 +21,7 @@
   Por vezes é chamado número de Euler e equivale a aprox. 2.718281828459045235360
     std::cout << "\n***** Usando exp(x)=e^{x}\n";
     double exponential = std::exp(10);
-    std::cout << "O exponecial de 10 é : " << exponential << '\n';
+    std::cout << "O exponecial de e^10 é : " << exponential << '\n';
 
     std::cout << "\n***** Usando pow(x,y)\n";
     std::cout << "5 elevado ao quadrado é : " << pow (5, 2); // cinco elevado ao quadrado
@@ -39,8 +39,15 @@ base e. Há também outra função que usa a base 10 chamada log10
   std::cout << "Para obter 10000, você deve elevar 10 à potencia: " << std::log10(10000) << '\n';
 
 //sqrt = raiz quadrada de um numero
-  std::cout << "***** Usando std::sqrt()";
-  std::cout << "\n\nA raiz quadrada de 81 é " << std::sqrt(81) << '\n';
+  std::cout << "\n***** Usando std::sqrt()";
+  std::cout << "\nA raiz quadrada de 81 é " << std::sqrt(81) << '\n';
+
+//arredondamento usando std::round()
+  std::cout << "\n***** Usando std::round()";
+  std::cout << "\n3.654 arredondado para  " << std::round(3.654) << '\n';
+  std::cout << "3.454 arredondado para  " << std::round(3.454) << '\n';
+  std::cout << "2.5 arredondado para  " << std::round(2.5) << '\n';
+  std::cout << "2.4 arredondado para  " << std::round(2.4) << '\n';
 
 
     return 0;
