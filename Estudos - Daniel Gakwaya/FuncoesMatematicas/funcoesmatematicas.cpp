@@ -38,7 +38,7 @@ base e. Há também outra função que usa a base 10 chamada log10
   std::cout << "Para obter 10000, você deve elevar 10 à potencia: " << std::log10(10000) << '\n';
 
 //sqrt = raiz quadrada de um numero
-  std::cout "\n\nA raqiiz quadrada de 81 é " << std::sqrt(81) << '\n'
+  std::cout << "\n\nA raiz quadrada de 81 é " << std::sqrt(81) << '\n'
 
 
     return 0;
