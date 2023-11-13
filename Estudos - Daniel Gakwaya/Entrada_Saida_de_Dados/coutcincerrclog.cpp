@@ -9,7 +9,6 @@ int main()
 
     int age{21};
     std::cout << "Age : " << age << std::endl;
-
     std::cerr << "Error message : Something is wrong" << std::endl;
     std::clog << "Log message : Something happened " << std::endl;
 
