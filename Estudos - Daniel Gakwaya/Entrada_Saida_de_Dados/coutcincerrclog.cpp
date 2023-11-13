@@ -45,7 +45,5 @@ int main(){
     std::cout << "Hello " << full_name 
             << " you are " << age3 << " years old!" << std::endl;
 
-
- 
   return 0;
 }
