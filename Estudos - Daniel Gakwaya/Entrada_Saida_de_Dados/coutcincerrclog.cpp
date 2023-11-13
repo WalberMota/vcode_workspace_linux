@@ -4,9 +4,8 @@
 int main()
 {
     // imprimindo dados no terminal
-
+    system("clear");
     std::cout << "Hello C++20 " << std::endl;
-
     int age{21};
     std::cout << "Age : " << age << std::endl;
     std::cerr << "Error message : Something is wrong" << std::endl;
