@@ -27,9 +27,7 @@ int main(){
 
    std::cout << "Hello " << name << " you are " << age1 << " years old!" << std::endl;
 
-   
-
-    //Data with spaces
+   //Dado com espaço (strings com espaço).
 
     std::string full_name;
     int age3;
