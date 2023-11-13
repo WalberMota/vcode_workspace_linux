@@ -24,7 +24,7 @@ int main()
     */
     std::cin >> name >> age1; // introduzindo dados em uma única instrução
 
-    std::cout << "Olá " << name << " tem " << age1 << " anos!" << std::endl;
+    std::cout << "Olá " << name << " vocẽ tem " << age1 << " anos!" << std::endl;
 
     // Dado com espaço (strings com espaço).
     std::string full_name;
@@ -33,11 +33,11 @@ int main()
    A importanca de "cin.ignore()" : acontece que um feed de linha implícito, também conhecido como caractere de nova linha \n, é anexado a todas as entradas do usuário em um terminal O comportamento padrão de std::getline irá ler tudo, incluindo o caractere de nova linha \n do objeto de fluxo de entrada que é std::cin neste caso.
    */
     std::cin.ignore();
-    std::cout << "Please type in your full name and age " << std::endl;
+    std::cout << "Porfavor digite seu nome completo e sua idade " << std::endl;
     std::getline(std::cin, full_name);
     std::cin >> age3;
-    std::cout << "Hello " << full_name
-              << " you are " << age3 << " years old!" << std::endl;
+    std::cout << "Olá " << full_name
+              << " você tem " << age3 << " anos!" << std::endl;
 
     return 0;
 }
