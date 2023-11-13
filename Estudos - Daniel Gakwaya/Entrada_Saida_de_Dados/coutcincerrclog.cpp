@@ -3,7 +3,7 @@
 
 int main()
 {
-    // imprimindo dados no terminal
+    // imprimindo dados no terminal***********************************
     system("clear");
     std::cout << "Olá C++20 " << std::endl;
     int age{21};
@@ -11,7 +11,7 @@ int main()
     std::cerr << "Mensagem de erro : Alguma coisa está errada" << std::endl;
     std::clog << "Mensagem log : Alguma coisa aconteceu " << std::endl;
 
-    // Introduzido dados para o programa (Data input)
+    // Introduzido dados para o programa (Data input)***********************************
     std::cout << '\n';
 
     int age1;
@@ -26,7 +26,8 @@ int main()
 
     std::cout << "Olá " << name << " vocẽ tem " << age1 << " anos!" << std::endl;
 
-    // Dado com espaço (strings com espaço).
+    // Dado com espaço (strings com espaço).***********************************
+    std::cout << '\n';
     std::string full_name;
     int age3;
     /*
