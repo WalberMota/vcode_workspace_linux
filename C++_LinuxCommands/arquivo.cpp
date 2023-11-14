@@ -44,6 +44,6 @@ int main(int argc, char const *argv[])
     }    
     
     std::string str(vet->begin(),vet->end());//transforma o vetor em string 
-    std::cout <<"final : "<<str; // imprime a string com mês e dia 
+    std::cout <<"Data da criação do plocat.db : "<<str; // imprime a string com mês e dia 
     return 0;
 }
