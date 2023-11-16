@@ -66,14 +66,14 @@ public:
 int main(int argc, char const *argv[])
 {
     
-    Aluno *a1=new Aluno(11451,"Beltrano"); // devido o construtor quando o objeto\
-                                         é criado é neecessário passar os parâmetros
+    Aluno *a1=new Aluno(11451,"Beltrano"); // devido o construtor ser parametrizado quando\
+                                              o objeto, é criado é neecessário passar os parâmetros
 
     std::cout << "\nCódigo aluno a1 = " << a1->getCodigo()<<'\n';
     std::cout << "Nome   aluno a1 = " << a1->getNome()<<'\n';
 
-    Aluno a2(23510,"Maria");// devido o construtor quando o objeto\
-                              é criado é neecessário passar os parâmetros
+    Aluno a2(23510,"Maria");// devido o construtor ser parametrizado quando\
+                               o objeto, é criado é neecessário passar os parâmetros
  
     std::cout << "\nCódigo aluno a2 = " << a2.getCodigo() <<'\n';
     std::cout << "Nome   aluno a2 = " << a2.getNome() <<'\n';
