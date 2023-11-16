@@ -17,7 +17,7 @@ private:
     std::string nome;
 
 public:
-    //Construtor - é o tipo com argumento ou chamado de construtor parametrizado
+    //Construtor - este é do tipo com argumento ou chamado de construtor parametrizado
     Aluno(int codigo, std::string nome)
     {
         this->setCodigo(codigo);
