@@ -88,7 +88,7 @@ int main(int argc, char const *argv[])
     //Utilizando construtor de cópia para criar uma cópia do objeto a2.
 	Aluno x = a2;
 
-    std::cout << "\nUsando um construtor de cópia foii criado o objeto x";
+    std::cout << "\nUsando um construtor de cópia foi criado o objeto 'aluno x'";
 	std::cout << "\nCódigo do aluno x = " << x.getCodigo() << '\n';
 	std::cout << "Nome do aluno x = " << x.getNome() << '\n';
     
