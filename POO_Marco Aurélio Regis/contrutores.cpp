@@ -79,6 +79,6 @@ int main(int argc, char const *argv[])
     std::cout << "Nome   aluno a2 = " << a2.getNome() <<'\n';
     delete(a1); // Para não deixar lixo de memória - como tudo ocorre dentro da função main que é\
                    nesta caso muito cursa, pois quando ela termina todos os objetos são destruídos\
-                   automatiiamenteNão é necessário e a2 por estar na pilha é automaticamente.
+                   automatiiamenteNão é necessário e a2 por estar na pilha é automaticamente. 
     return 0;
 }
