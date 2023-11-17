@@ -24,7 +24,7 @@ public:
         this->setNome(nome);
     }
 	
-    //Construtor de cópida
+    //Construtor de cópida - é sempre criado utilizando uma referência
 	Aluno(const Aluno &a) {
 		this->codigo = a.codigo;
 		this->nome = a.nome;
