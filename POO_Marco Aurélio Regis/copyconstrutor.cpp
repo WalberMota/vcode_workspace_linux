@@ -84,6 +84,14 @@ int main(int argc, char const *argv[])
  
     std::cout << "\nCódigo aluno a2 = " << a2.getCodigo() <<'\n';
     std::cout << "Nome   aluno a2 = " << a2.getNome() <<'\n';
+
+    //Utilizando construtor de cópia para criar uma cópia do objeto a2.
+	Aluno x = a2;
+
+	std::cout << x.getCodigo() << " ";
+	std::cout << x.getNome() << '\n';
+    
+    
     delete(a1); // Para não deixar lixo de memória - como tudo ocorre dentro da função main que é\
                    nesta caso muito cursa, pois quando ela termina todos os objetos são destruídos\
                    automatiiamenteNão é necessário e a2 por estar na pilha é automaticamente. 
