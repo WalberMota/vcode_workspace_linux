@@ -88,8 +88,8 @@ int main(int argc, char const *argv[])
     //Utilizando construtor de cópia para criar uma cópia do objeto a2.
 	Aluno x = a2;
 
-	std::cout << x.getCodigo() << " ";
-	std::cout << x.getNome() << '\n';
+	std::cout << "\nCódigo do aluno x = " << x.getCodigo() << " ";
+	std::cout << "Nome do aluno x = " << x.getNome() << '\n';
     
     
     delete(a1); // Para não deixar lixo de memória - como tudo ocorre dentro da função main que é\
