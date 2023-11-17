@@ -43,7 +43,7 @@ public:
         if (codigo<0)//o encapsulamento isolou o atributo 'codigo' \
                         e permitiu criar uma REGRA DE NEGÓCIOS - código não pode ser negativo
         {
-            codigo *=(-1);
+            codigo *=(-1);//
         }
         if (codigo==0)
         {
@@ -77,7 +77,8 @@ int main(int argc, char const *argv[])
  
     std::cout << "\nCódigo aluno a2 = " << a2.getCodigo() <<'\n';
     std::cout << "Nome   aluno a2 = " << a2.getNome() <<'\n';
-    delete(a1); // Para não deixar lixo de memória - como tudo ocorre dentro da função main\
-                   Não é necessário. a2 por estar na pilha é automaticamente destruida quando main acaba.
+    delete(a1); // Para não deixar lixo de memória - como tudo ocorre dentro da função main que é\
+                   nesta caso muito cursa, pois quando ela termina todos os objetos são destruídos\
+                   automatiiamenteNão é necessário e a2 por estar na pilha é automaticamente.
     return 0;
 }
