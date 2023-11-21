@@ -36,7 +36,7 @@ namespace graduacao {
 		Aluno();
 		//Construtor parametrizado
 		Aluno(int codigo, string nome);
-		//Construtor de c�pida
+		//Construtor de cópia
 		Aluno(const Aluno &a);
 		//Destrutor da classe
 		~Aluno();
