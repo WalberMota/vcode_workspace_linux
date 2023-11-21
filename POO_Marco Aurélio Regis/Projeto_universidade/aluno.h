@@ -19,7 +19,6 @@ namespace posgraduacao {
 
 	};
 }
-
 /***********************************************/
 
 namespace graduacao {
@@ -37,7 +36,7 @@ namespace graduacao {
 		Aluno();
 		//Construtor parametrizado
 		Aluno(int codigo, string nome);
-		//Construtor de cópida
+		//Construtor de cï¿½pida
 		Aluno(const Aluno &a);
 		//Destrutor da classe
 		~Aluno();
@@ -53,7 +52,7 @@ namespace graduacao {
 		void setNotas(float notas[]);
 		float calculaMedia();
 
-		//Função amiga declarada na classe Professor
+		//Funï¿½ï¿½o amiga declarada na classe Professor
 		friend void Professor::alteraNotaAlunoGraduacao(Aluno &a, float n1, float n2);
 	};
 
