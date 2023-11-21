@@ -5,7 +5,7 @@
  *      Author: Marco
  */
 
-#include "aluno.h"
+#include "aluno.h" //adiciona o header file que contem os prot√≥tipos das fun√ß√µes daqui.
 
 //Construtor parametrizado
 graduacao::Aluno::Aluno(int codigo, string nome) {
@@ -15,7 +15,7 @@ graduacao::Aluno::Aluno(int codigo, string nome) {
 	cout << "objeto criado" << endl;
 }
 
-//Construtor de cÛpida
+//Construtor de cÔøΩpida
 graduacao::Aluno::Aluno(const Aluno &a) {
 	this->codigo = a.codigo;
 	this->nome = a.nome;
@@ -25,7 +25,7 @@ graduacao::Aluno::Aluno(const Aluno &a) {
 
 //Destrutor da classe
 graduacao::Aluno::~Aluno() {
-	cout << "objeto destruÌdo" << endl;
+	cout << "objeto destruÔøΩdo" << endl;
 }
 
 //GETTERS - accessor methods
@@ -43,8 +43,8 @@ float *graduacao::Aluno::getNotas() {
 
 //SETTERS - mutator methods
 void graduacao::Aluno::setCodigo(int codigo) {
-	if(codigo < 0) { //Se o valor de cÛdigo for negativo
-		this->codigo = (-1) * codigo; //O valor È convertido para positivo
+	if(codigo < 0) { //Se o valor de cÔøΩdigo for negativo
+		this->codigo = (-1) * codigo; //O valor ÔøΩ convertido para positivo
 	}
 	else{
 		this->codigo = codigo;
