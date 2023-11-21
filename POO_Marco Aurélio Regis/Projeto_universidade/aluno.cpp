@@ -15,7 +15,7 @@ graduacao::Aluno::Aluno(int codigo, string nome) {
 	cout << "objeto criado" << endl;
 }
 
-//Construtor de c�pida
+//Construtor de cópia
 graduacao::Aluno::Aluno(const Aluno &a) {
 	this->codigo = a.codigo;
 	this->nome = a.nome;
@@ -25,7 +25,7 @@ graduacao::Aluno::Aluno(const Aluno &a) {
 
 //Destrutor da classe
 graduacao::Aluno::~Aluno() {
-	cout << "objeto destru�do" << endl;
+	cout << "objeto destruído" << endl;
 }
 
 //GETTERS - accessor methods
@@ -60,7 +60,7 @@ void graduacao::Aluno::setNotas(float notas[]) {
 	this->notas[1] = notas[1];
 }
 
-/*************************************************/
+/******************função que calcula a média das notas*********************/
 
 float graduacao::Aluno::calculaMedia() {
 	float soma = 0.0f;
