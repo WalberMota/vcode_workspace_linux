@@ -52,7 +52,7 @@ namespace graduacao {
 		void setNotas(float notas[]);
 		float calculaMedia();
 
-		//Fun��o amiga declarada na classe Professor
+		//Função amiga declarada na classe Professor
 		friend void Professor::alteraNotaAlunoGraduacao(Aluno &a, float n1, float n2);
 	};
 
