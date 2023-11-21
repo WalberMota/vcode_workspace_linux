@@ -30,7 +30,7 @@ public:
 	Professor();
 	//Construtor parametrizado
 	Professor(int codigo, string nome);
-	//Construtor de cópida
+	//Construtor de cï¿½pida
 	Professor(const Professor &p);
 	//Destrutor da classe
 	~Professor();
