@@ -20,18 +20,18 @@ int main() {
 	cout << a1->getCodigo() << " ";
 	cout << a1->getNome() << endl;
 
-	Aluno a2(200, "Maria"); //O objeto a2 � armazenado na �rea de PILHA (STACK) em mem�ria.
+	Aluno a2(200, "Maria"); //O objeto a2 é armazenado na área de PILHA (STACK) em mem�ria.
 
 	cout << a2.getCodigo() << " ";
 	cout << a2.getNome() << endl;
 
-	//Utilizando construtor de c�pia para criar uma c�pia do objeto a2.
+	//Utilizando construtor de cópia para criar uma cópia do objeto a2.
 	Aluno x = a2;
 
 	cout << x.getCodigo() << " ";
 	cout << x.getNome() << endl;
 
-	//Chamada ao destrutor da classe para desalocar o objeto em mem�ria
+	//Chamada ao destrutor da classe para desalocar o objeto em memória
 	delete a1;
 
 	//Calula m�dia notas de Maria
