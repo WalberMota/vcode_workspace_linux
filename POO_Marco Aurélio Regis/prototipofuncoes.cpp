@@ -61,7 +61,7 @@ int main(int argc, char const *argv[])
     Aluno *a1=new Aluno(5050,"Jose"); // HEAP(longo período)
     //a1->setCodigo(0);
 
-    std::cout << "Código aluno a1 = " << a1->getCodigo()<<'\n';
+    std::cout << "Código aluno  a1= " << a1->getCodigo()<<'\n';
     std::cout << "Nome do aluno a1= " << a1->getNome()<<'\n';
 
     Aluno a2(1010,"Marcos");   //STACK (pilha)(deleção automatica).
