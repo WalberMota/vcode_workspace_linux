@@ -18,7 +18,8 @@ public:
 
         std::cout << "objeto criado\n";
     }
-    ~Aluno(){}
+    ~Aluno(){std::cout << "Objeto destruído..."<< '\n';}
+    
     //========================
     int getCodigo()
     {
@@ -69,6 +70,8 @@ int main(int argc, char const *argv[])
     a2.setCodigo(100);
 
     std::cout << "Código aluno a2 = " << a2.getCodigo() <<'\n';
+
+    delete a1;
 
     return 0;
 }
