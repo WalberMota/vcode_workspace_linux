@@ -10,7 +10,7 @@ private:
     //float notas[2]{0.0,0.0};
 
 public:
-    
+    //construtor com dois parâmetros
     Aluno(int codigo, std::string nome)
     {
         this -> setCodigo(codigo);
