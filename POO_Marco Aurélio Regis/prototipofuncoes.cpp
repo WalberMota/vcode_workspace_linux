@@ -35,8 +35,8 @@ public:
     //geralmente 'void' porque somente atribui um valor para um atributo da classe.
     void setCodigo(int codigo)
     {
-        if (codigo<0)//o encapsulamento isolou o atributo 'codigo' \
-                        e permitiu criar uma regra de negócio - código não pode ser negativo
+        //o encapsulamento isolou o atributo 'codigo' e permitiu criar uma regra de negócio
+        if (codigo<0)
         {
             codigo *=(-1);//transforam um valor negativo em positivo
         }
