@@ -65,6 +65,7 @@ int main(int argc, char const *argv[])
     std::cout << "Nome do aluno a1 = " << a1->getNome()   << '\n';
     std::cout << "Código aluno  a1 = " << a1->getCodigo() << '\n';
 
+    delete a1;//o destrutor é necessário pois o objeto está na HEAP.
 
     Aluno a2(1010,"Marcos");   //STACK (pilha)(deleção automatica) (acesso pela notação ponto)
     a2.setCodigo(100);
