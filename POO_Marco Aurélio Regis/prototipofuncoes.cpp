@@ -57,16 +57,12 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    Aluno *a1=new Aluno(5050,"Jose"); // aqui o objeto é armazenado na HEAP, quando precisamos do \
-                                objeto por longo período na aplicação. Quando não for mais útil\
-                                teremos que usar 'delete' para liberar da memória.
-    //somente altera o atributo codigo usando o método setCodigo (encapsulamento).
-    a1->setCodigo(0); //aqui neste caso da HEAP estamos trabalhando com ponteiros.    
+    Aluno *a1=new Aluno(5050,"Jose"); // HEAP(longo período)
+    a1->setCodigo(0);
 
     std::cout << "Código aluno a1 = " << a1->getCodigo()<<'\n';
 
-    Aluno a2(1010,"Marcos");   //aqui o objeto criado é armazenado na STACK (pilha). Quando a vida dele está\
-                 delimitada dentro de um escopo então não precisamos dele muito tempo (deleção automatica).
+    Aluno a2(1010,"Marcos");   //STACK (pilha)(deleção automatica).
     a2.setCodigo(100);
 
     std::cout << "Código aluno a2 = " << a2.getCodigo() <<'\n';
