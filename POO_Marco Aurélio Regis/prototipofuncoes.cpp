@@ -16,9 +16,9 @@ public:
         this -> setCodigo(codigo);
         this -> setNome(nome);
 
-        std::cout << "objeto criado\n";
+        std::cout << "\nobjeto criado\n";
     }
-    ~Aluno(){std::cout << "Objeto destruído..."<< '\n';}
+    ~Aluno(){std::cout << "Objeto destruído ";}
 
     //========================
     int getCodigo()
@@ -66,12 +66,12 @@ int main(int argc, char const *argv[])
     std::cout << "Código aluno  a1 = " << a1->getCodigo() << '\n';
 
     delete a1;//o destrutor é necessário pois o objeto está na HEAP.
-
+    std::cout << "manualmente";
     Aluno a2(1010,"Marcos");   //STACK (pilha)(deleção automatica) (acesso pela notação ponto)
     a2.setCodigo(100);
 
-    std::cout << "Nome   aluno a2 = " << a2.getNome() <<'\n';
-    std::cout << "Código aluno a2 = " << a2.getCodigo() <<'\n';
+    std::cout << "Nome   aluno a2 = " << a2.getNome();
+    std::cout << "\nCódigo aluno a2 = " << a2.getCodigo();
 
     return 0;
 }
