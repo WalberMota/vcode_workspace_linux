@@ -65,8 +65,8 @@ int main(int argc, char const *argv[])
 
     std::cout << "Código aluno a1 = " << a1->getCodigo()<<'\n';
 
-    Aluno a2();   //aqui o objeto criado é armazenado na STACK (pilha). Quaundo a vida dele está delimitada\
-                    dentro de um escopo então não precisamos dele muito tempo (deleção automatica).
+    Aluno a2(1010,"Marcos");   //aqui o objeto criado é armazenado na STACK (pilha). Quando a vida dele está\
+                 delimitada dentro de um escopo então não precisamos dele muito tempo (deleção automatica).
     a2.setCodigo(100);
 
     std::cout << "Código aluno a2 = " << a2.getCodigo() <<'\n';
