@@ -59,7 +59,7 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    Aluno *a1=new Aluno(5050,"Jose"); // HEAP(longo período)
+    Aluno *a1=new Aluno(5050,"Jose"); // HEAP(longo período),o construtor parametrizado exigiu que fossem passados parâmetros quando o objeto foi criado.
     //a1->setCodigo(0);
 
     std::cout << "Nome do aluno a1 = " << a1->getNome()   << '\n';
