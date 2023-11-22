@@ -7,7 +7,7 @@ private:
     int codigo;
     std::string nome;
 
-    float notas[2]{0.0,0.0};
+    //float notas[2]{0.0,0.0};
 
 public:
     
@@ -19,7 +19,7 @@ public:
         std::cout << "objeto criado\n";
     }
     ~Aluno(){}
-
+    //========================
     int getCodigo()
     {
         return codigo;
@@ -28,6 +28,7 @@ public:
     {
         return nome;
     }
+    //========================
     //Setters - as vezes chamados "mutator methods" em algumas literaturas.
     // aqui criaremos dois setters - um para o atributo 'codigo' e outro para o atributo 'nome'
     //geralmente 'void' porque somente atribui um valor para um atributo da classe.
