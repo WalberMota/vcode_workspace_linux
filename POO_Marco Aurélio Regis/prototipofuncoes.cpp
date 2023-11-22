@@ -37,7 +37,7 @@ public:
         if (codigo<0)//o encapsulamento isolou o atributo 'codigo' \
                         e permitiu criar uma regra de negócio - código não pode ser negativo
         {
-            codigo *=(-1);
+            codigo *=(-1);//transforam um valor negativo em positivo
         }
         if (codigo==0)
         {
