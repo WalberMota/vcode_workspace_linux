@@ -11,17 +11,21 @@ private:
 
 public:
 
-
     Aluno(int codigo, std::string nome)
     {
         this -> setCodigo(codigo);
         this -> setNome(nome);
 
-        std::cout << "\nobjeto criado\n";
-    }
-    ~Aluno(){std::cout << "\nObjeto destruído ";}
+        std::cout << "objeto criado";
 
-    //========================
+    }
+
+    ~Aluno()
+    {
+        std::cout << "\nObjeto destruído ";
+    
+    }
+
     int getCodigo()
     {
         return codigo;
@@ -30,6 +34,7 @@ public:
     {
         return nome;
     }
+
 
     void setCodigo(int codigo)
     {
@@ -46,11 +51,11 @@ public:
         {
         this->codigo=codigo;
     }
-
     void setNome(std::string nome)
     {
         this->nome=nome;
     }
+
 };
 
 
