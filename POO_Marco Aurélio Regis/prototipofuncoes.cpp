@@ -16,7 +16,7 @@ public:
         this -> setCodigo(codigo);
         this -> setNome(nome);
 
-        std::cout << "\nobjeto criado\n";
+        std::cout << "\nobjeto criado\n\n";
     }
     ~Aluno(){std::cout << "\nObjeto destruído ";}
 
