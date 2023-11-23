@@ -18,7 +18,7 @@ public:
 
         std::cout << "\nobjeto criado\n";
     }
-    ~Aluno(){std::cout << "Objeto destruído ";}
+    ~Aluno(){std::cout << "\nObjeto destruído ";}
 
     //========================
     int getCodigo()
@@ -59,14 +59,14 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    Aluno *a1=new Aluno(5050,"Jose"); // HEAP(longo período),o construtor parametrizado exigiu que fossem passados parâmetros quando o objeto foi criado.(acesso pela notação seta)
+/*     Aluno *a1=new Aluno(5050,"Jose"); // HEAP(longo período),o construtor parametrizado exigiu que fossem passados parâmetros quando o objeto foi criado.(acesso pela notação seta)
     //a1->setCodigo(0);
 
     std::cout << "Nome do aluno a1 = " << a1->getNome()   << '\n';
     std::cout << "Código aluno  a1 = " << a1->getCodigo() << '\n';
 
     delete a1;//o destrutor é necessário pois o objeto está na HEAP.
-    std::cout << "manualmente";
+    std::cout << "manualmente"; */
     Aluno a2(1010,"Marcos");   //STACK (pilha)(deleção automatica) (acesso pela notação ponto)
     a2.setCodigo(100);
 
