@@ -9,7 +9,7 @@ private:
     float notas[2]{0.0, 0.0};
 
 public:
-    // ******* protótipos das funções *********
+    // ******* functions's prototypes *********
     // contrutor e destrutor
     Aluno(int codigo, std::string nome);
     ~Aluno();
@@ -26,7 +26,7 @@ public:
     // método que calcula a média das notas.
     float calculaMedia();
 };
-//Enter point
+//entry point
 int main(int argc, char const *argv[])
 {
     Aluno *a1 = new Aluno(5050, "Jose");
@@ -47,6 +47,7 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
+//function implementation
 Aluno::Aluno(int codigo, std::string nome)
 {
     this->setCodigo(codigo);
