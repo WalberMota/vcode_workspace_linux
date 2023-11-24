@@ -17,6 +17,8 @@ public:
     // getters
     int getCodigo();
     std::string getNome();
+	float *getNotas();
+
     // setters
     void setNome(std::string nome);
     void setCodigo(int codigo);
@@ -45,40 +47,40 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-Aluno(int codigo, std::string nome)
+Aluno::Aluno(int codigo, std::string nome)
 {
     this->setCodigo(codigo);
     this->setNome(nome);
 
     std::cout << "objeto criado";
 }
-~Aluno()
+Aluno::~Aluno()
 {
     std::cout << "\nObjeto destruído ";
 }
 // gets
-int getCodigo()
+int Aluno::getCodigo()
 {
     return codigo;
 }
 
-std::string getNome()
+std::string Aluno::getNome()
 {
     return nome;
 }
 
-float *getNotas()
+float *Aluno::getNotas()
 {
     return notas;
 }
 
 // setters
-void setNome(std::string nome)
+void Aluno::setNome(std::string nome)
 {
     this->nome = nome;
 }
 
-void setCodigo(int codigo)
+void Aluno::setCodigo(int codigo)
 {
     if (codigo < 0)
     {
@@ -93,20 +95,20 @@ void setCodigo(int codigo)
         this->codigo = codigo;
     }
 }
-void setNotas(float *notas)
+void Aluno::setNotas(float *notas)
 {
     this->notas[0] = notas[0];
     this->notas[1] = notas[1];
 }
 
-float calculaMedia()
+float Aluno::calculaMedia()
 {
     float media = 0.0f;
 
     float *p = &notas[0];
     media = media + *p;
     p++;
-    mediia = mediia + *p;
+    media = media + *p;
     p++;
     media = media + *p;
     return media / 2;
