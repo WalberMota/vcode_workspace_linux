@@ -6,7 +6,6 @@ class Aluno
 private:
     int codigo;
     std::string nome;
-
     float notas[2]{0.0, 0.0};
 
 public:
@@ -14,6 +13,7 @@ public:
     // contrutor e destrutor
     Aluno(int codigo, std::string nome);
     ~Aluno();
+
     // getters
     int getCodigo();
     std::string getNome();
@@ -26,7 +26,7 @@ public:
     // método que calcula a média das notas.
     float calculaMedia();
 };
-
+//Enter point
 int main(int argc, char const *argv[])
 {
     Aluno *a1 = new Aluno(5050, "Jose");
