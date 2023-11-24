@@ -10,7 +10,7 @@ private:
     float notas[2]{0.0, 0.0};
 
 public:
-    // protótipos das funções.
+// protótipos das funções.
     Aluno(int codigo, std::string nome);
     ~Aluno();
     //getters
