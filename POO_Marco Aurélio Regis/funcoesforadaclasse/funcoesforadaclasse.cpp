@@ -20,7 +20,7 @@ public:
     // setters
     void setNome(std::string nome);
     void setCodigo(int codigo);
-
+    //método que calcula a média das notas.
     float calculaMedia();
 };
 
