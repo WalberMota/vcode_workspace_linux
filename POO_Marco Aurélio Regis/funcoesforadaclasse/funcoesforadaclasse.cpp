@@ -10,71 +10,18 @@ private:
     float notas[2]{0.0, 0.0};
 
 public:
-// protótipos das funções.
-    //contrutor e destrutor
+// ******* protótipos das funções *********
+    // contrutor e destrutor
     Aluno(int codigo, std::string nome);
     ~Aluno();
-    //getters
+    // getters
     int getCodigo();
     std::string getNome();
-    //setters
+    // setters
     void setNome(std::string nome);
     void setCodigo(int codigo);
 
     float calculaMedia();
-
-
-    Aluno(int codigo, std::string nome)
-    {
-        this->setCodigo(codigo);
-        this->setNome(nome);
-
-        std::cout << "objeto criado";
-    }
-    ~Aluno()
-    {
-        std::cout << "\nObjeto destruído ";
-    }
-    // gets
-    int getCodigo()
-    {
-        return codigo;
-    }
-    std::string getNome()
-    {
-        return nome;
-    }
-    float *getNotas()
-    {
-        return notas;
-    }
-
-    // setters
-    void setNome(std::string nome)
-    {
-        this->nome = nome;
-    }
-
-    void setCodigo(int codigo)
-    {
-        if (codigo < 0)
-        {
-            codigo *= (-1);
-        }
-        if (codigo == 0)
-        {
-            std::cout << "código não pode ser zero! Tente novamente...";
-        }
-        else
-        {
-            this->codigo = codigo;
-        }
-    }
-    void setNotas(float *notas)
-    {
-        this->notas[0] = notas[0];
-        this->notas[1] = notas[1];
-    }
 };
 
 int main(int argc, char const *argv[])
