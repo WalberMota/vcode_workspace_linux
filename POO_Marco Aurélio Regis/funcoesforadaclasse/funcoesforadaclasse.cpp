@@ -13,7 +13,9 @@ public:
 
     Aluno(int codigo, std::string nome);
     ~Aluno();
-
+    int getCodigo();
+    std::string getNome();
+     
 
     Aluno(int codigo, std::string nome)
     {
