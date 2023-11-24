@@ -11,6 +11,7 @@ private:
 
 public:
 // protótipos das funções.
+    //contrutor e destrutor
     Aluno(int codigo, std::string nome);
     ~Aluno();
     //getters
@@ -19,6 +20,9 @@ public:
     //setters
     void setNome(std::string nome);
     void setCodigo(int codigo);
+
+    float calculaMedia();
+
 
     Aluno(int codigo, std::string nome)
     {
