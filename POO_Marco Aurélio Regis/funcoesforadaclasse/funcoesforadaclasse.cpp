@@ -7,18 +7,18 @@ private:
     int codigo;
     std::string nome;
 
-    float notas[2]{0.0,0.0};
+    float notas[2]{0.0, 0.0};
 
 public:
-    //protótipos das funções.
+    // protótipos das funções.
     Aluno(int codigo, std::string nome);
     ~Aluno();
+    //getters
     int getCodigo();
     std::string getNome();
+    //setters
     void setNome(std::string nome);
     void setCodigo(int codigo);
-
-
 
     Aluno(int codigo, std::string nome)
     {
@@ -40,7 +40,7 @@ public:
     {
         return nome;
     }
-    float getNotas()
+    float *getNotas()
     {
         return notas;
     }
@@ -65,6 +65,11 @@ public:
         {
             this->codigo = codigo;
         }
+    }
+    void setNotas(float *notas)
+    {
+        this->notas[0] = notas[0];
+        this->notas[1] = notas[1];
     }
 };
 
