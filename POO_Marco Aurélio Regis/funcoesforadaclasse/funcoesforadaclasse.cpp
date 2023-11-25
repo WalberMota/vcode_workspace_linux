@@ -35,20 +35,19 @@ int main(int argc, char const *argv[])
     std::cout << "Nome do aluno a1 = " << a1->getNome() << '\n';
     std::cout << "Código aluno  a1 = " << a1->getCodigo() << '\n';
 
-    //delete a1;
-    //std::cout << "manualmente\n";
+    delete a1;
+    std::cout << "manualmente\n";
 
     Aluno a2(1010, "Maria");
     a2.setCodigo(-100);
 
     std::cout << "Nome   aluno a2 = " << a2.getNome();
     std::cout << "\nCódigo aluno a2 = " << a2.getCodigo();
-    delete a1;
 
     //Calula média notas de Maria
 	float notas_maria[2] = {10.0, 8.5};
 	a2.setNotas(notas_maria);
-	std::cout << "Média das notas de Maria é " << a2.calculaMedia() << '\n';
+	std::cout << "\nMédia das notas de Maria é " << a2.calculaMedia() << '\n';
     return 0;
 }
 
