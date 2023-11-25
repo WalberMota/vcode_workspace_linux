@@ -36,7 +36,7 @@ int main(int argc, char const *argv[])
     std::cout << "Código aluno  a1 = " << a1->getCodigo() << '\n';
 
     delete a1;
-    std::cout << "manualmente\n";
+    std::cout << "manualmente\n\n";
 
     Aluno a2(1010, "Maria");
     a2.setCodigo(-100);
@@ -57,11 +57,11 @@ Aluno::Aluno(int codigo, std::string nome)
     this->setCodigo(codigo);
     this->setNome(nome);
 
-    std::cout << "objeto criado";
+    std::cout << "objeto criado\n";
 }
 Aluno::~Aluno()
 {
-    std::cout << "\nObjeto destruído ";
+    std::cout << "Objeto destruído ";
 }
 // gets
 int Aluno::getCodigo()
