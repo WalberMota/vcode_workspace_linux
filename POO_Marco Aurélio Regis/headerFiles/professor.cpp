@@ -1,6 +1,10 @@
 #include "professor.h"
 
-//Construtor parametrizado
+Professor::Professor()
+{
+}
+
+// Construtor parametrizado
 Professor::Professor(int codigo, string nome) {
 	this->setCodigo(codigo);
 	this->setNome(nome);
@@ -18,7 +22,7 @@ Professor::Professor(const Professor &p) {
 
 //Destrutor da classe
 Professor::~Professor() {
-	cout << "objeto destru�do" << endl;
+	cout << "objeto destruído" << endl;
 }
 
 //GETTERS - accessor methods

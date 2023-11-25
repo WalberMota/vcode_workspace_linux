@@ -23,7 +23,7 @@ public:
 	Professor();
 	//Construtor parametrizado
 	Professor(int codigo, string nome);
-	//Construtor de c�pida
+	//Construtor de copia
 	Professor(const Professor &p);
 	//Destrutor da classe
 	~Professor();
