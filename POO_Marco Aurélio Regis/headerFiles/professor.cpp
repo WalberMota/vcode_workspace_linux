@@ -8,7 +8,7 @@ Professor::Professor(int codigo, string nome) {
 	cout << "objeto criado" << endl;
 }
 
-//Construtor de c�pida
+//Construtor de cópia
 Professor::Professor(const Professor &p) {
 	this->codigo = p.codigo;
 	this->nome = p.nome;
@@ -32,8 +32,8 @@ string Professor::getNome() {
 
 //SETTERS - mutator methods
 void Professor::setCodigo(int codigo) {
-	if(codigo < 0) { //Se o valor de c�digo for negativo
-		this->codigo = (-1) * codigo; //O valor � convertido para positivo
+	if(codigo < 0) { //Se o valor de codigo for negativo
+		this->codigo = (-1) * codigo; //O valor é convertido para positivo
 	}
 	else{
 		this->codigo = codigo;
