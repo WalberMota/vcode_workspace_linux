@@ -1,10 +1,3 @@
-/*
- * professor.cpp
- *
- *  Created on: 19 de jun de 2017
- *      Author: Marco
- */
-
 #include "professor.h"
 
 //Construtor parametrizado
@@ -15,7 +8,7 @@ Professor::Professor(int codigo, string nome) {
 	cout << "objeto criado" << endl;
 }
 
-//Construtor de cópida
+//Construtor de cï¿½pida
 Professor::Professor(const Professor &p) {
 	this->codigo = p.codigo;
 	this->nome = p.nome;
@@ -25,7 +18,7 @@ Professor::Professor(const Professor &p) {
 
 //Destrutor da classe
 Professor::~Professor() {
-	cout << "objeto destruído" << endl;
+	cout << "objeto destruï¿½do" << endl;
 }
 
 //GETTERS - accessor methods
@@ -39,8 +32,8 @@ string Professor::getNome() {
 
 //SETTERS - mutator methods
 void Professor::setCodigo(int codigo) {
-	if(codigo < 0) { //Se o valor de código for negativo
-		this->codigo = (-1) * codigo; //O valor é convertido para positivo
+	if(codigo < 0) { //Se o valor de cï¿½digo for negativo
+		this->codigo = (-1) * codigo; //O valor ï¿½ convertido para positivo
 	}
 	else{
 		this->codigo = codigo;

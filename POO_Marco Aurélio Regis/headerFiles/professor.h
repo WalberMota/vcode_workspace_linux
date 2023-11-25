@@ -1,10 +1,3 @@
-/*
- * professor.h
- *
- *  Created on: 19 de jun de 2017
- *      Author: Marco
- */
-
 #include "aluno.h"
 
 #ifndef PROFESSOR_H_

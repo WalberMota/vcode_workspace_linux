@@ -1,10 +1,3 @@
-/*
- * aluno.h
- *
- *  Created on: 19 de jun de 2017
- *      Author: Marco
- */
-
 #ifndef ALUNO_H_
 #define ALUNO_H_
 

@@ -1,10 +1,3 @@
-/*
- * aluno.cpp
- *
- *  Created on: 19 de jun de 2017
- *      Author: Marco
- */
-
 #include "aluno.h" //adiciona o header file que contem os protótipos das funções daqui.
 
 //Construtor parametrizado
