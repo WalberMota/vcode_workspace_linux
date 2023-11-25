@@ -44,6 +44,11 @@ int main(int argc, char const *argv[])
     std::cout << "Nome   aluno a2 = " << a2.getNome();
     std::cout << "\nCódigo aluno a2 = " << a2.getCodigo();
 
+
+    	//Calula média notas de Maria
+	float notas_maria[2] = {10.0, 8.5};
+	a2.setNotas(notas_maria);
+	std::cout << "Média das notas de Maria é " << a2.calculaMedia() << '\n';
     return 0;
 }
 
