@@ -44,7 +44,7 @@ int main(int argc, char const *argv[])
     std::cout << "Nome   aluno a2 = " << a2.getNome();
     std::cout << "\nCódigo aluno a2 = " << a2.getCodigo();
     delete a1;
-    
+
     //Calula média notas de Maria
 	float notas_maria[2] = {10.0, 8.5};
 	a2.setNotas(notas_maria);
@@ -112,8 +112,6 @@ float Aluno::calculaMedia()
     float media = 0.0f;
 
     float *p = &notas[0];
-    media = media + *p;
-    p++;
     media = media + *p;
     p++;
     media = media + *p;
