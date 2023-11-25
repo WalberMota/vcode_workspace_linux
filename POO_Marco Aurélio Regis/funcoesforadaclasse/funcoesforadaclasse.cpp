@@ -38,14 +38,14 @@ int main(int argc, char const *argv[])
     delete a1;
     std::cout << "manualmente\n";
 
-    Aluno a2(1010, "Marcos");
+    Aluno a2(1010, "Maria");
     a2.setCodigo(-100);
 
     std::cout << "Nome   aluno a2 = " << a2.getNome();
     std::cout << "\nCódigo aluno a2 = " << a2.getCodigo();
 
 
-    	//Calula média notas de Maria
+    //Calula média notas de Maria
 	float notas_maria[2] = {10.0, 8.5};
 	a2.setNotas(notas_maria);
 	std::cout << "Média das notas de Maria é " << a2.calculaMedia() << '\n';
