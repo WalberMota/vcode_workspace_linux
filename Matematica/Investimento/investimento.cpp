@@ -4,6 +4,7 @@ int main(int argc, char const *argv[])
 {
     float inicial=1000;
     int i=1;
+    float recorrente{0.0};
     do
     {
         inicial=inicial*1.05;
