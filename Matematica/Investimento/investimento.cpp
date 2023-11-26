@@ -10,5 +10,6 @@ int main(int argc, char const *argv[])
         i++;
     } while (inicial<20000);
     std::cout << "o valor de 10000 com redimento de 5% a.a. dobrará de valor em " << i << " anos";
+    std::cout << "valor final = " << inicial;
     return 0;
 }
