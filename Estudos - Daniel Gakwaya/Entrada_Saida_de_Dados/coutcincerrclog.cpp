@@ -11,7 +11,7 @@ int main()
     std::cerr << "Mensagem de erro : Alguma coisa está errada" << std::endl;
     std::clog << "Mensagem log : Alguma coisa aconteceu " << std::endl;
 
-    // Introduzido dados para o programa (Data input)***********************************
+    // Introduzindo dados para o programa (Data input)***********************************
     std::cout << '\n';
 
     int age1;
