@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
     while (inicial <20000.00)
     {
         std::cout << inicial <<" - ano " << i <<'\n';
-        inicial=(inicial*1.0417);
+        inicial=(inicial*1.05);
         i++;
     }
     
