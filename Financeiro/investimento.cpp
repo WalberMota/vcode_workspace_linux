@@ -1,10 +1,12 @@
 #include <iostream>
+#include <iomanip>
 
 int main(int argc, char const *argv[])
 {
     float inicial{1000.00};
     int i = 0;
-
+    std::cout<<std::setprecision(2);
+    std::cout << std::fixed;
     while (inicial < 2000.00)
     {
         std::cout << "ano " << i << "\t R$" << inicial << '\n';
