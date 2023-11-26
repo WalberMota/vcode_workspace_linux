@@ -2,17 +2,19 @@
 
 int main(int argc, char const *argv[])
 {
-    float inicial{10000};
-    int i=1;
+    float inicial{10000.00};
+    int i=0;
     
-    do
+    while (inicial <20000.00)
     {
-        inicial=(inicial*1.05);
-        i++;
         std::cout << inicial <<" - ano " << i <<'\n';
-        
+        inicial=(inicial*1.0417);
+        i++;
+    }
+    
 
-    } while (inicial<20000);
+
+    
     //std::cout << "o valor de 10000 com redimento de 5% a.a. dobrará de valor em " << i << " anos\n";
     //std::cout << "valor final = " << inicial;
     return 0;
