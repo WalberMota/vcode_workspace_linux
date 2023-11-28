@@ -3,11 +3,11 @@
 
 int main(int argc, char const *argv[])
 {
-    float inicial{1000.00};
+    float inicial{10000.00};
     int i = 0;
     std::cout<<std::setprecision(2);
     std::cout << std::fixed;
-    while (inicial < 2000.00)
+    while (inicial <= 20850.00)
     {
         std::cout << "ano " << i << "\t R$" << inicial << '\n';
         inicial = (inicial * 1.05);
