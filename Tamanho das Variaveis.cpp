@@ -1,5 +1,5 @@
 #include <iostream>
-#include<windows.h>
+//#include<windows.h>
 
 int main() {
 	std::cout << "Tamanho char : " << "\t"<< "\t"  << sizeof(char) << std::endl;
@@ -12,7 +12,7 @@ int main() {
 	std::cout << "Tamanho double : " << "\t" << sizeof(double) << std::endl;
 	std::cout << "Tamanho long double : " << "\t" << sizeof(long double) << std::endl;
 	std::cout << "Tamanho wchar_t : " << "\t" << sizeof(wchar_t) << std::endl;
-	system("PAUSE");
+	//system("PAUSE");
 
 	return 0;
 }
