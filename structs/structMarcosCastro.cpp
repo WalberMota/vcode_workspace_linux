@@ -5,7 +5,7 @@ using namespace std;
 
 typedef struct pessoa //define t_pessoa como um alias para a struct pessoa.
 {
-	char nome[5];
+	char nome[26]; //25 + o caracter de fim de string
 	int idade;
 	long int CPF;
 
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
 	//p = &pessoas[0];
 
-	strcpy(p.nome,"antonio");
+	strcpy(p.nome,"antonio cristovao colombo");
 	p.idade=30;
 	p.CPF=15246255258;
 
