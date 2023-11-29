@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 
 	//p = &pessoas[0];
 
+	/* A função strcpy recebe duas strings e copia a segunda (inclusive o byte nulo final) para o espaço ocupado pela primeira. O conteúdo original da primeira string é perdido. */
 	strcpy(p.nome,"antonio cristovao colombo");
 	p.idade=30;
 	p.CPF=15246255258;
