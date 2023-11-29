@@ -12,6 +12,7 @@ int main(int argc, char const *argv[])
             std::cout << i << "-" << argv[i] << '\n';
         }
     }
+    else{std::cout << "    nenhum argumento foi passado"};
 
     return 0;
 }
