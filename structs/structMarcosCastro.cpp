@@ -6,7 +6,8 @@ using namespace std;
 typedef struct pessoa //define t_pessoa como um alias para a struct pessoa.
 {
 	char nome[100];
-	int idade;	
+	int idade;
+	int CPF;
 } t_pessoa;
 
 int main(int argc, char *argv[])
