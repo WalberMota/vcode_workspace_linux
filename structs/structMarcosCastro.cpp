@@ -1,11 +1,11 @@
 #include <iostream>
-#include <string.h>
+#include <cstring>
 
 using namespace std;
 
 typedef struct pessoa //define t_pessoa como um alias para a struct pessoa.
 {
-	char nome[100];
+	char nome[1];
 	int idade;
 	int CPF;
 
@@ -19,12 +19,9 @@ int main(int argc, char *argv[])
 	//p = &pessoas[0];
 
 	strcpy(p.nome,"antonio");
-	/* pessoas[0].idade = 10;
-	pessoas[1].idade = 11;
-	pessoas[2].idade = 12;
+	p.idade=30;
 
-	cout << p->idade << endl;
-	cout << (p + 1)->idade << endl;
-	cout << (p + 2)->idade << endl;
-	return 0; */
+	std::cout << "nome: " << p.nome << '\n';
+	std::cout << "idade: " << p.idade	 << '\n';
+
 }
