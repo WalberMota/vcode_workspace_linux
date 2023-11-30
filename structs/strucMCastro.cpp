@@ -27,7 +27,8 @@ Pessoa::Pessoa(int idade)
 
 int main(int argc, char *argv[])
 {
-	Pessoa p(12);
+	int valor_idade=20;
+	Pessoa p(valor_idade);
 	
 	std::cout << p.getIdade() << '\n';
 	return 0;
