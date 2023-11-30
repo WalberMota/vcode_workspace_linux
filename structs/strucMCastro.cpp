@@ -20,10 +20,10 @@ public:
 	}
 };
 
-/* Pessoa::Pessoa(int idade)
+Pessoa::Pessoa(int valor_idade)
 {
-	this->idade_root = idade;
-} */
+	this->idade_root = valor_idade;
+}
 
 int main(int argc, char *argv[])
 {
