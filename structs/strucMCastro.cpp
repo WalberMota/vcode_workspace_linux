@@ -4,31 +4,31 @@
 struct Pessoa
 {
 private:
-	int idade;
+	int idade_root;
 
 public:
-	Pessoa(int idade);
+	Pessoa(int valor_idade);
 
-	void setIdade(int idade)
+	void setIdade(int valor_idade)
 	{
-		this->idade = idade;
+		this->idade_root = valor_idade;
 	}
 
 	int getIdade()
 	{
-		return idade;
+		return idade_root;
 	}
 };
 
 Pessoa::Pessoa(int idade)
 {
-	this->idade = idade;
+	this->idade_root = idade;
 }
 
 int main(int argc, char *argv[])
 {
-	Pessoa p(20);
-
+	Pessoa p(12);
+	
 	std::cout << p.getIdade() << '\n';
 	return 0;
 }
