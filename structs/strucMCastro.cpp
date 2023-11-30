@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+//using namespace std;
 
 struct Pessoa
 {
@@ -29,6 +29,6 @@ int main(int argc, char *argv[])
 {
 	Pessoa p(20);
 
-	cout << p.getIdade() << endl;
+	std::cout << p.getIdade() << '\n';
 	return 0;
 }
