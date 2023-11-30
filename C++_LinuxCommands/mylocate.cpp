@@ -61,7 +61,11 @@ int main()
 	std::cout << "\n***************************"<<'\n';
 	std::cout << "* Processamento concluido *"<<'\n';
 	std::cout << "***************************"<<'\n';
-
+    do // faz um pause no linux
+	{
+		std::cout << '\n' << "Tecle Enter para continuar...  \n";
+	} while (std::cin.get() != '\n');
+	
 	return 0;
 }
 
