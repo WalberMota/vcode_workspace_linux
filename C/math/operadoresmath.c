@@ -7,9 +7,9 @@ int main(void)
     scanf("%d",&numero1);
     printf("Digite um segundo número:\n");
     scanf("%d",&numero2);
-    return 0;
     printf("\n");
-    printf("A Soma de %d com %d é",numero1+numero2);
-
+    printf("A Soma de %d com %d é %d",numero1,numero2,numero1+numero2);
+    printf("A Multiplicação de %d com %d é %d",numero1,numero2,numero1*numero2);
+    printf("A Divisão de %d por %d é %d",numero1,numero2,numero1+numero2);
     return 0;
 }
