@@ -10,6 +10,6 @@ int main(void)
     printf("\n");
     printf("A Soma de %.2f com %.2f é %.2f\n",numero1,numero2,numero1+numero2);
     printf("A Multiplicação de %.2f com %.2f é %.2f\n",numero1,numero2,numero1*numero2);
-    printf("A Divisão de %.2f por %.2f é %.2f\n",numero1,numero2,numero1/numero2);
+    printf("A Divisão de %.2f por %.2f é %.4f\n",numero1,numero2,numero1/numero2);
     return 0;
 }
