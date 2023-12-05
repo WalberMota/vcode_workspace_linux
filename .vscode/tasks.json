@@ -76,7 +76,7 @@
                 "-ansi",
                 "-O2",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/output"
             ],            
             "options": {
                 "cwd": "${fileDirname}"
