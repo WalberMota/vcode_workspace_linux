@@ -1,8 +1,11 @@
-#include<iostream>
+#include<stdio.h>
 
-int main(int argc, char const *argv[])
+int main(void)
 {
-    std::cout << "Digite três numeros \n";
-    std::cin ;
+    int numero1,numero2;
+    printf("Digite um primeiro número \n");
+    scanf("%d",&numero1);
+    printf("Digite um segundo número \n");
+    scanf("%d",&numero2);
     return 0;
 }
