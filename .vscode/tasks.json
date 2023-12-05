@@ -68,7 +68,7 @@
         {
             "type": "process",
             "label": "GCC",
-            "command": "usr/bin/gcc",
+            "command": "/usr/bin/gcc-13",
             "args": [
                 "${file}",
                 "-Wall",
