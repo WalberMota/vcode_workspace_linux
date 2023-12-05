@@ -67,13 +67,17 @@
         },
         {
             "type": "process",
-            "label": "clang++ (Windows - Gera: exe",
-            "command": "gcc",
+            "label": "GCC",
+            "command": "usr/bin/gcc",
             "args": [
                 "${file}",
+                "-Wall",
+                "-pedantic",
+                "-ansi",
+                "-O2",
                 "-o",
-                "${fileDirname}"
-            ],
+                "${fileDirname}/out"
+            ],            
             "options": {
                 "cwd": "${fileDirname}"
             },
