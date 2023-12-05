@@ -13,6 +13,6 @@ int main(void)
     printf("A Multiplicação de %d com %d é %d\n",numero1,numero2,numero1*numero2);
     printf("A Divisão de %d por %d é %.2f\n",numero1,numero2,(float)numero1/(float)numero2);
     resto = numero1 % numero2;
-    printf("O resto da divisão de %d / %d é %.4f\n",numero1,numero2,resto);    
+    printf("O resto da divisão de %d / %d é %.2f\n",numero1,numero2,resto);    
     return 0;
 }
