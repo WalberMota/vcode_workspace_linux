@@ -5,7 +5,7 @@ graduacao::Aluno::Aluno(int codigo, string nome) {
 	this->setCodigo(codigo);
 	this->setNome(nome);
 
-	cout << "objeto criado" << endl;
+	//cout << "objeto criado" << endl;
 }
 
 //Construtor de cópia
@@ -18,7 +18,7 @@ graduacao::Aluno::Aluno(const Aluno &a) {
 
 //Destrutor da classe
 graduacao::Aluno::~Aluno() {
-	cout << "objeto destruído" << endl;
+	//cout << "objeto destruído" << endl;
 }
 
 //GETTERS - accessor methods

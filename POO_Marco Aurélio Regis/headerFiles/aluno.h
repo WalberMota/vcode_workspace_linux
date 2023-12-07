@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <string>
-#include "professor.h"
+
 using namespace std;
 
 namespace posgraduacao {
@@ -45,8 +45,7 @@ namespace graduacao {
 		void setNotas(float notas[]);
 		float calculaMedia();
 
-		//Função amiga declarada na classe Professor
-		friend void Professor::alteraNotaAlunoGraduacao(Aluno &a, float n1, float n2);
+
 	};
 
 }
