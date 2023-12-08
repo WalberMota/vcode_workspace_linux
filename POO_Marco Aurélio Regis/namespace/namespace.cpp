@@ -11,7 +11,7 @@
 #include <string>
 #include"aluno.h"
 
-using namespace graduação;
+using namespace graduacao;
 
 //entry point ***********************
 int main(int argc, char const *argv[])
