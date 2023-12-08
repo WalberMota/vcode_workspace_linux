@@ -31,6 +31,7 @@ public:
     // método que calcula a média das notas.
     float calculaMedia();
 };
+
 //entry point
 int main(int argc, char const *argv[])
 {
