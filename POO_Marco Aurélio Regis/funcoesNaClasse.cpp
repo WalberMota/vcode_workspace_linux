@@ -18,7 +18,10 @@ public:
 
         std::cout << "\nobjeto criado\n";
     }
-    ~Aluno(){std::cout << "\nObjeto destruído ";}
+    ~Aluno()
+    {
+        std::cout << "\nObjeto destruído ";
+    }
 
     //========================
     int getCodigo()
