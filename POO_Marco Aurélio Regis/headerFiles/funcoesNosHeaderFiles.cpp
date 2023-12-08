@@ -6,31 +6,7 @@ class Professor
     int codigo;
     std::string nome;
 };
-class Aluno
-{
-private:
-    int codigo;
-    std::string nome;
-    float notas[2]{0.0, 0.0};
-
-public:
-    // ******* functions's prototypes *********
-    // contrutor e destrutor
-    Aluno(int codigo, std::string nome);
-    ~Aluno();
-
-    // getters
-    int getCodigo();
-    std::string getNome();
-	float *getNotas();
-
-    // setters
-    void setNome(std::string nome);
-    void setCodigo(int codigo);
-    void setNotas(float *notas);
-    // método que calcula a média das notas.
-    float calculaMedia();
-};
+c
 
 //entry point ***********************
 int main(int argc, char const *argv[])
