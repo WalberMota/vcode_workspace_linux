@@ -5,6 +5,13 @@ ou seja o que é classe */
 #define ALUNO_H_
 
 #include <string>
+
+class Aluno
+{
+
+
+}
+
 class Aluno
 {
 private:
