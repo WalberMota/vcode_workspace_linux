@@ -15,7 +15,7 @@
 int main(int argc, char const *argv[])
 {
  
-    Aluno a(1010, "João");
+    graduacao::Aluno a(1010, "João");
 
     std::cout << "Nome   aluno a = " << a.getNome();
     std::cout << "\nCódigo aluno a = " << a.getCodigo();
