@@ -43,8 +43,8 @@ int main(int argc, char const *argv[])
 
     //Calula média notas de Maria
 	float notas_maria[2] = {10.0, 8.5};
-	a2.setNotas(notas_maria);
-	std::cout << "\nMédia das notas de Maria é " << a2.calculaMedia() << '\n';
+	a.setNotas(notas_maria);
+	std::cout << "\nMédia das notas de Maria é " << a.calculaMedia() << '\n';
     return 0;
 }
 
