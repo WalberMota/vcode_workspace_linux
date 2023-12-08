@@ -18,28 +18,28 @@ graduacao::Aluno::~Aluno()
     std::cout << "Objeto destruído ";
 }
 // getters
-int Aluno::getCodigo()
+int graduacao::Aluno::getCodigo()
 {
     return codigo;
 }
 
-std::string Aluno::getNome()
+std::string graduacao::Aluno::getNome()
 {
     return nome;
 }
 
-float *Aluno::getNotas()
+float *graduacao::Aluno::getNotas()
 {
     return notas;
 }
 
 // setters
-void Aluno::setNome(std::string nome)
+void graduacao::Aluno::setNome(std::string nome)
 {
     this->nome = nome;
 }
 
-void Aluno::setCodigo(int codigo)
+void graduacao::Aluno::setCodigo(int codigo)
 {
     if (codigo < 0)
     {
@@ -54,13 +54,13 @@ void Aluno::setCodigo(int codigo)
         this->codigo = codigo;
     }
 }
-void Aluno::setNotas(float *notas)
+void graduacao::Aluno::setNotas(float *notas)
 {
     this->notas[0] = notas[0];
     this->notas[1] = notas[1];
 }
 
-float Aluno::calculaMedia()
+float graduacao::Aluno::calculaMedia()
 {
     float media = 0.0f;
 
