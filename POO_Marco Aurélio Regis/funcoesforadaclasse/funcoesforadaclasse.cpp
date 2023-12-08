@@ -5,7 +5,7 @@ class Professor
 {
     int codigo;
     std::string nome;
-}
+};
 class Aluno
 {
 private:
