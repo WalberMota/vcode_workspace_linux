@@ -6,14 +6,14 @@
 #include "aluno.h"
 
 //function implementation =====================
-Aluno::Aluno(int codigo, std::string nome)
+graduacao::Aluno::Aluno(int codigo, std::string nome)
 {
     this->setCodigo(codigo);
     this->setNome(nome);
 
     std::cout << "objeto criado\n";
 }
-Aluno::~Aluno()
+graduacao::Aluno::~Aluno()
 {
     std::cout << "Objeto destruído ";
 }
