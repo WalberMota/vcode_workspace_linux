@@ -4,6 +4,7 @@ ou seja o que é classe */
 #ifndef ALUNO_H_
 #define ALUNO_H_
 
+#include <string>
 class Aluno
 {
 private:
