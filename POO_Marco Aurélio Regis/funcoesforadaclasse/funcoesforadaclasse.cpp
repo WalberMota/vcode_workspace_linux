@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
 
+class Professor
+{
+    int codigo;
+    std::string nome;
+}
 class Aluno
 {
 private:
