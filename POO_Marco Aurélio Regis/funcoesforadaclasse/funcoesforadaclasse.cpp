@@ -63,7 +63,7 @@ Aluno::~Aluno()
 {
     std::cout << "Objeto destruído ";
 }
-// gets
+// getters
 int Aluno::getCodigo()
 {
     return codigo;
