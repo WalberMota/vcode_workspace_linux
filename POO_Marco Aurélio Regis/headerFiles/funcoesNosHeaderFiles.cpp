@@ -32,7 +32,7 @@ public:
     float calculaMedia();
 };
 
-//entry point
+//entry point ***********************
 int main(int argc, char const *argv[])
 {
  
@@ -41,10 +41,9 @@ int main(int argc, char const *argv[])
     std::cout << "Nome   aluno a = " << a.getNome();
     std::cout << "\nCódigo aluno a = " << a.getCodigo();
 
-    //Calula média notas de Maria
-	float notas_maria[2] = {10.0, 8.5};
-	a.setNotas(notas_maria);
-	std::cout << "\nMédia das notas de Maria é " << a.calculaMedia() << '\n';
+	float n[2]{10.0, 8.5};
+	a.setNotas(n);
+	std::cout << "\nA Média das notas é " << a.calculaMedia() << '\n';
     return 0;
 }
 
