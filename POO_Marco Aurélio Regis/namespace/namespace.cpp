@@ -11,7 +11,7 @@
 #include <string>
 #include"aluno.h"
 
-using namespace graduacao;
+using namespace graduacao;//elimina a necessidade de repetir dentro do código o operador de escopo
 
 //entry point ***********************
 int main(int argc, char const *argv[])
