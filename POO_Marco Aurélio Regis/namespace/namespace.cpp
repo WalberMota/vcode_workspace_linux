@@ -11,11 +11,13 @@
 #include <string>
 #include"aluno.h"
 
+using namespace graduação;
+
 //entry point ***********************
 int main(int argc, char const *argv[])
 {
  
-    graduacao::Aluno a(1010, "João");
+    Aluno a(1010, "João");
 
     std::cout << "Nome   aluno a = " << a.getNome();
     std::cout << "\nCódigo aluno a = " << a.getCodigo();
