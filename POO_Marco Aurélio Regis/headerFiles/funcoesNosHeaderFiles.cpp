@@ -6,7 +6,6 @@ class Professor
     int codigo;
     std::string nome;
 };
-c
 
 //entry point ***********************
 int main(int argc, char const *argv[])
