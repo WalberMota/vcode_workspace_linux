@@ -10,13 +10,5 @@ public:
     ~professor();
 };
 
-professor::professor(/* args */)
-{
-}
-
-professor::~professor()
-{
-}
-
 
 #endif /* PROFESSOR_H_ */
