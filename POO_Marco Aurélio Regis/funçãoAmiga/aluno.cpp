@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include "aluno.h"
+#include "professor.h"
 
 //function implementation =====================
 graduacao::Aluno::Aluno(int codigo, std::string nome)

@@ -4,9 +4,10 @@
 #define PROFESSOR_H_
 
  /* ficando aqui o compilado conhece a classe aluno antes da classe professor e assim conhecer os metodos amigos - forward declaration class */
-namespace Aluno
+namespace graduacao
 {
-} // namespace Aluno
+    class Aluno;
+}; // namespace graduação
 
 
 class professor
@@ -17,7 +18,7 @@ public:
     professor(/* args */);
     ~professor();
 
-    void professor::alteraNotaAlunoGraduacao(graduacao::Aluno a,float n1,float n2);
+    void professor::alteraNotaAlunoGraduacao(graduacao::Aluno &a,float n1,float n2);
 };
 
 
