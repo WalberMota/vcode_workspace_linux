@@ -37,6 +37,8 @@ namespace graduacao{
         void setNotas(float *notas);
         // método que calcula a média das notas.
         float calculaMedia();
+
+        friend void professor::alteraNotaAlunoGraduacao(Aluno a,float n1,float n2);
     };
 
 };
