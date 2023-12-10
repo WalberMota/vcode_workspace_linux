@@ -11,7 +11,7 @@ public:
     professor(/* args */);
     ~professor();
 
-    void alteraNotaAluno(Aluno a,float n1,float n2);
+    void alteraNotaAluno(graduacao::Aluno a,float n1,float n2);
 };
 
 
