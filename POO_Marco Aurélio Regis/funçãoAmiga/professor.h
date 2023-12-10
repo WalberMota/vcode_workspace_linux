@@ -1,6 +1,8 @@
 #ifndef PROFESSOR_H_
 #define PROFESSOR_H_
 
+#include "aluno.h"
+
 class professor
 {
 private:
