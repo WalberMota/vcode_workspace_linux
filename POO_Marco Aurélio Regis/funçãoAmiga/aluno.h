@@ -1,5 +1,5 @@
 /* O arquivo header_file (.h) contém a estrutura da classe
-ou seja o que é classe */
+ou seja o que é classe  - forward declaration class*/
 
 #ifndef ALUNO_H_
 #define ALUNO_H_
