@@ -18,7 +18,7 @@ public:
     professor(/* args */);
     ~professor();
 
-    void professor::alteraNotaAlunoGraduacao(graduacao::Aluno &a,float n1,float n2);
+    void alteraNotaAlunoGraduacao(graduacao::Aluno &a,float n1,float n2);
 };
 
 
