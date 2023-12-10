@@ -5,6 +5,7 @@ ou seja o que é classe  - forward declaration class*/
 #define ALUNO_H_
 
 #include <string>
+#include "professor.h"
 
 namespace posgraduacao{
     class Aluno

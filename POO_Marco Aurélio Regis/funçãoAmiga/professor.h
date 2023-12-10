@@ -1,4 +1,5 @@
 #include "aluno.h" //tem que estar acima para informar o compilador
+
 #ifndef PROFESSOR_H_
 #define PROFESSOR_H_
 
@@ -16,7 +17,7 @@ public:
     professor(/* args */);
     ~professor();
 
-    void alteraNotaAlunoGraduacao(graduacao::Aluno &a,float n1,float n2);
+    void professor::alteraNotaAlunoGraduacao(graduacao::Aluno a,float n1,float n2);
 };
 
 

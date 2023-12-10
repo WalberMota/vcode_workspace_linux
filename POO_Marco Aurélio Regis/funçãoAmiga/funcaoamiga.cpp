@@ -31,7 +31,7 @@ int main(int argc, char const *argv[])
 
     p.alteraNotaAlunoGraduacao(a,3.0,4.0);
 
-    std::cout << a.calculaMedia << '\n';
+    std::cout << a.calculaMedia() << '\n';
 
     return 0;
 }
