@@ -26,5 +26,12 @@ int main(int argc, char const *argv[])
 	float n[2]{10.0, 8.5};
 	a.setNotas(n);
 	std::cout << "\nA Média das notas é " << a.calculaMedia() << '\n';
+
+    professor p;
+
+    p.alteraNotaAlunoGraduacao(a,3.0,4.0);
+
+    std::cout << a.calculaMedia << '\n';
+
     return 0;
 }
