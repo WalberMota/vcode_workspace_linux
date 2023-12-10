@@ -3,7 +3,9 @@
 #ifndef PROFESSOR_H_
 #define PROFESSOR_H_
 
-namespace Aluno //ficando aqui o compilado conhece a classe aluno antes da classe professor
+
+ /* ficando aqui o compilado conhece a classe aluno antes da classe professor e assim conhecer os metodos amigos */
+namespace Aluno
 {
     
 } // namespace Aluno
