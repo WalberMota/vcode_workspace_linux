@@ -26,8 +26,8 @@ int main(int argc, char const *argv[])
     graduacao::Aluno a("João");
     graduacao::Aluno a2("Careca");
 
-    std::cout << a.getCodigo() << '\n';
-    std::cout << a2.getCodigo() << '\n';
+    std::cout << "código aluno a: " << a.getCodigo() << '\n';
+    std::cout << "código aluno a2:" << a2.getCodigo() << '\n';
 
  
 
