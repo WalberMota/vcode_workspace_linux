@@ -10,6 +10,8 @@
 graduacao::Aluno::Aluno(std::string nome)
 {
     this->codigo=proxCodigo;
+    proxCodigo++;
+    
     this->setNome(nome);
 
     std::cout << "objeto criado\n";
