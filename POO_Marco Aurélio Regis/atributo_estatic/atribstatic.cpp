@@ -23,8 +23,8 @@
 int main(int argc, char const *argv[])
 {
  
-    graduacao::Aluno a(1010, "João");
-    graduacao::Aluno a2(1010, "Careca");
+    graduacao::Aluno a("João");
+    graduacao::Aluno a2("Careca");
 
  
 
