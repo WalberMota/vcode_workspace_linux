@@ -6,12 +6,15 @@
 #include "aluno.h"
 #include "professor.h"
 
+
+int graduacao::Aluno::proxCodigo =1;
+
 //function implementation =====================
 graduacao::Aluno::Aluno(std::string nome)
 {
     this->codigo=proxCodigo;
     proxCodigo++;
-    
+
     this->setNome(nome);
 
     std::cout << "objeto criado\n";
