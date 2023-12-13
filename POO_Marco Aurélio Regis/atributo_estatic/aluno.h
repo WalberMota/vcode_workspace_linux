@@ -26,7 +26,7 @@ namespace graduacao{
     public:
         // ******* functions's prototypes *********
         // contrutor e destrutor
-        Aluno(int codigo, std::string nome);
+        Aluno(std::string nome);
         ~Aluno();
 
         // getters
@@ -36,7 +36,7 @@ namespace graduacao{
 
         // setters
         void setNome(std::string nome);
-        void setCodigo(int codigo);
+        ////////////////* void setCodigo(int codigo); */
         void setNotas(float *notas);
         // método que calcula a média das notas.
         float calculaMedia();
