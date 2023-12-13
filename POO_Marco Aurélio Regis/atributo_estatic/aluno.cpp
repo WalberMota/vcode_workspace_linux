@@ -40,7 +40,7 @@ void graduacao::Aluno::setNome(std::string nome)
     this->nome = nome;
 }
 
-void graduacao::Aluno::setCodigo(int codigo)
+/* void graduacao::Aluno::setCodigo(int codigo)
 {
     if (codigo < 0)
     {
@@ -54,7 +54,7 @@ void graduacao::Aluno::setCodigo(int codigo)
     {
         this->codigo = codigo;
     }
-}
+} */
 void graduacao::Aluno::setNotas(float *notas)
 {
     this->notas[0] = notas[0];
