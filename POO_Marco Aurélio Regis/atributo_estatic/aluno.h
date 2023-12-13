@@ -21,7 +21,7 @@ namespace graduacao{
         std::string nome;
         float notas[2]{0.0, 0.0};
 
-        static int proxiCodigo=1;
+        static int proxCodigo=1;
 
     public:
         // ******* functions's prototypes *********

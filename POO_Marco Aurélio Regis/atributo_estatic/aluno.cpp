@@ -7,9 +7,9 @@
 #include "professor.h"
 
 //function implementation =====================
-graduacao::Aluno::Aluno(int codigo, std::string nome)
+graduacao::Aluno::Aluno(std::string nome)
 {
-    this->setCodigo(codigo);
+    this->codigo=proxCodigo;
     this->setNome(nome);
 
     std::cout << "objeto criado\n";
