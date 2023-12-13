@@ -14,12 +14,14 @@ namespace posgraduacao{
     };
 }
 namespace graduacao{
-        class Aluno
+    class Aluno
     {
     private:
         int codigo;
         std::string nome;
         float notas[2]{0.0, 0.0};
+
+        static int proxiCodigo=1;
 
     public:
         // ******* functions's prototypes *********
