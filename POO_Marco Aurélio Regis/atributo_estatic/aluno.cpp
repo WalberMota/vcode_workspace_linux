@@ -21,7 +21,7 @@ graduacao::Aluno::Aluno(std::string nome)
 }
 graduacao::Aluno::~Aluno()
 {
-    std::cout << "Objeto destruído ";
+    std::cout << "Objeto destruído" << std::endl;
 }
 // getters
 int graduacao::Aluno::getCodigo()
