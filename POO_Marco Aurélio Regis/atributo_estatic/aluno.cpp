@@ -7,7 +7,7 @@
 #include "professor.h"
 
 
-int graduacao::Aluno::proxCodigo =1;
+int graduacao::Aluno::proxCodigo =1000;
 
 //function implementation =====================
 graduacao::Aluno::Aluno(std::string nome)
