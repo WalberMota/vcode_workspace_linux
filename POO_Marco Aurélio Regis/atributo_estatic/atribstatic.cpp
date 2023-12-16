@@ -33,7 +33,7 @@ int main(int argc, char const *argv[])
     std::cout << "aluno: " << a2.getNome() << " ";
     std::cout << "\tcódigo :" << a2.getCodigo() << '\n';
     std::cout << "aluno: " << z.getNome() << " ";
-    std::cout << "\tcódigo :" << z.getCodigo() << std::endl;    
+    std::cout << "\tcódigo :" << z.getCodigo() << '\n' << std::endl;    
  
 
     return 0;
