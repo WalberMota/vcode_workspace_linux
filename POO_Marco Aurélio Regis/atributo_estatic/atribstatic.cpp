@@ -27,7 +27,7 @@ int main(int argc, char const *argv[])
     graduacao::Aluno a2("Maria");
     graduacao::Aluno z("Carlos");
     
-    graduacao::Aluno::imprimeSaudacao();
+    graduacao::Aluno::imprimeSaudacao();//chama o método sem recisar qualquer objeto.
     //pode ser usado dentro de qualquer objeto criado, p.ex.: a2.imprimeSaudacao();
 
     std::cout << "aluno: " << a.getNome() << " ";
