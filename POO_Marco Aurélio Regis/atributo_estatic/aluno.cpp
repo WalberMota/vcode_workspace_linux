@@ -76,3 +76,9 @@ float graduacao::Aluno::calculaMedia()
     media = media + *p;
     return media / 2;
 }
+
+    void graduacao::Aluno::imprimeSaudacao()
+    {
+
+        std::cout << "Ola usuário";
+    }
