@@ -80,5 +80,5 @@ float graduacao::Aluno::calculaMedia()
     void graduacao::Aluno::imprimeSaudacao()
     {
 
-        std::cout << "Ola usuário";
+        std::cout << "Ola usuário\n";
     }

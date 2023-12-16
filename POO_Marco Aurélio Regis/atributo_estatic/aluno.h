@@ -43,7 +43,7 @@ namespace graduacao{
 
         friend void professor::alteraNotaAlunoGraduacao(graduacao::Aluno &a,float n1,float n2);
 
-        static void imprimeSaudacao;
+        static void imprimeSaudacao();
     };
 
 };
