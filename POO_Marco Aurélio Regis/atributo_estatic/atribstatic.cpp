@@ -27,7 +27,9 @@ int main(int argc, char const *argv[])
     graduacao::Aluno a2("Maria");
     graduacao::Aluno z("Carlos");
     
-    a.imprimeSaudacao();
+    graduacao::Aluno::imprimeSaudacao();
+    //pode ser usado dentro de qualquer objeto criado, p.ex.: a2.imprimeSaudacao();
+
     std::cout << "aluno: " << a.getNome() << " ";
     std::cout << "\tcódigo :" << a.getCodigo() << '\n';
     std::cout << "aluno: " << a2.getNome() << " ";
