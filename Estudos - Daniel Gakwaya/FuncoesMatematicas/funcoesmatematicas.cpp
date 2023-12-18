@@ -1,3 +1,12 @@
+/*
+Autor: WalberMota
+Data da Criação: 09/11/2023
+Version 01.00 
+locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz (306D4)
+Objetivos: resumo de funções matemáticas.
+Linguagem C++
+ */
+
 #include<iostream>
 #include<cmath>     
 
