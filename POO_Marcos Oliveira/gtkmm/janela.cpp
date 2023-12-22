@@ -1,4 +1,7 @@
 #include <gtkmm.h>
+/* Todos os programas gtkmm devem incluir certos cabeçalhos do gtkmm; gtkmm.h inclui todo o kit gtkmm. Isso normalmente não é uma boa ideia, porque inclui um megabyte ou mais de cabeçalhos, mas, para este programa simples, é o suficiente.
+ */
+
 
 class janela1 : public Gtk::Window
 {
