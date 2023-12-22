@@ -9,5 +9,5 @@ int main(int argc, char *argv[])
  
 }
 
-
+//g++ main.cpp pass.cpp -o pass $(pkg-config gtkmm-4.0 --cflags --libs)
 
