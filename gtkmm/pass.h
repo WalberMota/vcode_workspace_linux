@@ -4,6 +4,13 @@
 #include<gtkmm/application.h>
 
 
+class janela:public Gtk::Window
+{
+
+
+
+
+}
 
 #endif
 
