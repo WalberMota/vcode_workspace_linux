@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/**"
+                "/usr/**",
+                "/usr/src/linux-headers-6.5.0-kali2-common/include/rdma"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang++-16",
