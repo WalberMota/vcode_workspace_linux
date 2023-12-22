@@ -8,7 +8,7 @@ class janela : public Gtk::Window
 
 public:
     janela();
-    ~janela();
+    //~janela();
 };
 
 #endif
