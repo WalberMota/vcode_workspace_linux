@@ -24,6 +24,6 @@ janela::~janela()
 
 void janela::clicou()
 {
-  std::cout << "Olá usuário" << std::endl;
+  std::cout << "Estude mais usuario, isto é só começo" << std::endl;
 }
 
