@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/usr/**",
-                "/usr/src/linux-headers-6.5.0-kali2-common/include/rdma"
+                "/usr/src/linux-headers-6.5.0-kali2-common/include/rdma",
+                "/usr/share/ghidra/Ghidra/Features/Decompiler/src/decompile/cpp"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang++-16",
