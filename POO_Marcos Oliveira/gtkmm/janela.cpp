@@ -1,14 +1,20 @@
 #include <gtkmm.h>
 
-int main( void ){
+class janela1 : public Gtk::Window
+{
+public:
+  janela1();
+};
 
-    Gtk::Window janela;
-    janela.set_default_size( 300 , 200 );
-
-     janela.activate();
-    
-    janela.show();
-    return 0;
+janela1::janela1()
+{
+  set_title("Janela da Aplicação");
+  set_default_size(400, 300);
 }
 
-// COMPILE: g++ janela.cpp -o janela $(pkg-config gtkmm-4.0 --cflags --libs)
+int main(int argc, char* argv[])
+{
+  auto app = Gtk::Application::create("org.gtkmm.examples.base");
+
+  return app->make_window_and_run<janela1>(argc, argv);
+}
