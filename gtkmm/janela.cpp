@@ -29,3 +29,5 @@ A última linha mostra a janela e entra no loop de processamento principal do gt
 
 
 }
+
+//Compilar com: g++ janela.cpp -o janela $(pkg-config gtkmm-4.0 --cflags --libs)
