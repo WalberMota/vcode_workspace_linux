@@ -1,6 +1,6 @@
 #include "pass.h"
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
     //janela  senha;
     auto app = Gtk::Application::create("org.pass.gtkmm");
@@ -9,5 +9,6 @@ int main(int argc, char const *argv[])
     return app->make_window_and_run<janela>(argc, argv);
     return 0;
 }
+
 
 
