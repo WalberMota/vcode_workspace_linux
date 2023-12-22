@@ -18,3 +18,12 @@ janela::janela()
     set_child(m_botao1);
 }
 
+janela::~janela()
+{
+}
+
+void janela::clicou()
+{
+  std::cout << "Olá usuário" << std::endl;
+}
+
