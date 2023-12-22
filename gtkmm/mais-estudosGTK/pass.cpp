@@ -6,24 +6,15 @@ janela::janela()
     set_title("Gerenciador de Senha - em construção(22/12/2023)");
     set_default_size(500, 300);
     set_visible(true);
+    Gtk::Button m_botao1("Ola,usuário!");
 
-
-
-}
-
-
-Gtk::Button m_botao1("Ola,usuário!")// cria o objeto botao com o rótulo "Ola,usuário!"
-{    
+    // Define a margem ao redor do botão.
     m_botao1.set_margin(10);
-  // Sets the margin around the button.
-  m_button.set_margin(10);
 
-  // When the button receives the "clicked" signal, it will call the
-  // on_button_clicked() method defined below.
-  m_button.signal_clicked().connect(sigc::mem_fun(*this,
-              &HelloWorld::on_button_clicked));
-
-  // This packs the button into the Window (a container).
-  set_child(m_button);
+    // quando o botão é clicado ele chama o
+    //  o método clicou() definido abaixo:
+    m_botao1.signal_clicked().connect(sigc::mem_fun(*this, &clicou));
+    // Isso empacota o botão na janela (um contêiner).
+    set_child(m_botao1);
 }
 
