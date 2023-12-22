@@ -3,6 +3,7 @@
 #include <gtkmm/window.h>
 #include <gtkmm/application.h>
 #include <gtkmm/box.h>
+#include <gtkmm/button.h>
 
 
 class janela : public Gtk::Window
@@ -11,6 +12,16 @@ class janela : public Gtk::Window
 public:
     janela();
     ~janela() override;
+
+
+protected:
+    //manipular o sinal do mouse
+    void clicou();
+
+    //Um widget, numa interface gráfica, é um elemento de interação - tal como janelas, botões, menus, ícones, barras de rolagem etc.
+    //elemento da interface
+    Gtk::Button m_botao1;
+
 };
 
 #endif
