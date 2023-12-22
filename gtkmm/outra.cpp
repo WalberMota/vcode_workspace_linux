@@ -5,7 +5,7 @@
 
 int main(int argc, char const **argv[])
 {
-    Gtk::main kit(argc,argv);
+    Gtk::Main kit(argc,argv);
 
     return 0;
 }
