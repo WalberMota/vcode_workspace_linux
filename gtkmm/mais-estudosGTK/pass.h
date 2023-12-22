@@ -24,4 +24,4 @@ protected:
 
 };
 
-#endif
+#endif // GTKMM_PASS_H
