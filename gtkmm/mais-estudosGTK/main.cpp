@@ -2,10 +2,11 @@
 
 int main(int argc, char const *argv[])
 {
+    //janela  senha;
     auto app = Gtk::Application::create("org.pass.gtkmm");
-    janela  senha;
+ 
 
-    return app->make_window_and_run<senha>(argc, argv);
+    return app->make_window_and_run<janela>(argc, argv);
     return 0;
 }
 
