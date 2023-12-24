@@ -19,7 +19,7 @@ protected:
     void clicou();
 
     //Um widget, numa interface gráfica, é um elemento de interação - tal como janelas, botões, menus, ícones, barras de rolagem etc.
-    //elemento da interface
+    //elemento da interface - unico botão (meio grande rsrsrs mas para este pequeno estudo tá beleza)
     Gtk::Button m_botao1;
 
 };
