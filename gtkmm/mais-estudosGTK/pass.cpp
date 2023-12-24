@@ -9,7 +9,7 @@ janela::janela()
     Gtk::Button m_botao1("Ola,usuário!");
 
     // Define a margem ao redor do botão.
-    m_botao1.set_margin(100);
+    m_botao1.set_margin(150);
 
     // quando o botão é clicado ele chama o
     //  o método clicou() definido abaixo:
