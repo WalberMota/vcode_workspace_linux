@@ -1,3 +1,6 @@
+//rotina de lançamento da janela
+
+
 #include "pass.h"
 
 int main(int argc, char *argv[])
