@@ -11,7 +11,7 @@ Passwsm::Passwsm() : m_box1{Gtk::Orientation::VERTICAL}, m_box2{Gtk::Orientation
 }
 //PassFirefox::~PassFirefox(){}
 
-void Passwsm::on_button_importer(){
+/* void Passwsm::on_button_importer(){
   filename = m_folder.get_filename();
 
   if( filename.empty() ){
@@ -19,9 +19,10 @@ void Passwsm::on_button_importer(){
     empty.set_title( "O arquivo não pode ser vazio." );
     empty.run();
     return;
-  }
+  } */
 
-  if( m_entry3.get_text_length() == 0 ){
+  if(m_entry3.get_text_length() == 0 )
+  {
     Gtk::MessageDialog empty( "Informe a senha.", false, Gtk::MESSAGE_WARNING );
     empty.set_title( "Informe a senha." );
     empty.run();
