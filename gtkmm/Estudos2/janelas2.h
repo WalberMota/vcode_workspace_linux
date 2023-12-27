@@ -18,7 +18,8 @@
 
 #include <iostream>
 
-class Passwsm : public Gtk::Window {
+class Passwsm : public Gtk::Window
+{
   Gtk::Fixed m_fixed;
   Gtk::Box m_box1, m_box2, m_box3, m_box4;
   Gtk::Align m_alignment1, m_alignment2;

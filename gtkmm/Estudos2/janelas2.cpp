@@ -11,7 +11,7 @@ Passwsm::Passwsm() : m_box1{Gtk::Orientation::VERTICAL}, m_box2{Gtk::Orientation
 }
 //PassFirefox::~PassFirefox(){}
 
-void PassFirefox::on_button_importer(){
+void Passwsm::on_button_importer(){
   filename = m_folder.get_filename();
 
   if( filename.empty() ){
@@ -34,7 +34,7 @@ void PassFirefox::on_button_importer(){
     empty.run();
     return;
   }
-
+/* 
   // Inicia a lógica da importação
   ToolsPassFox tpf;
   if( tpf.import_file( filename, m_entry3.get_text() ) ){
@@ -47,10 +47,10 @@ void PassFirefox::on_button_importer(){
     empty.set_title( "Falha ao importar arquivo." );
     empty.set_secondary_text( "Execute esse programa via linha de comando para ver a saída." );
     empty.run();
-  }
+  } */
 }
 
-void PassFirefox::on_button_exporter(){
+void Passwsm::on_button_exporter(){
   if( m_entry1.get_text_length() == 0 || m_entry2.get_text_length() == 0 ){
     Gtk::MessageDialog empty( "Exportar com GPG arquivo", false, Gtk::MESSAGE_WARNING );
     empty.set_title( "Falha ao exportar" );
@@ -59,7 +59,7 @@ void PassFirefox::on_button_exporter(){
     return;
   }
 
-  if( m_entry1.get_text() != m_entry2.get_text() ){
+  if( m_entry1.get_text()!= m_entry2.get_text() ){
     Gtk::MessageDialog empty( "Exportar com GPG arquivo", false, Gtk::MESSAGE_WARNING );
     empty.set_title( "Falha ao exportar" );
     empty.set_secondary_text( "As senhas precisam ser iguais." );
@@ -85,10 +85,10 @@ void PassFirefox::on_button_exporter(){
 
 void Passwsm::set_hierarchy(){
   // Window
-  PassFirefox add(m_fixed);
+  Passwsm add(m_fixed);
 
   // Fixed
-  PassFirefox::m_fixed.add_controller( m_frame1 );
+  Passwsm::m_fixed.add_controller( m_frame1 );
   m_fixed.add( m_frame2 );
   m_fixed.add( m_box4 );
   m_fixed.move( m_frame2, 6, 180 );
@@ -129,7 +129,7 @@ void Passwsm::set_hierarchy(){
 
 }
 
-void PassFirefox::draw_widgets(){
+void Passwsm::draw_widgets(){
   // Window
   set_title("Exportar e Importar Senhas para o Firefox");
   set_default_size( 300, 400 );

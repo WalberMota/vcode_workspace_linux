@@ -3,13 +3,13 @@
  */
 
 
-class janela1 : public Gtk::Window
+class Passwsm: public Gtk::Window
 {
 public:
-  janela1();
+  Passwsm();
 };
 
-janela1::janela1()
+Passwsm::Passwsm()
 {
   set_title("Janela da Aplicação");
   set_default_size(400, 300);
@@ -23,7 +23,8 @@ int main(int argc, char* argv[])
     */
 
 
-  return app->make_window_and_run<janela1>(argc, argv);
+
+  return app->make_window_and_run<Passwsm>(argc, argv);
 /* Os argumentos argc e argv, passados ​​para seu aplicativo na linha de comando, podem ser verificados quando run() é chamado, mas este aplicativo simples não usa esses argumentos.
 A última linha mostra a janela e entra no loop de processamento principal do gtkmm, que terminará quando a janela for fechada.
 */
