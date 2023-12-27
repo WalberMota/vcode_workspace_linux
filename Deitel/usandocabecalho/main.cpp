@@ -1,0 +1,19 @@
+// Figura 3.10: fig03_10.cpp
+// Incluindo a classe livroDaTurma a partir do arquivo livroclass.h para uso em main.
+
+#include <iostream>
+#include "livroclass.h" // inclui a definição de classe livroDaTurma
+
+// a função main inicia a execução do programa
+int main()
+{
+    // cria dois objetos livroTurma
+    livroDaTurma livroTurma1("CS101 Introduction to C++ Programming");
+    livroDaTurma livroTurma2("CS102 Data Structures in C++");
+    // exibe valor inicial de courseName para cada GradeBook
+    std::cout << "livro da Turma created for course: " << livroTurma1.getCourseName()
+              << "\ngradeBook2 created for course: " << livroTurma2.getCourseName() << std::endl;
+
+    return 0; // indica terminação bem-sucedida
+
+} // fim de main
