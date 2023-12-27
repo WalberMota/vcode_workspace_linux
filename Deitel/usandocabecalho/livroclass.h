@@ -9,10 +9,10 @@ using std::string;
 class livroDaTurma
 {
 public:
-    // o construtor
+    // o construtor da classe livroDaTurma
     livroDaTurma(string name)
     {
-        setCourseName(name); // chama a função SET para inicializar courseName
+        setCourseName(name); // chama a função SET para inicializar courseName(nome do curso)
     }                        // fim do construtor livroDaTurma
 
     // função SETTER = configurar o nome do curso
@@ -26,12 +26,15 @@ public:
     {
         return courseName; // retorna courseName do objeto
     }                      // fim da função getCourseName
+
     // exibe uma mensagem de boas-vindas para o usuário GradeBook
     void displayMessage()
     {
         // chama getCourseName para obter o courseName
         std::cout << "Bem-vindo ao livro de Classe do curso: " << getCourseName() << "!" << std::endl;
     } // fim da função displayMessage
-private:
+
+private://a variável curseName está encapsulada, não poder ser acessada de fora dessa classe
     string courseName; // nome do curso para esse livroDaTurma
-};                     // fim da classe livroDaTurma
+
+};// fim da classe livroDaTurma
