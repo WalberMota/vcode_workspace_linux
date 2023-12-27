@@ -29,7 +29,7 @@ public:
     void displayMessage()
     {
         // chama getCourseName para obter o courseName
-        std::cout << "Welcome to the grade book for\n" << getCourseName() << "!" << std::endl;
+        std::cout << "Bem-vindo ao livro de Classe do curso: " << getCourseName() << "!" << std::endl;
     } // fim da função displayMessage
 private:
     string courseName; // nome do curso para esse livroDaTurma
