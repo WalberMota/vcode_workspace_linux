@@ -48,8 +48,8 @@ Passwsm::Passwsm() : m_box1{Gtk::Orientation::VERTICAL}, m_box2{Gtk::Orientation
     empty.set_title( "Falha ao importar arquivo." );
     empty.set_secondary_text( "Execute esse programa via linha de comando para ver a saída." );
     empty.run();
-  } */
-}
+  } 
+}*/
 
 void Passwsm::on_button_exporter(){
   if( m_entry1.get_text_length() == 0 || m_entry2.get_text_length() == 0 ){
