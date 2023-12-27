@@ -2,9 +2,10 @@
 // Definição de classe livroDaTurma em um arquivo main separado.
 #include <iostream>
 
-#include <string> // a classe GradeBook utiliza a classe de string padrão C++
+#include <string> // a classe livoDaTurma utiliza a classe de string padrão C++
 using std::string;
-// definição da classe GradeBook
+
+// definição da classe livroDaTurma
 class livroDaTurma
 {
 public:
