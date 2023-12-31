@@ -2,7 +2,7 @@
 // Incluindo a classe livroDaTurma a partir do arquivo livroclass.h para uso em main.
 
 #include <iostream>
-#include "livroclass.h" // inclui a definição de classe livroDaTurma
+#include "livroDaTurma.h" // inclui a definição de classe livroDaTurma
 
 // a função main inicia a execução do programa
 int main()
