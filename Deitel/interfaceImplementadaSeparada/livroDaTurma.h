@@ -1,7 +1,6 @@
 // livroDaTurma.h
 // Definição de classe livroDaTurma em um arquivo main separado.
 #include <iostream>
-
 #include <string> // a classe livoDaTurma utiliza a classe de string padrão C++
 using std::string;
 
