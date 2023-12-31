@@ -1,4 +1,4 @@
-// livroclasse.h
+// livroDaTurma.h
 // Definição de classe livroDaTurma em um arquivo main separado.
 #include <iostream>
 
