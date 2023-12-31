@@ -5,7 +5,6 @@ A interface de uma classe descreve quais serviços os clientes de uma classe
 podem utilizar e como solicitar esses serviços, mas não como a classe executa os serviços
  */
 
-
 #include <iostream>
 #include <string> // a classe livoDaTurma utiliza a classe de string padrão C++
 using std::string;
