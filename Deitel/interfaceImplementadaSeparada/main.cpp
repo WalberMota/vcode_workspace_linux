@@ -1,5 +1,5 @@
 // Figura 3.10: fig03_10.cpp
-// Incluindo a classe livroDaTurma a partir do arquivo livroclass.h para uso em main.
+// Incluindo a classe livroDaTurma a partir do arquivo livroDaTurma.h para uso em main.
 
 #include <iostream>
 #include "livroDaTurma.h" // inclui a definição de classe livroDaTurma
