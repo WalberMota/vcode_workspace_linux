@@ -11,12 +11,12 @@ int main(int argc, char const *argv[])
 
     fahr=t_menor;
 
-    printf ("\n| Fahrenheit\t|   Celsius\t|\n");
+    printf ("\n|   Fahrenheit\t|     Celsius\t|\n");
     printf ("+-------------------------------+\n");
     while (fahr <= t_maior)
     {
         celsius=(5.0/9.0) * (fahr-32.0);
-        printf ("|   %0.0f\t\t|\t%0.1f\t|\n", fahr,celsius);
+        printf ("|\t%0.0f\t|\t%0.1f\t|\n", fahr,celsius);
         printf ("+-------------------------------+\n");        
         fahr = fahr+incremento;
     }
