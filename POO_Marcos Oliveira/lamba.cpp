@@ -4,9 +4,8 @@
 
 bool eh_letra(char c){
 
-    return (c>='A'&& c<='Z') || (c>='a' && c<='z')
+    return (c>='A'&& c<='Z') || (c>='a' && c<='z');
 }
-
 int main(int argc, char const *argv[])
 {
     const char str[] = "Hhsj5jsjd";
