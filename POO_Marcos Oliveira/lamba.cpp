@@ -1,4 +1,8 @@
 #include<iostream>
+#include<algorithm> //find_if_not   
+#include<iterator>
+
+
 
 int main(int argc, char const *argv[])
 {
