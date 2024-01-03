@@ -9,7 +9,7 @@ bool eh_letra(char c){
 int main(int argc, char const *argv[])
 {
     const char str[] = "Hhsj5jsjd";
-    const char *it = std::find_if_not(std::begin(str),std.end(str),eh_letra);
+    const char *it = std::find_if_not(std::begin(str),std::end(str),eh_letra);
 
     std::cout << "o caracter que não é letra em str é :" << *it <<'\n';
     return 0;

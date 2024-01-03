@@ -1,5 +1,7 @@
 {
   "files.associations": {
+    "*.h": "cpp",
+    "*.json": "cpp",
     "cctype": "cpp",
     "clocale": "cpp",
     "cmath": "cpp",
@@ -62,7 +64,15 @@
     "stop_token": "cpp",
     "thread": "cpp",
     "bitset": "cpp",
-    "set": "cpp"
+    "set": "cpp",
+    "csignal": "cpp",
+    "complex": "cpp",
+    "condition_variable": "cpp",
+    "list": "cpp",
+    "map": "cpp",
+    "regex": "cpp",
+    "mutex": "cpp",
+    "valarray": "cpp"
   },
 
 }
