@@ -8,7 +8,7 @@ https://cplusplus.com/reference/ctime/time_t/
 */
 
 #include<iostream>
-#include<ctime> //biblioteca para manipular temp
+#include<ctime> //biblioteca para manipular tempo
 //#include <stdint.h>
 #include<string>
 
