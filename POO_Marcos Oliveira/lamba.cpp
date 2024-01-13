@@ -20,8 +20,6 @@ int main(int argc, char const *argv[])
 
 
 // Com lambda
-#include <iostream>
-#include <algorithm> // find_if_not
 
 int main( int argc , char **argv ){
   const char str[] = "Hhsjjsjdasasa,sdas";
