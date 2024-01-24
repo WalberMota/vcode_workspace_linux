@@ -9,6 +9,7 @@ private:
 public:
     std::string nomeFilme;
     std::string diretorFilme;
+    
     Movie(std::string setNome, std::string setDiretor, std::string setNota)
     {
         nomeFilme = setNome;
