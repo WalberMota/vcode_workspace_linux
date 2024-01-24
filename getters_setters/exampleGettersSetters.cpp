@@ -14,7 +14,7 @@ public:
     ~Movie();
 };
 
-Movie(std::string nome, std::string diretor, std::string nota)
+Movie::Movie(std::string nome, std::string diretor, std::string nota)
 {
     nomeFilme = nome;
     diretorFilme = diretor;
