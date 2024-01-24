@@ -14,7 +14,7 @@ public:
         nomeFilme = nome;
         diretorFilme = diretor;
         notaFilme = nota;
-        std::cout >> "objeto criado";
+        std::cout << "objeto criado";
     }
 
     ~Movie();
