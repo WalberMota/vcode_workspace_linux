@@ -4,7 +4,7 @@
 class Movie
 {
 private:
-    std::string CalssificacaoFilme;
+    std::string classificacaoFilme;
 
 public:
     std::string nomeFilme;
@@ -25,18 +25,18 @@ public:
         if (setNota == "G" || setNota == "PG" || \
             setNota == "PG-13" ||setNota == "R" || setNota == "NC")
         {
-            CalssificacaoFilme = setNota;
+            classificacaoFilme = setNota;
         }
         else
         {
-            CalssificacaoFilme = "NR";
+            classificacaoFilme = "NR";
         }
 
     }
 
     std::string getClassificacao()
     {
-        
+        return 
 
     }
 
