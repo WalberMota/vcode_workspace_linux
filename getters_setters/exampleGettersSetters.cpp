@@ -9,7 +9,7 @@ private:
 public:
     std::string nomeFilme;
     std::string diretorFilme;
-    
+
     Movie(std::string setNome, std::string setDiretor, std::string setNota)
     {
         nomeFilme = setNome;
@@ -22,7 +22,11 @@ public:
 
     void setClassificacao(std::string setNota)
     {
-        CalssificacaoFilme = setNota;
+        if (setNota == "G" || setNota == "PG" || setNota == "PG-13" ||setNota == "R" || setNota == "NC")
+        {
+            CalssificacaoFilme = setNota;
+        }
+        
     }
 
 };
