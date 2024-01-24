@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 
-
 class Movie
 {
 private:
@@ -10,23 +9,15 @@ private:
     std::string notaFilme;
 
 public:
-    Movie(std::string nome, std::string diretor, std::string nota);
+    Movie(std::string nome, std::string diretor, std::string nota)
+    {
+        nomeFilme = nome;
+        diretorFilme = diretor;
+        notaFilme = nota;
+    }
+
     ~Movie();
 };
-
-Movie::Movie(std::string nome, std::string diretor, std::string nota)
-{
-    nomeFilme = nome;
-    diretorFilme = diretor;
-    notaFilme=nota;
-
-}
-
-Movie::~Movie()
-{
-} 
-
-
 
 int main(int argc, char const *argv[])
 {
