@@ -10,7 +10,7 @@ private:
     string notaFilme;
 
 public:
-    Movie(string nomeFilme, string diretorFilme, string notaFilme);
+    Movie(string nome, string diretor, string nota);
     ~Movie();
 };
 
@@ -20,11 +20,11 @@ Movie(string nome, string diretor, string nota)
     diretorFilme = diretor;
     notaFilme=nota;
 
-}
+};
 
-~Filmes()
+/* ~Filmes()
 {
-}
+}; */
 
 
 
