@@ -4,7 +4,7 @@
 
 class Movie
 {
-public:
+private:
     string nomeFilme;
     string diretorFilme;
     string notaFilme;
@@ -30,6 +30,6 @@ Movie(string nome, string diretor, string nota)
 
 int main(int argc, char const *argv[])
 {
-        
+
     return 0;
 }
