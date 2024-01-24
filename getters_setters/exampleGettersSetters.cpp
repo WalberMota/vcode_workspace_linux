@@ -47,7 +47,7 @@ int main(int argc, char const *argv[])
     Movie filme1("E.T.: O Extraterrestre","Steven Spielberg","PG");
     Movie filme2("A Idade do Ouro","Luis Buñuel", "PG-13");
 
-    std::cout << filme2.nomeFilme << "tem classificação " << filme2.getClassificacao();
+    std::cout << filme2.nomeFilme << " tem classificação " << filme2.getClassificacao();
  
      
     return 0;
