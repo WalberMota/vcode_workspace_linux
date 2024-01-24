@@ -18,7 +18,7 @@ Movie(string nome, string diretor, string nota)
 {
     nomeFilme = nome;
     diretorFilme = diretor;
-
+    notaFilme=nota;
 
 }
 
@@ -30,6 +30,6 @@ Movie(string nome, string diretor, string nota)
 
 int main(int argc, char const *argv[])
 {
-    
+        
     return 0;
 }
