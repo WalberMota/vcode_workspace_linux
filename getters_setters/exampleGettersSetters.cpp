@@ -36,7 +36,7 @@ public:
 
     std::string getClassificacao()
     {
-        return 
+        return classificacaoFilme;
 
     }
 
