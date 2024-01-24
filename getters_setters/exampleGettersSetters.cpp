@@ -4,20 +4,26 @@
 class Movie
 {
 private:
-    std::string nomeFilme;
-    std::string diretorFilme;
     std::string CalssificacaoFilme;
 
 public:
+    std::string nomeFilme;
+    std::string diretorFilme;
     Movie(std::string setNome, std::string setDiretor, std::string setNota)
     {
         nomeFilme = setNome;
         diretorFilme = setDiretor;
-        CalssificacaoFilme = setNota;
+        setClassificacao(setNota);
         std::cout << "objeto criado\n";
     }
 
     ~Movie(){};
+
+    void setClassificacao(std::string setNota)
+    {
+        CalssificacaoFilme = setNota;
+    }
+
 };
 
 int main(int argc, char const *argv[])
