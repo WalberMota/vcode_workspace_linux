@@ -5,16 +5,16 @@
 class Movie
 {
 private:
-    string nomeFilme;
-    string diretorFilme;
-    string notaFilme;
+    std::string nomeFilme;
+    std::string diretorFilme;
+    std::string notaFilme;
 
 public:
-    Movie(string nome, string diretor, string nota);
+    Movie(std::string nome, std::string diretor, std::string nota);
     ~Movie();
 };
 
-Movie(string nome, string diretor, string nota)
+Movie(std::string nome, std::string diretor, std::string nota)
 {
     nomeFilme = nome;
     diretorFilme = diretor;
