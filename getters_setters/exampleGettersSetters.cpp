@@ -22,7 +22,7 @@ Movie::Movie(std::string nome, std::string diretor, std::string nota)
 
 }
 
-~Filmes()
+~Movie::Movie()
 {
 }
 
