@@ -16,7 +16,7 @@ public:
 
 Movie(std::string nome, std::string diretor, std::string nota)
 {
-    Movie.nomeFilme = nome;
+    nomeFilme = nome;
     diretorFilme = diretor;
     notaFilme=nota;
 
