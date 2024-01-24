@@ -27,7 +27,11 @@ public:
         {
             CalssificacaoFilme = setNota;
         }
-        
+        else
+        {
+            CalssificacaoFilme = "NR";
+        }
+            
     }
 
 };
