@@ -31,7 +31,13 @@ public:
         {
             CalssificacaoFilme = "NR";
         }
-            
+
+    }
+
+    std::string getClassificacao()
+    {
+        
+
     }
 
 };
