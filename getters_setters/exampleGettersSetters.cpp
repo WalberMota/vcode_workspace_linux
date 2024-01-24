@@ -20,9 +20,10 @@ public:
 
     ~Movie(){};
 
-    void setClassificacao(std::string setNota)
+    void setClassificacao(std::string setNota)//com os setters podemos criar regras
     {
-        if (setNota == "G" || setNota == "PG" || setNota == "PG-13" ||setNota == "R" || setNota == "NC")
+        if (setNota == "G" || setNota == "PG" || \
+            setNota == "PG-13" ||setNota == "R" || setNota == "NC")
         {
             CalssificacaoFilme = setNota;
         }
