@@ -14,6 +14,7 @@ public:
         nomeFilme = nome;
         diretorFilme = diretor;
         notaFilme = nota;
+        std::cout >> "objeto criado";
     }
 
     ~Movie();
@@ -22,7 +23,7 @@ public:
 int main(int argc, char const *argv[])
 {
     Movie filme1("E.T.: O Extraterrestre","Steven Spielberg","9.6");
-    Movie filme2(""A Idade do Ouro","Luis Buñuel", "8.2");
-    
+    Movie filme2("A Idade do Ouro","Luis Buñuel", "7.2");
+
     return 0;
 }
