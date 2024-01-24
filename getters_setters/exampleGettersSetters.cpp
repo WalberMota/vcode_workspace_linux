@@ -14,7 +14,7 @@ public:
         nomeFilme = setNome;
         diretorFilme = setDiretor;
         setClassificacao(setNota);
-        std::cout << "objeto criado\n";
+        //std::cout << "objeto criado\n";
     }
 
     ~Movie(){};
