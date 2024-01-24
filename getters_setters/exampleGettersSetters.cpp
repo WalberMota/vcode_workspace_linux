@@ -20,7 +20,7 @@ Movie::Movie(std::string nome, std::string diretor, std::string nota)
     diretorFilme = diretor;
     notaFilme=nota;
 
-}
+};
 
 ~Movie::Movie()
 {
