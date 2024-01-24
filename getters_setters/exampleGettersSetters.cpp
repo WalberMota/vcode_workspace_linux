@@ -17,7 +17,7 @@ public:
         std::cout << "objeto criado";
     }
 
-    ~Movie();
+    ~Movie(){};
 };
 
 int main(int argc, char const *argv[])
