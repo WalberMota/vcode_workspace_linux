@@ -11,8 +11,6 @@
         //std::cout << "objeto criado\n";
     }
 
-    Movie::~Movie(){};
-
     void Movie::setClassificacao(std::string setNota)//com os setters podemos criar regras
     {
         if (setNota == "G" || setNota == "PG" || \
@@ -32,3 +30,5 @@
         return classificacaoFilme;
 
     }
+
+    Movie::~Movie(){};
