@@ -1,3 +1,12 @@
+/*
+Programa:exempleGettersSetters.cpp
+Linguagem: C++
+Data da Criação: 23 Janeiro 2024
+Version 01.00 
+locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM)
+i5-5200U CPU @ 2.20GHz (306D4)
+Propósito:  Uso de Setters como o conceitos da orientação a objeto, o encapsulamento, na qual vc pode definir a sua variável como privado, e criar o getter e setter para poder acessar ela a partir de outra classe. Permite também a criação de regras de nogócios para controlar os dados inseridos pelo usuário.
+*/
 #include <iostream>
 #include <string>
 
