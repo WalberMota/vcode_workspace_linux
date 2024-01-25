@@ -15,7 +15,7 @@ Propósito:  Uso de Setters como o conceitos da orientação a objeto, o encapsu
 
 int main(int argc, char const *argv[])
 {
-    Movie filme1("E.T.: O Extraterrestre","Steven Spielberg","PG");
+    Movie filme1("E.T.: O Extraterrestre","Steven Spielberg","PG-13");
     Movie filme2("A Idade do Ouro","Luis Buñuel", "PG-13");
 
     std::cout << filme1.nomeFilme << " dirigido por "<< filme1.diretorFilme <<" tem classificação " << filme1.getClassificacao();
