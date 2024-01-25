@@ -7,8 +7,7 @@ locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM)
 i5-5200U CPU @ 2.20GHz (306D4)
 Propósito:  Uso de Setters como o conceitos da orientação a objeto, o encapsulamento, na qual vc pode definir a sua variável como privado, e criar o getter e setter para poder acessar ela a partir de outra classe. Permite também a criação de regras de nogócios para controlar os dados inseridos pelo usuário.
 */
-#include <iostream>
-#include <string>
+
 
 class Movie
 {
@@ -19,36 +18,7 @@ public:
     std::string nomeFilme;
     std::string diretorFilme;
 
-    Movie(std::string setNome, std::string setDiretor, std::string setNota)
-    {
-        nomeFilme = setNome;
-        diretorFilme = setDiretor;
-        setClassificacao(setNota);
-        //std::cout << "objeto criado\n";
-    }
-
-    ~Movie(){};
-
-    void setClassificacao(std::string setNota)//com os setters podemos criar regras
-    {
-        if (setNota == "G" || setNota == "PG" || \
-            setNota == "PG-13" ||setNota == "R" || setNota == "NC")
-        {
-            classificacaoFilme = setNota;
-        }
-        else
-        {
-            classificacaoFilme = "NR";
-        }
-
-    }
-
-    std::string getClassificacao()
-    {
-        return classificacaoFilme;
-
-    }
-
+ 
 };
 
 int main(int argc, char const *argv[])
