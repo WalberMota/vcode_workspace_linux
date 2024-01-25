@@ -1,9 +1,9 @@
    
    #include <iostream>
    #include <string>
-   #include <gettersSetters.h>
+   #include "gettersSetters.h"
 
-   Movie(std::string setNome, std::string setDiretor, std::string setNota)
+   Movie::Movie(std::string setNome, std::string setDiretor, std::string setNota)
     {
         nomeFilme = setNome;
         diretorFilme = setDiretor;
@@ -11,9 +11,9 @@
         //std::cout << "objeto criado\n";
     }
 
-    ~Movie(){};
+    Movie::~Movie(){};
 
-    void setClassificacao(std::string setNota)//com os setters podemos criar regras
+    void Movie::setClassificacao(std::string setNota)//com os setters podemos criar regras
     {
         if (setNota == "G" || setNota == "PG" || \
             setNota == "PG-13" ||setNota == "R" || setNota == "NC")
@@ -27,7 +27,7 @@
 
     }
 
-    std::string getClassificacao()
+    std::string Movie::getClassificacao()
     {
         return classificacaoFilme;
 

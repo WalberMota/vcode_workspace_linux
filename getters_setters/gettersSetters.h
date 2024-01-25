@@ -12,8 +12,8 @@ public:
     std::string diretorFilme;
 
     Movie(std::string setNome, std::string setDiretor, std::string setNota);
-    void setClassificacao(std::string setNota);
-    std::string getClassificacao();
+    void Movie::setClassificacao(std::string setNota);
+    std::string Movie::getClassificacao();
 
     ~Movie();
    
