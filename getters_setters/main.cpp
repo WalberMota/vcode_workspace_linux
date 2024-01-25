@@ -9,17 +9,9 @@ Propósito:  Uso de Setters como o conceitos da orientação a objeto, o encapsu
 */
 
 
-class Movie
-{
-private:
-    std::string classificacaoFilme;
+#include <iostream>
+#include <gettersSetters.h>
 
-public:
-    std::string nomeFilme;
-    std::string diretorFilme;
-
- 
-};
 
 int main(int argc, char const *argv[])
 {
