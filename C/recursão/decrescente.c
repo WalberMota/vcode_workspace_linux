@@ -8,6 +8,8 @@ i5-5200U CPU @ 2.20GHz (306D4)
 Propósito:  Estudo de funções recursivas.
 */
 
+//cria sequencia decrescente de numero usando funções recursivas
+
 #include<stdio.h>
 
 
