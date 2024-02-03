@@ -18,9 +18,14 @@ int main(){
     //Um byte na memoria = 2^8 = 256 diferentes valores (0~255)
     std::cout << '\n';
     
-    char value = 65 ; // código ASCII para 'A'
-    std::cout << "value : " << value << '\n'; // A
-    std::cout << "value(int) : " << static_cast<int>(value) << '\n'; 
+    char value1 = 65; // aqui foi colocado o código ASCII para 'A'
+    char value2 = 'B'; // aqui foi colocado o próprio caracter 'B'
+
+    std::cout << "value : " << value1 << '\n'; // A
+    std::cout << "value(int) : " << static_cast<int>(value1) << '\n'; 
+    
+    std::cout << "value : " << value2 << '\n'; // B
+    std::cout << "value(int) : " << static_cast<int>(value2) << '\n'; 
 
     return 0;
 }
