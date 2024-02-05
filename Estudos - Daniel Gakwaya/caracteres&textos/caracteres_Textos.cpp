@@ -23,7 +23,7 @@ int main(){
 
     std::cout << "value : " << value1 << '\n'; // A
     std::cout << "value(int) : " << static_cast<int>(value1) << '\n'; 
-    
+    //a instrução static_cat permite converter para char para inteiro.
     std::cout << "value : " << value2 << '\n'; // B
     std::cout << "value(int) : " << static_cast<int>(value2) << '\n'; 
 
