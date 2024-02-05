@@ -17,7 +17,7 @@ int main(){
     //===================================================================
 
     
-    std::cout << "======Postfix incremento e decremento======"<< std::endl;
+    std::cout << "======Postfixado incremento e decremento======"<< std::endl;
     //retorna o valor para 5
     value = 5;
     
