@@ -1,3 +1,6 @@
+/* estudo com o operador booleano
+ */
+
 #include<iostream>
 
 int main(int argc, char const *argv[])
