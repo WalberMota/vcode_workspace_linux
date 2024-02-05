@@ -38,30 +38,30 @@ int main(){
     //===================================================================
 
     
-    std::cout << "======Prefix incremento e decremento======"<< std::endl;
+    std::cout << "======Prefixando incremento e decremento======"<< std::endl;
 
     //retorna o valor para 5
     value = 5;
     
     ++value;
-    std::cout << "O valor é (prefix++) : " << value << std::endl; // 6
+    std::cout << "O valor é (prefixado++) : " << value << std::endl; // 6
     
     //retorna o valor para 5
     value = 5;
-    std::cout << "O valor é (prefix++ in place) : " << ++value << std::endl; // 6
+    std::cout << "O valor é (prefixado++ in place) : " << ++value << std::endl; // 6
     
     std::cout << std::endl;
     
-    //Prefix : decrementando
+    //Prefixando : decrementando
     
     //retorna o valor para 5;
     value = 5;
     --value;
-    std::cout << "O valor é (prefix--) : " << value << std::endl; // 4
+    std::cout << "O valor é (prefixado--) : " << value << std::endl; // 4
     
     //retorna o valor para 5;
     value = 5;
-    std::cout << "O valor é (prefix-- no lugar) : " << --value << std::endl;//4
+    std::cout << "O valor é (prefixado-- no lugar) : " << --value << std::endl;//4
 
    
     return 0;
