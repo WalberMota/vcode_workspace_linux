@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
 
     
     std::cout<<std::boolalpha;
-    std::cout<<"Usando std::boolalpha obtemos a pala true e false ao invés de 1 e 0\n";
+    std::cout<<"Usando std::boolalpha obtemos na forma de \"true\" e \"false\" ao invés de 1 e 0\n";
     std::cout <<"Condição verdadeira: " << condition <<'\n';
     std::cout <<"Condição falsa: " << other_condition <<"\n\n";
 
