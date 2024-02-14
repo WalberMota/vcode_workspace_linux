@@ -1,3 +1,7 @@
+/* 
+system pause alternativa
+ */
+
 #include<iostream>
 
 int main()
