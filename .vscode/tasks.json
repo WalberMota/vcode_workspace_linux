@@ -2,7 +2,7 @@
     "tasks": [
         {
             "type": "process",
-            "label": "g++-13 - Gera: output",
+            "label": "g++-12 - Gera: output",
             "command": "/usr/bin/g++-12",
             "args": [
                 "-fdiagnostics-color=always",
@@ -44,7 +44,7 @@
         },
         {
             "type": "cppbuild",
-            "label": "g++-13 Gera: nome sem extensao",
+            "label": "g++-12 Gera: nome sem extensao",
             "command": "/usr/bin/g++-12",
             "args": [
                 "-fdiagnostics-color=always",
