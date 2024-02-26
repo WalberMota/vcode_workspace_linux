@@ -76,12 +76,13 @@ int main(){
     //===================================================================
     std::cout << std::endl;
 
-    //Justify : Values can be justified in their fields. There are three manipulators
-    //          for adjusting the justification: left, right, and internal. 
+ 
+    //Justificar: Os valores podem ser justificados em seus campos. Existem três manipuladores
+     // para ajustar a justificação: esquerda, direita e interna.
     
-    //right justified
+    //Justificados à direita
     std::cout << std::endl;
-    std::cout << "Right justified table(default) :  " << std::endl;
+    std::cout << "Tabela justificada à direita(default) :  " << std::endl;
     
     col_width = 20;
     
