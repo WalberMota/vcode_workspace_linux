@@ -1,7 +1,7 @@
 section. data
 
 section. text
-    globa _start
+    global _start
 
 
 _start:
