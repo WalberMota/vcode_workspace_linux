@@ -1,8 +1,8 @@
-section. data
+section .data
+    msg db "Primeiro Programa em Assembly", 0xA
+section .text
 
-section. text
     global _start
-
 
 _start:
 	push ebp
@@ -20,7 +20,7 @@ _start:
 	pushfd
 	std
 
-@@:		
+@B:		
     lodsd
 	mov	[edi],eax
 	add edi,4
@@ -36,6 +36,6 @@ _start:
 
 	ret
 saida:
-    mov     eax,0x1         ;indica o final de operação, corresponde a System.exit
-    mov     ebx,0x0         ;informa o estado final do programa - 0 sem erro
-    int 0x80                 
+    mov     eax,0x1
+    mov     ebx,0x0
+    int     0x80                 
