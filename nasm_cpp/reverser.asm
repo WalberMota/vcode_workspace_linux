@@ -19,7 +19,7 @@ _start:
 	pushfd
 	std
 
-@B:		
+@@:		
     lodsd
 	mov	[edi],eax
 	add edi,4
@@ -34,7 +34,7 @@ _start:
 	pop ebp
 
 	ret
-saida:
+@B:
     mov     eax,0x1
     mov     ebx,0x0
     int     0x80                 
