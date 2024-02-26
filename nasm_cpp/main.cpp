@@ -25,8 +25,9 @@ int main()
 	for (int i = 0; i < n; i++)
 	{
 		
-		printf(" x: %5d	y: %5d\n", x[i], y[i]);
-	
+		printf("i:    %5d    y: %5d  	x: %5d\n", i,y[i], x[i]);
+        if (x[i]!= y[n-1-i])
+        printf("    comparação falhou");
 	}
 
 	return 0;
