@@ -58,7 +58,7 @@ int main(){
     std::cout << std::setw(10) << "Izaiah" << std::setw(10) << "Robinson" << std::setw(8) << "29" << std::endl;
     
     std::cout << std::endl;
-    std::cout << "Formatted table with variables: " << std::endl;
+    std::cout << "Tabela formata com variáveis: " << std::endl;
     
     int col_width{14};
     
