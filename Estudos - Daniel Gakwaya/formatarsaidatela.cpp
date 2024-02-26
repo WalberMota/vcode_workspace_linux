@@ -99,7 +99,7 @@ int main(){
 
     //Left justified
     std::cout << std::endl;
-    std::cout << "Left justified table :  " << std::endl;
+    std::cout << "Tabela justificada à esquerda :  " << std::endl;
     
     col_width = 20;
     
