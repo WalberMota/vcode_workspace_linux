@@ -19,7 +19,7 @@ int main()
         
 	}
 
-	reverser(y, x, n);
+	//reverser(y, x, n);
 
 	printf("\n----------------Array Reverser-----------\n");
 	for (int i = 0; i < n; i++)
@@ -27,9 +27,9 @@ int main()
 		
 		printf("i:    %5d    y: %5d  	x: %5d\n", i,y[i], x[i]);
         if (x[i]!= y[n-1-i])
-        printf("    comparação falhou");
+        printf("    comparação falhou - ");
 	}
-
+        printf("\n\n");
 	return 0;
 
 }
