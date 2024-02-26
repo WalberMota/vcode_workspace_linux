@@ -27,8 +27,8 @@ int main(){
     std::cout << std::endl;
 
 	//std::flush : flushes the output buffer to its final destination. 
-    std::cout << "This is a nice message...." << std::endl << std::flush;
-    //After this std::flush, we're sure that at this line, the message has been sent 
+    std::cout << "This is a nice messIdade...." << std::endl << std::flush;
+    //After this std::flush, we're sure that at this line, the messIdade has been sent 
     //to the stream. This may be important in some applications.
     
     //===================================================================
@@ -86,7 +86,7 @@ int main(){
     col_width = 20;
     
     std::cout << std::right;
-    std::cout << std::setw(col_width) <<  "Lastname"  << std::setw(col_width) << "Firstname" << std::setw(col_width/2) << "Age" << std::endl;
+    std::cout << std::setw(col_width) <<  "Sobrenome"  << std::setw(col_width) << "Nome" << std::setw(col_width/2) << "Idade" << std::endl;
     std::cout << std::setw(col_width) << "Daniel"  << std::setw(col_width) << "Gray" << std::setw(col_width/2) << "25" << std::endl;
     std::cout << std::setw(col_width) << "Stanley" << std::setw(col_width)  << "Woods" << std::setw(col_width/2) <<  "33" << std::endl;
     std::cout << std::setw(col_width) <<  "Jordan" << std::setw(col_width)  << "Parker" << std::setw(col_width/2) << "45" << std::endl;
@@ -103,7 +103,7 @@ int main(){
     col_width = 20;
     
     std::cout << std::left;
-    std::cout << std::setw(col_width) <<  "Lastname"  << std::setw(col_width) << "Firstname" << std::setw(col_width/2) << "Age" << std::endl;
+    std::cout << std::setw(col_width) <<  "Sobrenome"  << std::setw(col_width) << "Nome" << std::setw(col_width/2) << "Idade" << std::endl;
     std::cout << std::setw(col_width) << "Daniel"  << std::setw(col_width) << "Gray" << std::setw(col_width/2) << "25" << std::endl;
     std::cout << std::setw(col_width) << "Stanley" << std::setw(col_width)  << "Woods" << std::setw(col_width/2) <<  "33" << std::endl;
     std::cout << std::setw(col_width) <<  "Jordan" << std::setw(col_width)  << "Parker" << std::setw(col_width/2) << "45" << std::endl;
@@ -133,7 +133,7 @@ int main(){
     
     std::cout << std::left;
     std::cout << std::setfill('*'); // The fill character
-    std::cout << std::setw(col_width) <<  "Lastname"  << std::setw(col_width) << "Firstname" << std::setw(col_width/2) << "Age" << std::endl;
+    std::cout << std::setw(col_width) <<  "Sobrenome"  << std::setw(col_width) << "Nome" << std::setw(col_width/2) << "Idade" << std::endl;
     std::cout << std::setw(col_width) << "Daniel"  << std::setw(col_width) << "Gray" << std::setw(col_width/2) << "25" << std::endl;
     std::cout << std::setw(col_width) << "Stanley" << std::setw(col_width)  << "Woods" << std::setw(col_width/2) <<  "33" << std::endl;
     std::cout << std::setw(col_width) <<  "Jordan" << std::setw(col_width)  << "Parker" << std::setw(col_width/2) << "45" << std::endl;
@@ -292,7 +292,7 @@ int main(){
     std::cout << std::setprecision(20);
     std::cout << "a (precision(20)) : " << a << std::endl;
     
-    //If the precision is bigger than supported by the type, you'll just print garbage.
+    //If the precision is bigger than supported by the type, you'll just print garbIdade.
     
     //===================================================================
     std::cout << std::endl;
