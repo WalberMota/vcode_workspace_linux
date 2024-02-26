@@ -127,13 +127,13 @@ int main(){
     //setfill
     
     std::cout << std::endl;
-    std::cout << "Table with fill characters :  " << std::endl;
+    std::cout << "Tabela com caracteres de preenchimento: " << std::endl;
     
     
     col_width = 20;
     
     std::cout << std::left;
-    std::cout << std::setfill('*'); // The fill character
+    std::cout << std::setfill('_'); // The fill character
     std::cout << std::setw(col_width) <<  "Sobrenome"  << std::setw(col_width) << "Nome" << std::setw(col_width/2) << "Idade" << std::endl;
     std::cout << std::setw(col_width) << "Daniel"  << std::setw(col_width) << "Gray" << std::setw(col_width/2) << "25" << std::endl;
     std::cout << std::setw(col_width) << "Stanley" << std::setw(col_width)  << "Woods" << std::setw(col_width/2) <<  "33" << std::endl;
