@@ -113,9 +113,9 @@ int main(){
     std::cout << std::setw(col_width) << "Izaiah" << std::setw(col_width) << "Robinson" << std::setw(col_width/2) << "29" << std::endl;
     
 
-    //Internal justified : sign is left justified , data is right justified
+   //Justificado interno: o sinal é justificado à esquerda, os dados são justificados à direita
     std::cout << std::endl;
-    std::cout << "Internal justified : " << std::endl;
+    std::cout << "justificados internamente : " << std::endl;
     std::cout << std::right;
     std::cout << std::setw(10) << -123.45 << std::endl;
     std::cout << std::internal;
