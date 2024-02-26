@@ -76,5 +76,6 @@
     "source_location": "cpp",
     "shared_mutex": "cpp"
   },
+  "cmake.configureOnOpen": true,
 
 }
