@@ -6,7 +6,7 @@
 #include <stdlib.h>
  
 
-extern "C" void Reverser(int* y, const int *x, int n);
+extern "C" void reverser(int* y, const int *x, int n);
 
 int main()
 {
@@ -18,7 +18,7 @@ int main()
 		x[i] = i;
 	}
 
-	Reverser(y, x, n);
+	reverser(y, x, n);
 
 	printf("\n----------------Array Reverser-----------\n");
 	for (int i = 0; i < n; i++)
