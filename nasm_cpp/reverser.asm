@@ -1,7 +1,6 @@
 section .data
     msg db "Primeiro Programa em Assembly", 0xA
 section .text
-
     global _start
 
 _start:
