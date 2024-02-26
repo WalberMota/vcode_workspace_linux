@@ -3,7 +3,7 @@
         {
             "type": "process",
             "label": "g++-13 - Gera: output",
-            "command": "/usr/bin/g++-13",
+            "command": "/usr/bin/g++-12",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -45,7 +45,7 @@
         {
             "type": "cppbuild",
             "label": "g++-13 Gera: nome sem extensao",
-            "command": "/usr/bin/g++-13",
+            "command": "/usr/bin/g++-12",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -68,7 +68,7 @@
         {
             "type": "process",
             "label": "GCC",
-            "command": "/usr/bin/gcc-13",
+            "command": "/usr/bin/gcc-12",
             "args": [
                 "${file}",
                 "-Wall",
