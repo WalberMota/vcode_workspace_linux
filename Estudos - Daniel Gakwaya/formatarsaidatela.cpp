@@ -1,3 +1,5 @@
+//traduzindo ainda. 
+
 #include <iostream>
 #include <iomanip>
 
