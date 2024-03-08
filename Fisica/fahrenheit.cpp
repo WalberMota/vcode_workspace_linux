@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 
     celsius=t_menor;
 
-    std::cout << "\n|   Celsius\t|     Fahrenheit\t|\n";
+    std::cout << "\n|   Celsius\t|  Fahrenheit\t|\n";
     std::cout << "+-------------------------------+\n";
     
     while (celsius <= t_maior)
