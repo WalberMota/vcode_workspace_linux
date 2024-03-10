@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
     //Com sistemas numéricos - Hex: prefixo com 0x
     unsigned int hex_number1{ 0x22BU}; // Dec 555
     int hex_number2 {0x400};// Dec 1024
-    std::cout << std::hex <<  "O numero hexadecimal_1 é : " << hex_number1 << std::endl;
+    std::cout << std::hex <<  "\nO numero hexadecimal_1 é : " << hex_number1 << std::endl;
     std::cout << std::dec <<  "O numero hexadecimal_2 é : " << hex_number2 << std::endl;
 
 
