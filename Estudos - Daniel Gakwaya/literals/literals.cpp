@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     std::cout << std::dec << "O numero hexadecimal_2 é : " << hex_number2 << std::endl;
 
     unsigned int binary_literal{0b11111111u}; // 255 dec
-    std::cout << "A literal binária é : " << binary_literal << std::endl;
+    std::cout << "\nA literal binária é : " << binary_literal << std::endl;
 
     return 0;
 }
