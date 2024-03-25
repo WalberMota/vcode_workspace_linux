@@ -14,6 +14,7 @@ int main(int argc, char const *argv[])
 
     double preco{45.65};
     int unidades{10};
+
     double total = preco * unidades;
 
     std::cout << "o preço por unidade é :" << preco << '\n';
@@ -21,5 +22,15 @@ int main(int argc, char const *argv[])
     std::cout << "Total da aquisição     :" << total << '\n'
               << std::endl;
 
+/*
+a operação de atribuição causará uma conversão estreita implícita.
+y é convertido em int antes da atribuição
+*/
+
+    int x;
+    double y{45.44};
+    x=y;
+    std::cout <<"x = " << x <<std::endl;
+    
     return 0;
 }
