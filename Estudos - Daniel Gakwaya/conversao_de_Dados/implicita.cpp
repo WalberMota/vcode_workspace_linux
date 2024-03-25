@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
     std::cout << "o preço por unidade é :" << preco << '\n';
     std::cout << "unidade adquidas      :" << unidades << "\n";
     std::cout << "Total da aquisição     :" << total << '\n'<< std::endl;
-    std::cout << "tamanho da variavel 'total': " << sizeof(total)<< std::endl<<std::endl;
+    std::cout << "tamanho da variável 'total': " << sizeof(total)<< std::endl<<std::endl;
 
 
 /*
