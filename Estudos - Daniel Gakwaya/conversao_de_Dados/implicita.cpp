@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
     double total = preco * unidades;
 
     std::cout << "o preço por unidade é :" << preco << '\n';
-    std::cout << "unidade adquidas      :" << unidades << '\n';
+    std::cout << "unidade adquidas      :" << unidades << "\n\n";
     std::cout << "Total da aquisição     :" << total << '\n';
 
     return 0;
