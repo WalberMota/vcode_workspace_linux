@@ -30,7 +30,7 @@ y é convertido em int antes da atribuição
     int x;
     double y{45.44};
     x=y;
-    std::cout <<"x = " << x <<std::endl;
+    std::cout <<"o valor de x = " << x <<std::endl;
     
     return 0;
 }
