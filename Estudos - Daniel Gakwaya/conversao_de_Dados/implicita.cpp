@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
     std::cout << "o preço por unidade é :" << preco << '\n';
     std::cout << "unidade adquidas      :" << unidades << "\n";
     std::cout << "Total da aquisição     :" << total << '\n'<< std::endl;
-    std::cout << "tamanho da variável 'total': " << sizeof(total)<< std::endl<<std::endl;
+    std::cout << "tamanho da variável 'total': " << sizeof(total)<<" bytes"<< std::endl<<std::endl;
 
 
 /*
@@ -33,7 +33,7 @@ y é convertido em int antes da atribuição
     double y{45.44};
     x=y;
     std::cout <<"o valor de x = " << x <<std::endl;
-    std::cout << "tamanho da variável 'x': " << sizeof(x)<< std::endl<<std::endl;
+    std::cout << "tamanho da variável 'x': " << sizeof(x)<<" bytes"<< std::endl<<std::endl;
     
     return 0;
 }
