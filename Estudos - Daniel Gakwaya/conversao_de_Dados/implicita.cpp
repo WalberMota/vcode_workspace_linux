@@ -1,3 +1,12 @@
+/*
+O compilador aplica conversões implícitas
+quando os tipos são diferentes em uma expressão
+
+As conversões são sempre feitas a partir do menor para
+o maior tipo neste caso int é transformado em double
+antes da expressão é avaliado. A menos que estejamos fazendo uma tarefa
+*/
+
 #include <iostream>
 
 int main(int argc, char const *argv[])
