@@ -3,7 +3,7 @@
 int main(int argc, char const *argv[])
 {
 
-    double preco{45.6};
+    double preco{45.65};
     int unidades{10};
     double total = preco * unidades;
 
