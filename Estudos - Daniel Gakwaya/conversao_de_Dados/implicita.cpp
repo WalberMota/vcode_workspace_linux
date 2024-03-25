@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
 
 
 /*
-a operação de atribuição causará uma conversão estreita implícita.
+a operação de atribuição(feita pelo usuário) causará uma conversão estreita implícita.
 y é convertido em int antes da atribuição
 */
 
@@ -33,6 +33,7 @@ y é convertido em int antes da atribuição
     double y{45.44};
     x=y;
     std::cout <<"o valor de x = " << x <<std::endl;
+    std::cout << "tamanho da variável 'x': " << sizeof(x)<< std::endl<<std::endl;
     
     return 0;
 }
