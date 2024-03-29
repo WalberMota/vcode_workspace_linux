@@ -11,10 +11,10 @@ int main(){
     
     int sum = x + y; 
     
-    std::cout << "The sum  is : " << sum << std::endl;
+    std::cout << "12.5+34.6 = " << sum << std::endl;
 
 
-	//Conversão explícita: conversão e soma
+	std::cout << "Conversão explícita: conversão e soma"<<'\n';
 	sum = static_cast<int>(x) + static_cast<int>(y) ;
     std::cout << "The sum  is : " << sum << std::endl;
 
