@@ -30,8 +30,8 @@ int main(){
     //se os tipos não são compatíveis um erro ocorre no momento da compilação. 2)É mais fácil de ser
     //encontrado no seu código. 3)Deixa sua intensão mais clara no código.
     int int_pi = static_cast<int>(PI);
-	std::cout << "PI : " << PI << std::endl;
-    std::cout << "int_pi : " << int_pi << std::endl;
+	std::cout << "PI(sem cast) : " << PI << std::endl;
+    std::cout << "int_pi(com C-cast) : " << int_pi << std::endl;
    
     return 0;
 }
