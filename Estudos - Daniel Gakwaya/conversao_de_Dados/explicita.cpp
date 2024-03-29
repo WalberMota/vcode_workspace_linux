@@ -26,6 +26,7 @@ int main(){
 	//C-cast estilo antigo
 	double PI {3.14};
 	//int int_pi = (int)(PI);
+    
     //dê preferencia ao C++ static_cast<>: 1)static_cast é verificado no momento da compilação assim
     //se os tipos não são compatíveis um erro ocorre no momento da compilação. 2)É mais fácil de ser
     //encontrado no seu código. 3)Deixa sua intensão mais clara no código.
