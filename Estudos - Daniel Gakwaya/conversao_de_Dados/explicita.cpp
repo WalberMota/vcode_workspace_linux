@@ -20,7 +20,7 @@ int main(){
 
     //Conversão explícita: soma e depois lança, a mesma coisa que conversão implícita
 	sum =  static_cast<int> (x + y);
-	std::cout << "Sum up then cast, result : " << sum << std::endl;
+	std::cout << "Soma e depois faz o cast do resultado: " << sum << std::endl;
 
 
 	//C-cast estilo antigo
