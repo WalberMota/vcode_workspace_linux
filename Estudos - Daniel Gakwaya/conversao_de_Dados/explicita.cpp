@@ -1,3 +1,4 @@
+//Estudo de cast explicito
 #include <iostream>
 
 
