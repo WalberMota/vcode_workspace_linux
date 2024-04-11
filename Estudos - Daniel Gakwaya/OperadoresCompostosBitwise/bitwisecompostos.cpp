@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
     binario <<=2;
     std::cout << std::setw(lagura_coluna) <<"binario :" <<
     std::setw(lagura_coluna) << std::bitset<8>(binario) <<" = "<<std::dec<<static_cast<int>(binario)<< std::endl;
-    std::cout << std::endl;
+    //std::cout << std::endl;
 
     //realizando deslocamento à direita (right shift)
     std::cout << std::endl;
