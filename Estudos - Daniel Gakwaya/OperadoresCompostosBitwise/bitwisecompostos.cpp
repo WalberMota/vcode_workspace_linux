@@ -16,6 +16,9 @@ int main(int argc, char const *argv[])
     std::cout << "valor inicial: " << std::endl;
 
     std::cout << std::setw(lagura_coluna) <<"binario inicial" <<
-    std::setw(lagura_coluna) << std::bitset<8>(binario);
+    std::setw(lagura_coluna) << std::bitset<8>(binario) << std::endl;
+    std::cout << std::endl;
+    
+
     return 0;
 }
