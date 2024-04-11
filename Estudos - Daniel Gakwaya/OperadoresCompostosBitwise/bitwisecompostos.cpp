@@ -10,7 +10,8 @@ int main(int argc, char const *argv[])
 
     //Imprimindo o valor inicial
     std::cout << std::endl;
-    
+    std::cout << "valor inicial: " << std::endl;
+
 
     return 0;
 }
