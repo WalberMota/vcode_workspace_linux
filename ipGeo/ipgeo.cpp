@@ -11,7 +11,7 @@ std::string ip,var1;
 int main()
 {
 
-    std::cout << "Please enter a word." << std::endl;
+    std::cout << "Digite o numero IP (no formato : xxx.xxx.xxx.xxx):" << std::endl;
     std::cin >> ip;
 
     
