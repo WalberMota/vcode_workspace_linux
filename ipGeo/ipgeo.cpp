@@ -1,28 +1,7 @@
 /*
-#include <iostream>
-#include <string>
-#include<vector>
-
-using std::to_string;
-
-int main(int argc, char const *argv[])
-{
-    std::string ip, var1;
-
-    std::cout << "Informa a localização geográfica de um IP";
-
-    std::cout <<"informe o IP:";
-    getline (std::cin,ip);
-
-    var1="curl https://ipinfo.io/";
-    var1+=ip;
-
-    std::cout << var1<<std::endl;
-
-    system(var1);
-
-    return 0;
-}
+Autor: Walber Mota
+19/04/2024
+Objetivo: Informar o endereço geográfico de um dado IP
  */
 #include <iostream>
 #include <string>
