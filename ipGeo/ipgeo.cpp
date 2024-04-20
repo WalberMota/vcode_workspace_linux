@@ -22,6 +22,7 @@ int main()
     std::cout << c <<'\n';
 
     system (c);
+    std::cout << std::endl;
 
     return 0;
 
