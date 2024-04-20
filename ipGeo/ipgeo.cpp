@@ -8,13 +8,13 @@ int main(int argc, char const *argv[])
     std::cout << "Informa a localização geográfica de um IP";
 
     std::cout <<"informe o IP:";
-    std::cin >> ip;
+    getline (std::cin,ip);
     
-    var1="curl https://ipinfo.io/"+ip;
+    var1="curl https://ipinfo.io/"+ argc;
 
-    std::cout << var1;
-    
-    //system (var1);
+    std::cout << var1<<std::endl;
+
+    //system ("curl https://ipinfo.io/"+argc);
 
     return 0;
 }
