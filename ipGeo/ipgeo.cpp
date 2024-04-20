@@ -14,11 +14,7 @@ int main()
     std::cout << "Digite o numero IP (no formato : xxx.xxx.xxx.xxx):" << std::endl;
     std::cin >> ip;
 
-    
-    int wordlength, i;
-
     var1="curl https://ipinfo.io/"+ip;
-
     
     char * c = var1.data();//precisa converter a var em um constchar * para poder ser
                             //usadon em system()
