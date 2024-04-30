@@ -14,12 +14,12 @@ int main()
     std::cout << "Digite o numero IP (no formato : xxx.xxx.xxx.xxx):" << std::endl;
     std::cin >> ip;
 
-    var1="curl https://ipinfo.io/"+ip;
+    var1="curl https://ipinfo.io/"+ip+"?token=95e96f2730a7be";
     
     char * c = var1.data();//precisa converter a var em um constchar * para poder ser
                             //usadon em system()
 
-    std::cout << c <<'\n';
+    //std::cout << c <<'\n';
 
     system (c);
     std::cout << std::endl;
