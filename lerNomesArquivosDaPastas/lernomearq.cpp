@@ -2,8 +2,6 @@
 #include <iostream>
 #include <string>
 
-
-
 void cortanome();
 
 int main()
@@ -21,35 +19,21 @@ int main()
         if (entry.is_regular_file())
         {
             // Lê o nome do arquivo.
-            if ()
             std::string fileName = entry.path().filename().string();
-            // fileName.erase(remove_if(fileName.begin(), fileName.end(), ::isspace), fileName.end());
-    char z;
-    int i = 0;
-    std::string nome=fileName;
-    char str[]+to_string(nomwe);
-    while (str[i])
-    {
-        z = str[i];
-        if (isspace(z))
-            z = '\n';
-        putchar(z);
-        i++;
-    }
-
-
-            std::cout << fileName << std::endl;
+            // fileName=fileName.erase(remove_if(fileName.begin(), fileName.end(), ::isspace), fileName.end());
+            std::cout << '\n'
+                      << fileName << std::endl;
             final = priparte + fileName + restopart + fileName + ".mp3";
             char *c = final.data();
             std::cout << c << std::endl;
-            system(c);
+            // system(c);
         }
     }
 
     return 0;
 };
 
-void cortanome()
+/* void cortanome()
 {
     char c;
     int i = 0;
@@ -62,4 +46,4 @@ void cortanome()
         putchar(c);
         i++;
     }
-};
+}; */
