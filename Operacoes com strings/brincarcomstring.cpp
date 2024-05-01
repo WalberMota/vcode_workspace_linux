@@ -17,7 +17,7 @@ using namespace std;
 int main()
     {
     string str="Hello";
-    cout<<"Strin original inicial :"<<str<<"\n\n";
+    cout<<"String original inicial :"<<str<<"\n\n";
 
     string::iterator it=str.begin();
     while(it!=str.end())
