@@ -1,3 +1,7 @@
+/*
+Ler nome do arquivo em um folder e retira espaços e caracteres especiais dos nomes
+*/
+
 #include <filesystem>
 #include <iostream>
 #include <string>
