@@ -1,3 +1,7 @@
+/*
+Cria uma tabela com valores em fahrenheit e Celsius
+
+*/
 #include <iostream>
 #include <iomanip>
 
