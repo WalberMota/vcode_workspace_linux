@@ -15,12 +15,12 @@ int main(int argc, char const *argv[])
         {
             std::cout << "Tudo certo !" << std::endl;
         }
-    else{
-        std::cout << "Velocidade: " << speed << std::endl;
     }
-
+    else
+    {
+        std::cout << "Pare !" << speed << std::endl;
     }
-
-
+    std::cout << "Velocidade " << speed << std::endl;
+    
     return 0;
 }
