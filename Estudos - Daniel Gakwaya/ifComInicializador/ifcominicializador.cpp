@@ -7,6 +7,9 @@ int main(int argc, char const *argv[])
 
     if (go) {
 
+        std::cout << "Velocidade: " << speed << std::endl;
+
+
         if (speed > 5)
         {
             std::cout << "Diminua !" <<std::endl;
@@ -18,6 +21,7 @@ int main(int argc, char const *argv[])
     }
     else
     {
+        std::cout << "Velocidade: " << speed << std::endl;        
         std::cout << "Pare !" << std::endl;
     }
     std::cout << "Velocidade " << speed << std::endl;
