@@ -10,16 +10,12 @@ int main(int argc, char const *argv[])
         std::cout << "Velocidade: " << speed << std::endl;
 
 
-        if (speed > 5)
-        {   
+        if (speed > 5){   
             std::cout << "Diminua !" <<std::endl;
-        }
-        else
-        {
+        }else{
             std::cout << "Tudo certo !" << std::endl;
         }
-    }else
-    {
+    }else{
         std::cout << "Velocidade: " << speed << std::endl;        
         std::cout << "Pare !" << std::endl;
     }
