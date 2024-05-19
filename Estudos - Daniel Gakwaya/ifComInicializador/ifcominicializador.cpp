@@ -2,10 +2,10 @@
 
 int main(int argc, char const *argv[])
 {
-    int speed {1};
+    
     bool go {false};
 
-    if (go) {
+    if (int speed {10};go) {
 
         std::cout << "Velocidade: " << speed << std::endl;
 
