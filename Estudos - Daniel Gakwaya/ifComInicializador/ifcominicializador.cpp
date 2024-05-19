@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
     
     bool go {true};
 
-    if (int speed {4};go) {
+    if (int speed {50};go) {
 
         std::cout << "Velocidade: " << speed << std::endl;
 
