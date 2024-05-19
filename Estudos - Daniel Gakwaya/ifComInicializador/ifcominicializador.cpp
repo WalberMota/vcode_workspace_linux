@@ -24,7 +24,7 @@ int main(int argc, char const *argv[])
         std::cout << "Velocidade: " << speed << std::endl;        
         std::cout << "Pare !" << std::endl;
     }
-    std::cout << "Velocidade " << speed << std::endl;
+    std::cout << "Fora do bloco, velocidade: " << speed << std::endl;
 
     return 0;
 }
