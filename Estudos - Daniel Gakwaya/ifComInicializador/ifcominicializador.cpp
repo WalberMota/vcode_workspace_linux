@@ -5,12 +5,12 @@ int main(int argc, char const *argv[])
     
     bool go {true};
 
-    if (int speed {10};go) {
+    if (int speed {4};go) {
 
         std::cout << "Velocidade: " << speed << std::endl;
 
 
-        if (speed > 5){   
+        if (speed > 50){   
             std::cout << "Diminua !" <<std::endl;
         }else{
             std::cout << "Tudo certo !" << std::endl;
