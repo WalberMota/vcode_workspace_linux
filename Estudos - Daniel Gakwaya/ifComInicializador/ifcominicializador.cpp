@@ -3,7 +3,7 @@
 int main(int argc, char const *argv[])
 {
     
-    bool go {false};
+    bool go {true};
 
     if (int speed {10};go) {
 
