@@ -15,6 +15,7 @@ int main(int argc, char const *argv[])
             std::cout << "Tudo certo !" << std::endl;
         }
     }else{              //com go{FALSE} executa este teste
+
     
         std::cout << "Velocidade: " << speed << std::endl;        
         std::cout << "Pare !" << std::endl;
