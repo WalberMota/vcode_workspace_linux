@@ -13,7 +13,7 @@ const int Ellipse{ 60 };
 
 int main(){
 
-    int tool {Eraser};
+    int tool {Pen};
 
     switch (double strength{3.56};tool)
     {
