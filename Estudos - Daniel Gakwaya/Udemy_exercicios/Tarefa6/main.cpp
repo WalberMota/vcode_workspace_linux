@@ -43,7 +43,6 @@ int main() {
         }
     }
         while (diaDaSemana != 0);
-
         return 0;
 
  }
