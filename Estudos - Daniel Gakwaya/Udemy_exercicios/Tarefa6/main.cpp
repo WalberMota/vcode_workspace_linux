@@ -12,7 +12,6 @@ int main() {
         switch (diaDaSemana)
         {
         case 1:
-            system("clear");
             std::cout << "\nO dia escolhido foi Segunda-Feira\n";
             break;
         case 2:
