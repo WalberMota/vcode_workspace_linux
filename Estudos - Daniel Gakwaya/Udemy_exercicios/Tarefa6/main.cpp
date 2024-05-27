@@ -10,7 +10,7 @@
     std::cout << "#         para o dia            #\n";
     std::cout << "#    da semana desejado:        #\n";
     std::cout << "#                               #\n";
-    std::cout << "#    1 -Segunda - feira         #\n";
+    std::cout << "#    1 - Segunda - feira        #\n";
     std::cout << "#    2 - Terça - Feira          #\n";
     std::cout << "#    3 - Quarta - Feira         #\n";
     std::cout << "#    4 - Quinta - Feira         #\n";
@@ -19,7 +19,7 @@
     std::cout << "#    7 - Domingo                #\n";
     std::cout << "#                               #\n";
     std::cout << "#################################\n";
-    std::cout << "\nDigite a sua idade : ";
+    std::cout << "\nDigite o numero do dia da semana desejado : ";
 
     do
     {
