@@ -1,23 +1,26 @@
   #include<iostream> 
+
+  int diaDaSemana;
    
  int main() {  
    system("clear");
 
-    std::cout << "################################\n";
-    std::cout << "#      Digite a sua idade       #\n";
+    std::cout << "#################################\n";
+    std::cout << "#      Digite um numero         #\n";
+    std::cout << "#         para o dia            #\n";
+    std::cout << "#    da semana desejado:        #\n";
     std::cout << "#                               #\n";
-    std::cout << "#    São elegíveis as idades    #\n";
-    std::cout << "# entre 21 e 39 anos(inclusive) #\n";
+    std::cout << "#    1 -Segunda - feira         #\n";
+    std::cout << "#    2 - Terça - Feira          #\n";
+    std::cout << "#    3 - Quarta - Feira         #\n";
+    std::cout << "#    4 - Quinta - Feira         #\n";
+    std::cout << "#    5 - Sexta - Feira          #\n";
+    std::cout << "#    6 - Sábado                 #\n";
+    std::cout << "#    7 - Domingo                #\n";
     std::cout << "#                               #\n";
     std::cout << "#################################\n";
     std::cout << "\nDigite a sua idade : ";
-    std::cin >> idade;
+    std::cin >> diaDaSemana;
 
-    if (idade >= 21){
-        if (idade <=39){
-           std::cout << "\nVocê PODE receber o tratamento\n" << std::endl;
-           return;
-        }
-    }
-    std::cout << "\nSua idade não permite o tratamento\n" << std::endl;
+    
  }
