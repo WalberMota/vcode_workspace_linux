@@ -37,6 +37,7 @@ int main() {
             std::cout << "\nO dia escolhido foi Domingo\n";
             break;
         case 0:
+            std::cout << "\n\nObrigado por usar este sistema!\n";
             exit(0);
         
         }
