@@ -20,7 +20,29 @@
     std::cout << "#                               #\n";
     std::cout << "#################################\n";
     std::cout << "\nDigite a sua idade : ";
-    std::cin >> diaDaSemana;
 
-    
+    do
+    {
+        std::cin >> diaDaSemana;
+        switch (diaDaSemana)
+        {
+        case 1:
+            // faz algo
+            break;
+        case 2:
+            // faz algo
+            break;
+        case 3:
+            // faz algo
+            break;
+        case 4:
+            exit(0);
+        
+        }
+    }
+        while (diaDaSemana != 7);
+
+        return 0;
+
  }
+    
