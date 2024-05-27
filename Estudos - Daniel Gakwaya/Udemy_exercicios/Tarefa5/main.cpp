@@ -19,7 +19,8 @@ void menu()
     std::cout << "#                              #\n";
     std::cout << "###############################\n";
     std::cout << "\nDigite a sua idade : ";
-    getline (std::cin,idade);
+    std::cin,idade;
+
     if (idade >= 21 | idade <= 39)
         std::cout << "\nVocê PODE receber o tratamento" << std::endl;
         else
