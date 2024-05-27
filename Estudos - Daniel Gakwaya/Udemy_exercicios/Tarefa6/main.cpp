@@ -1,4 +1,4 @@
-  #include<iostream> 
+#include<iostream> 
 
 int diaDaSemana;
 void criamenu();
@@ -8,8 +8,6 @@ int main() {
     do
     {
     std::cout << "\nDigite o numero do dia da semana desejado(0 para terminar): ";
-
-
         std::cin >> diaDaSemana;
         switch (diaDaSemana)
         {
@@ -38,13 +36,12 @@ int main() {
         case 0:
             std::cout << "\n\nObrigado!\n\n";
             exit(0);
-        
         }
     }
         while (diaDaSemana != 0);
         return 0;
-
  }
+
 void criamenu()
 {
     system("clear");
