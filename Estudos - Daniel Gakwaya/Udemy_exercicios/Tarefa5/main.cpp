@@ -11,6 +11,8 @@ int main(int argc, char const *argv[])
 
 void menu()
 {
+    system("clear");
+
     std::cout << "################################\n";
     std::cout << "#      Digite a sua idade       #\n";
     std::cout << "#                               #\n";
@@ -21,9 +23,12 @@ void menu()
     std::cout << "\nDigite a sua idade : ";
     std::cin >> idade;
 
-    if (idade >= 21 && idade <= 39)
-        std::cout << "\nVocê PODE receber o tratamento\n" << std::endl;
-        else
-        std::cout << "\nSua idade não permite o tratamento\n" << std::endl;
+    if (idade >= 21){
+        if (idade <=39){
+           std::cout << "\nVocê PODE receber o tratamento\n" << std::endl;
+           return;
+        }
+    }
+    std::cout << "\nSua idade não permite o tratamento\n" << std::endl;
 
 }
