@@ -7,7 +7,6 @@ int main() {
     criamenu();
     do
     {
-  
     std::cout << "\nDigite o numero do dia da semana desejado(0 para terminar): ";
 
 
@@ -48,7 +47,8 @@ int main() {
  }
 void criamenu()
 {
-std::cout << "#################################\n";
+    system("clear");
+    std::cout << "#################################\n";
     std::cout << "#      Digite um numero         #\n";
     std::cout << "#         para o dia            #\n";
     std::cout << "#    da semana desejado:        #\n";
