@@ -8,7 +8,7 @@ int main() {
     do
     {
   
-    std::cout << "\nDigite o numero do dia da semana desejado : ";
+    std::cout << "\nDigite o numero do dia da semana desejado(0 para terminar): ";
 
 
         std::cin >> diaDaSemana;
