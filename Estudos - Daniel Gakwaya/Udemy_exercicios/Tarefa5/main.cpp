@@ -21,9 +21,9 @@ void menu()
     std::cout << "\nDigite a sua idade : ";
     std::cin >> idade;
 
-    if (idade >= 21 | idade <= 39)
-        std::cout << "\nVocê PODE receber o tratamento" << std::endl;
+    if (idade >= 21 && idade <= 39)
+        std::cout << "\nVocê PODE receber o tratamento\n" << std::endl;
         else
-        std::cout << "\nSua idade não permite o tratamento" << std::endl;
+        std::cout << "\nSua idade não permite o tratamento\n" << std::endl;
 
 }
