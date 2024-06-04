@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
     std::cout << "\n\n";
     for (size_t i{0};i<5;i++)
     {
-        std::cout << "Eu gosto de c++\n";
+        std::cout << i <<" : Eu gosto de c++\n";
     }
 
     return 0;
