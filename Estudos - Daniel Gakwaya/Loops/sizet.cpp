@@ -1,3 +1,5 @@
+//size_t : uma representação para um unsigned int para números positivos
+
 #include <iostream>
 
 int main(int argc, char const *argv[])
