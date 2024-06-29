@@ -10,7 +10,7 @@ int fib (int n)
 
 int main (void)
 {
-  std::cout <<"O item 20 da série de Fibonacci é " << fib (2);
+  std::cout <<"O item 10 da série de Fibonacci é " << fib (10);
   return 0;
 }
 
