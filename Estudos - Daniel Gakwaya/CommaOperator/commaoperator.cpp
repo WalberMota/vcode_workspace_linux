@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     int numero2{20};
     int numero3{25};
 
-    int resultado = (numero1 *= ++incremento, numero2 - (++incremento), numero3 += ++incremento);
+    int resultado = (numero1 *= ++incremento, numero2 -= (++incremento), numero3 += ++incremento);
 
     std::cout << numero1 << '\n';
     std::cout << numero2 << '\n';
