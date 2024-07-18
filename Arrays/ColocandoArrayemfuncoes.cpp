@@ -29,7 +29,7 @@ int main()
 //ex.: int Vetor[20] ou int Vetor[], o usual são os colchetes vazios.
 void MostrarVetor(int Array[],int TamVetor)
 {
-   std::cout<<"\nVetor[";
+   std::cout<<"\nmeu Vetor é [";
     for(int i=0; i<TamVetor; i++)
     {
 
