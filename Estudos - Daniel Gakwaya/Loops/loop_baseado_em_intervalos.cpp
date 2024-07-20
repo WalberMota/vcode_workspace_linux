@@ -2,9 +2,10 @@
 
 int main(int argc, char const *argv[])
 {
+/*  //usando uma array
+
     int bolsa_de_valores[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
- /*
     for (int valor : bolsa_de_valores)
     {
 
