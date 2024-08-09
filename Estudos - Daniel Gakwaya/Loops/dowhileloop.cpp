@@ -1,15 +1,15 @@
 #include <iostream>
-
+//Você pode reduzir aproximadamente o tempo de execução em 19 da seguinte forma:
 int main(int argc, char const *argv[])
 {
-    const unsigned int LIMITE{10};
-    unsigned int i{11};//o iterator é maior do que a condição LIMTE porem o corpo do loop é executado assim mesmo pois o teste da condição ocorre somente no final, ao contrário de 'loop while' onde a condição é testada, se é verdadeira, antes do corpo do loop.
-
-    do
-    {
-        std::cout << "[" << i << "]: Eu amo c++" << '\n';
-        ++i;
-    } while (i < LIMITE);
-
+    unsigned int current = 100;  
+   std::cout << "Múltiplos de 19 entre 100 e 1000:\n\n";
+  while (current%19 != 0)
+     ++current;  
+      
+  do {
+     std::cout << current << " ";
+     current += 19;
+  } while (current <= 1000);
     return 0;
 }
