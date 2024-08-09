@@ -79,7 +79,7 @@ int main(){
     //Decrementing do while
 	std::cout << std::endl;
 	std::cout << "Decrementing do while" << std::endl;
-    unsigned int i = COUNT;
+    size_t i=COUNT;//unsigned int i = COUNT;
     
     do {
         std::cout << "i : " << i << std::endl;
