@@ -1,5 +1,5 @@
 /*
-Programa:hora.cpp
+Programa:geraSHA1.cpp
 Escrito por: Walber S Mota
 Linguagem: C++
 Data da Criação: 17:53h-05 Outubro 2023
