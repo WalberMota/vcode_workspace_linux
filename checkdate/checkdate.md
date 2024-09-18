@@ -1,0 +1,6 @@
+C++ função checkdate para validação de data
+Uma das funções agradáveis fornecidas pelo php é checkdate(). Ele verifica o intervalo no mês, dia e ano para garantir que sua data seja válida. Ele permite que você teste por anos bissextos e meses de 31 dias provenientes da entrada do usuário.
+
+Se você notar, qualquer ano inferior a 1582 retorna como uma data inválida. Isso porque o nosso sistema atual Calendário gregoriano começou em 1582. Por uma questão de trivialidade, Quinta-feira, 4 de Outubro de 1582 do calendário Juliano foi seguido pelo primeiro dia do calendário Gregoriano, Sexta-feira, 15 de Outubro de 1582. Esses dias foram pulados para ressincronizar o calendário com a rotação da Terra ao redor do sol.
+
+Cada dia é uma rotação da terra em seu eixo, e a cada ano uma revolução em torno do sol. Acontece que uma revolução ao redor do sol leva 365,2425 dias. A fim de compensar o dia de quase um quarto, os dias bissextos foram adicionados em 29 de fevereiro a cada 4 anos. Anos que são uniformemente divisíveis por 100 não são anos bissextos, a menos que sejam igualmente divisíveis por 400, caso em que são anos bissextos. Isso mantém os nossos anos de calendário em sincronia com as revoluções da Terra em torno do sol.
