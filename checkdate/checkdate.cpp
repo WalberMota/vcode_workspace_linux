@@ -36,8 +36,8 @@ int main(int argc, char* argv[])
  
 bool checkdate(int m, int d, int y)
 {
-  //gregorian dates started in 1582
-  if (! (1582<= y )  )//comment these 2 lines out if it bothers you
+  //calendário gregoriano começõu em 1582
+  if (! (1582<= y )  )//comente estas 2 linhas se isso te incomoda
      return false;
   if (! (1<= m && m<=12) )
      return false;
