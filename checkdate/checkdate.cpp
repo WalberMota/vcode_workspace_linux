@@ -1,3 +1,11 @@
+/*
+Rotina desenvolvida à partir de:
+   C++ checkdate function for date validation
+   http://www.zedwood.com/article/cpp-checkdate-function-date-validation
+
+
+*/
+
 #include <string>
 #include <iostream>
  
