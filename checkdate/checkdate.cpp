@@ -25,12 +25,12 @@ int main(int argc, char* argv[])
   cout << "A data 29/02/2001 é "<< checkdate( 2,29, 2001) << endl; // 0
   cout << "A data 29/02/2002 é "<< checkdate( 2,29, 2002) << endl; // 0
   cout << "A data 29/02/2003 é "<< checkdate( 2,29, 2003) << endl; // 0
-  cout << "29/02/2004 é "<< checkdate( 2,29, 2004) << endl; // 1
-  cout << "29/02/2100 é "<< checkdate( 2,29, 2100) << endl; // 0
-  cout << "29/02/2200 é "<< checkdate( 2,29, 2200) << endl; // 0
-  cout << "29/02/2300 é "<< checkdate( 2,29, 2300) << endl; // 0
-  cout << "29/02/2400 é "<< checkdate( 2,29, 2400) << endl; // 1
-  cout << "29/02/2500 é "<< checkdate( 2,29, 2500) << endl; // 0
+  cout << "A data 29/02/2004 é "<< checkdate( 2,29, 2004) << endl; // 1
+  cout << "A data 29/02/2100 é "<< checkdate( 2,29, 2100) << endl; // 0
+  cout << "A data 29/02/2200 é "<< checkdate( 2,29, 2200) << endl; // 0
+  cout << "A data 29/02/2300 é "<< checkdate( 2,29, 2300) << endl; // 0
+  cout << "A data 29/02/2400 é "<< checkdate( 2,29, 2400) << endl; // 1
+  cout << "A data 29/02/2500 é "<< checkdate( 2,29, 2500) << endl; // 0
   return 0;
 }
  
