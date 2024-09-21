@@ -15,21 +15,22 @@ bool checkdate(int m, int d, int y);
  
 int main(int argc, char* argv[])
 {
-  cout << checkdate( 1, 1, 2005) << endl; // 1=true
-  cout << checkdate( 0, 1, 2005) << endl; // 0=false
-  cout << checkdate(13, 1, 2005) << endl; // 0
-  cout << checkdate( 2,29, 1992) << endl; // 1
-  cout << checkdate( 2,29, 1996) << endl; // 1
-  cout << checkdate( 2,29, 2000) << endl; // 1
-  cout << checkdate( 2,29, 2001) << endl; // 0
-  cout << checkdate( 2,29, 2002) << endl; // 0
-  cout << checkdate( 2,29, 2003) << endl; // 0
-  cout << checkdate( 2,29, 2004) << endl; // 1
-  cout << checkdate( 2,29, 2100) << endl; // 0
-  cout << checkdate( 2,29, 2200) << endl; // 0
-  cout << checkdate( 2,29, 2300) << endl; // 0
-  cout << checkdate( 2,29, 2400) << endl; // 1
-  cout << checkdate( 2,29, 2500) << endl; // 0
+  std::cout<<std::boolalpha;
+  cout << "01/01/2005 é "<< checkdate( 1, 1, 2005) << endl; // 1=true
+  cout << "01/00/2005 é "<< checkdate( 0, 1, 2005) << endl; // 0=false
+  cout << "01/13/2005 é "<< checkdate(13, 1, 2005) << endl; // 0
+  cout << "29/02/1992 é "<< checkdate( 2,29, 1992) << endl; // 1
+  cout << "29/02/1996 é "<< checkdate( 2,29, 1996) << endl; // 1
+  cout << "29/02/2000 é "<< checkdate( 2,29, 2000) << endl; // 1
+  cout << "29/02/2001 é "<< checkdate( 2,29, 2001) << endl; // 0
+  cout << "29/02/2002 é "<< checkdate( 2,29, 2002) << endl; // 0
+  cout << "29/02/2003 é "<< checkdate( 2,29, 2003) << endl; // 0
+  cout << "29/02/2004 é "<< checkdate( 2,29, 2004) << endl; // 1
+  cout << "29/02/2100 é "<< checkdate( 2,29, 2100) << endl; // 0
+  cout << "29/02/2200 é "<< checkdate( 2,29, 2200) << endl; // 0
+  cout << "29/02/2300 é "<< checkdate( 2,29, 2300) << endl; // 0
+  cout << "29/02/2400 é "<< checkdate( 2,29, 2400) << endl; // 1
+  cout << "29/02/2500 é "<< checkdate( 2,29, 2500) << endl; // 0
   return 0;
 }
  
