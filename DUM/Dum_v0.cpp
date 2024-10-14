@@ -15,12 +15,20 @@ int main(int argc, char const *argv[])
 
     strftime(exibir, 10, "%H:%M:%S", infotempo);
     // puts(exibir);
-    std::cout << exibir << std::endl; // exibir;
-    std::cout << "\nDIA: " << infotempo->tm_mday << '\n';
+
+    std::cout <<"HORA LOCAL: " <<exibir << std::endl; // exibir;
+
     int dia= infotempo->tm_mday;
-    std::cout << dia+10 << '\n';
-    std::cout << "MES: " << 1 + infotempo->tm_mon << '\n';
-    std::cout << "ANO" << 1900 + infotempo->tm_year << '\n';
+    std::cout << "DIA: " << dia << '\n';
+    
+    //ARMAZENA O MES
+    int mes= 1+ infotempo->tm_mon;
+    std::cout << "MÊS: " << mes << '\n';
+
+    //ARMAZENA O ANO
+    int ano= 1900 + infotempo->tm_year;
+    std::cout << "ANO: " << ano << '\n';
+
 
     return 0;
 }
