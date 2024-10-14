@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
     std::string a;
 
     time_t hora;
-    struct tm *infotempo;
+    tm *infotempo;
     char memoria[10];
     time (&hora);
     infotempo = localtime (&hora);
