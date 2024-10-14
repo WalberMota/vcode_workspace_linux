@@ -11,13 +11,13 @@ int main(int argc, char const *argv[])
 
     time_t hora;
     tm *infotempo;
-    char memoria[10];
+    char exibir[10];
     time (&hora);
     infotempo = localtime (&hora);
 
-    strftime (memoria,10,"%H:%M:%S",infotempo);
-    //puts(memoria);
-    std::cout << memoria << std::endl;//memoria;
+    strftime (exibir,10,"%H:%M:%S",infotempo);
+    //puts(exibir);
+    std::cout << exibir << std::endl;//exibir;
 
 
     return 0;
