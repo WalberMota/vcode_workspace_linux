@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
     std::cout << "\nDIA: " << infotempo->tm_mday << '\n';
     int dia= infotempo->tm_mday;
     std::cout << dia+10 << '\n';
-    std::cout << "MES: " << 1 + infotempo->tm_mon;
+    std::cout << "MES: " << 1 + infotempo->tm_mon << '\n';
     std::cout << "ANO" << 1900 + infotempo->tm_year << '\n';
 
     return 0;
