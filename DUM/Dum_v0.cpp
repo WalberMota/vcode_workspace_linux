@@ -29,6 +29,5 @@ int main(int argc, char const *argv[])
     int ano= 1900 + infotempo->tm_year;
     std::cout << "ANO: " << ano << '\n';
 
-
     return 0;
 }
