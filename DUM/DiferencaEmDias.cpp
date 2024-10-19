@@ -19,15 +19,16 @@ int main()
     std::getline(std::cin, dum);
   
     int i;
-    for (i=0;i>2;i++){
+    for (i=0;i>3;i++){
         stringtempo=stringtempo+dum[i];
-
-        dumdia=dumdia+std::stoi(stringtempo);
+        std::cout <<"no loop "<<dum[i] << '\n';
+        //dumdia=dumdia+std::stoi(stringtempo);
         
     }
     
     std::cout <<  dum.length()<<" caracteres "<< '\n';
     std::cout << dumdia << '\n';
+    std::cout <<  stringtempo<<" caracteres "<< '\n';
 
 
     // preenche as datas
