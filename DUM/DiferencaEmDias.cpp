@@ -9,12 +9,17 @@ int main()
 
     //Recebe a DUM
     int dumdia,dummes,dumano;
-    std::string dum;
+    std::string dum, stringtempo;
 
     system("clear");
     std::cout << "Digite a data da ultima menstruação somente numeros:\n";
     std::cin.ignore();
     std::getline(std::cin, dum);
+
+    int i;
+    for (i=0;i<3;i++){
+        stringtempo=stringtempo+dum[i];
+    }
 
     std::cout <<  dum.length()<<" caracteres "<< '\n';
 
