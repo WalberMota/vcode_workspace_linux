@@ -13,10 +13,10 @@ int main()
 
     system("clear");
 
-    std::cout << "Digite a data da ultima menstruação somente numeros:/n";
+    std::cout << "Digite a data da ultima menstruação somente numeros:\n";
     std::getline(std::cin, dum);
 
-    std::cout << dum[2] << '/n/n';
+    std::cout << dum[2] << '\n\n';
 
 
 
