@@ -12,8 +12,8 @@ int main()
     std::string dum;
 
     system("clear");
-    std::ignore();
     std::cout << "Digite a data da ultima menstruação somente numeros:\n";
+    std::ignore();
     std::getline(std::cin, dum);
 
     std::cout <<  dum.length()<<" caracteres "<< '\n';
