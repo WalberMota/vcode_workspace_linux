@@ -2,6 +2,8 @@
 #include <ctime>
 #include <string>
 
+
+
 int main()
 {
     struct tm data1 = {0}; // data inicial
@@ -13,16 +15,19 @@ int main()
 
     system("clear");
     std::cout << "Digite a data da ultima menstruação somente numeros:\n";
-    std::cin.ignore();
+    //std::cin.ignore();
     std::getline(std::cin, dum);
-
+  
     int i;
-    for (i=0;i<3;i++){
+    for (i=0;i>2;i++){
         stringtempo=stringtempo+dum[i];
+
+        dumdia=dumdia+std::stoi(stringtempo);
+        
     }
     
     std::cout <<  dum.length()<<" caracteres "<< '\n';
-    std::cout << stringtempo << '\n';
+    std::cout << dumdia << '\n';
 
 
     // preenche as datas
