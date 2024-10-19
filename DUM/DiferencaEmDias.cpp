@@ -20,9 +20,9 @@ int main()
     for (i=0;i<3;i++){
         stringtempo=stringtempo+dum[i];
     }
-
+    
     std::cout <<  dum.length()<<" caracteres "<< '\n';
-
+    std::cout << stringtempo << '\n';
 
 
     // preenche as datas
