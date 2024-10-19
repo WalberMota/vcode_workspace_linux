@@ -1,10 +1,20 @@
 #include <iostream>
 #include <ctime>
+#include <string>
 
 int main()
 {
     struct tm data1 = {0}; // data inicial
     struct tm data2 = {0}; // data final
+
+    //Recebe a DUM
+    int dumdia,dummes,dumano;
+    std::string DUM;
+
+    system("clear");
+
+    std::cout << "Digite a data da ultima menstruação somente numeros:/n";
+
 
     // preenche as datas
     data1.tm_year = 2023 - 1900; // ano - 1900
