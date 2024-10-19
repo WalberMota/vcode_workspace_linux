@@ -3,7 +3,7 @@
 #include <string>
 
 
-
+    int i;
 int main()
 {
     struct tm data1 = {0}; // data inicial
@@ -17,19 +17,30 @@ int main()
     std::cout << "Digite a data da ultima menstruação somente numeros:\n";
     //std::cin.ignore();
     std::getline(std::cin, dum);
-  
-    int i;
-    for (i=0;i>3;i++){
-        stringtempo=stringtempo+dum[i];
-        std::cout <<"no loop "<<dum[i] << '\n';
-        //dumdia=dumdia+std::stoi(stringtempo);
-        
-    }
-    
-    std::cout <<  dum.length()<<" caracteres "<< '\n';
-    std::cout << dumdia << '\n';
-    std::cout <<  stringtempo<<" caracteres "<< '\n';
+    std::cout <<  dum.length()<<" caracteres "<< "\n\n";
 
+    for (i=0;i<2;i++){
+        if (i=1){ 
+            stringtempo=stringtempo+dum[i];
+            dumdia=std::stoi(stringtempo);
+            stringtempo="";
+        }
+        if (i=3) {
+            stringtempo=stringtempo+dum[i];
+            dummes=std::stoi(stringtempo);
+            stringtempo="";
+        }
+        if (i=7) {
+            stringtempo=stringtempo+dum[i];
+            dumano=std::stoi(stringtempo);
+            stringtempo="";
+        }        
+    }
+    std::cout << dumdia <<"/"<<dummes<<"/<<dumano"<<'\n';
+
+    
+    //std::cout << "dia da dum= "<< dumdia << '\n';
+    
 
     // preenche as datas
     data1.tm_year = 2023 - 1900; // ano - 1900
