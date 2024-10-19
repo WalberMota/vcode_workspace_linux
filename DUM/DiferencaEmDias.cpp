@@ -16,7 +16,7 @@ int main()
     std::cout << "Digite a data da ultima menstruação somente numeros:\n";
     std::getline(std::cin, dum);
 
-    std::cout <<  dum.length() << '\n\n';
+    std::cout <<  dum.length() << '\n';
 
 
 
