@@ -11,7 +11,7 @@ int main()
     data1.tm_mon = 11;            // mês (0-11)
     data1.tm_mday = 12;           // dia
     data2.tm_year = 2024 - 1900;
-    data2.tm_mon = 2;
+    data2.tm_mon = 1;
     data2.tm_mday = 5;
 
     // converte as datas para segundos
@@ -22,8 +22,18 @@ int main()
     double diferenca = difftime(segundos2, segundos1);
 
     // converte a diferença em dias e imprime
-    int dias = diferenca / 86400;
-    std::cout << "A diferença entre as datas é de " << (dias/7) << " semanas.\n";
 
+    
+    int dias = diferenca / 86400;
+    
+    double restosemana=((diferenca/86400)/7) - (dias/7);
+    double restoemdias=restosemana*7;
+
+    std::cout << "Dias de gestação: " << dias << " dias.\n";
+    std::cout << "Semanas de gestação " << (dias/7) << " semanas e "<<restoemdias <<" dias."<<std::endl;
+    
+    //std::cout << "fração de semana " << restosemana << " semanas.\n";
+    //std::cout << "fração de dias " << restoemdias << " dias.\n";
+    
     return 0;
 }
