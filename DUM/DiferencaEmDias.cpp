@@ -42,14 +42,13 @@ int main()
         dumano = std::stoi(stringtempo);
     }
 
-
-    //mostra a data atual
+    // mostra a data atual
     time_t a_time;
-	time(&a_time);
-	std::cout << asctime(localtime(&a_time))<<'\n';
-    
-    //mostra a DUM
-    std::cout <<"Data da Última Menstruação = "<< dumdia << "/" << dummes << "/" << dumano << '\n';
+    time(&a_time);
+    std::cout << asctime(localtime(&a_time)) << '\n';
+
+    // mostra a DUM
+    std::cout << "Data da Última Menstruação = " << dumdia << "/" << dummes << "/" << dumano << '\n';
 
     // std::cout << "dia da dum= "<< dumdia << '\n';
 
@@ -67,38 +66,49 @@ int main()
 
     int dia = infotempo->tm_mday;
     data2.tm_mday = dia;
-    
+
     // converte as datas para segundos
     time_t segundos1 = mktime(&data1);
     time_t segundos2 = mktime(&data2);
 
-    time_t DPP=segundos1+(285*86400);
+    time_t DPP = segundos1 + (285 * 86400);
     // calcula a diferença em segundos
     double diferenca = difftime(segundos2, segundos1);
 
     // converte a diferença em dias e imprime
     int dias = diferenca / 86400;
-    
-    //separa a fração decimal das semanas
+
+    // separa a fração decimal das semanas
     double restosemana = ((diferenca / 86400) / 7) - (dias / 7);
     double restoemdias = restosemana * 7;
 
-    //mostra o resultado
+    // mostra o resultado
     std::cout << "Dias de gestação: " << dias << " dias.\n";
     std::cout << "Semanas de gestação " << (dias / 7) << " semanas e " << restoemdias << " dias." << std::endl;
-    
-    int dppano,dppmes,dppdia;
 
-    dppdia=dumdia+7;
-    dppmes=dummes+9;
-    if (dppmes>13){
-        dppmes=dppmes-12;
-        dppano=dumano+1;
+    int dppano, dppmes, dppdia;
+
+    dppdia = dumdia + 7;
+    if (dppdia > 30)
+    {
+        dppdia = dppdia - 30;
+        dppmes=dummes+10;
     }
-    else{
-    dppano=dumano;
+    else
+    {
+        dppmes = dummes + 9;
     }
 
-    std::cout << "DDP = "<<dppdia<<"/"<<dppmes<<"/"<<dppano<<'\n';
+    if (dppmes > 12)
+    {
+        dppmes = dppmes - 12;
+        dppano = dumano + 1;
+    }
+    else
+    {
+        dppano = dumano;
+    }
+
+    std::cout << "DDP = " << dppdia << "/" << dppmes << "/" << dppano << '\n';
     return 0;
 }
