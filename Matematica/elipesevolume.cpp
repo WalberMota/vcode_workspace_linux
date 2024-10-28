@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     getline(std::cin,r3);
 
 
-    
+    std::cout <<"r1="<< r1<<" r2="<<r2<<" r3="<<r3<<std::endl;
 
     return 0;
 }
