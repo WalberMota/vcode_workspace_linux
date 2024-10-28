@@ -5,6 +5,7 @@ float calculavolume();
 
     std::string r1, r2, r3;
     float raio1,raio2,raio3;
+    float volume;
 
 int main(int argc, char const *argv[])
 {
@@ -32,7 +33,7 @@ int main(int argc, char const *argv[])
 
 float calculavolume()
 {
-    float volume;
+
     volume=(4*3.14*raio1*raio2*raio3)/4;
     return volume;
 }
