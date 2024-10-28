@@ -26,7 +26,7 @@ int main(int argc, char const *argv[])
     float raio1=stoi(r1);
     float raio2=stoi(r2);
     float raio3=stoi(r3);
-    std::cout<< "Volume da elipse:"<<calculavolume();
+    std::cout<< "Volume da elipse:"<< calculavolume()<<"\n";
     
     return 0;
 }
