@@ -1,41 +1,40 @@
 #include <iostream>
 #include <string>
 
-float calculavolume(float raio1,float raio2,float raio3);
-
-    std::string r1, r2, r3;
-    float raio1,raio2,raio3;
+float calculavolume(float diametro1,float diametro2,float diametro3);
+    std::string d1, d2, d3;
+    //float diametro1,diametro2,diâmetro3;
     float volume;
 
 int main(int argc, char const *argv[])
 {
 
-
     //std::cin.ignore();
-    std::cout << "Digite o primeiro raio: ";
-    getline(std::cin, r1);
+    std::cout << "Digite o primeiro diâmetro: ";
+    getline(std::cin, d1);
 
-    std::cout << "Digite o segundo raio: ";
-    getline(std::cin, r2);
+    std::cout << "Digite o segundo diâmetro: ";
+    getline(std::cin, d2);
 
-    std::cout << "Digite o terceiro raio: ";
-    getline(std::cin, r3);
+    std::cout << "Digite o terceiro diâmetro: ";
+    getline(std::cin, d3);
 
-    std::cout << "r1=" << r1 << " r2=" << r2 << " r3=" << r3 << std::endl;
+    //std::cout << "r1=" << r1 << " r2=" << r2 << " r3=" << r3 << std::endl;
 
-    float raio1=std::stof   (r1);
-    float raio2=std::stof(r2);
-    float raio3=std::stof(r3);
-    std::cout<< "Volume da elipse:"<< calculavolume(raio1,raio2,raio3)<<"\n";
+    float diametro1=std::stof(d1);
+    float diametro2=std::stof(d2);
+    float diametro3=std::stof(d3);
     
+    std::cout<< "Volume da elipse:"<< calculavolume(diametro1,diametro2,diametro3)<<"\n";
+
     return 0;
 }
 
 
-float calculavolume(float raio1, float raio2, float raio3)
+float calculavolume(float diametro1,float diametro2,float diametro3)
 {
-    volume=(4*3.14*raio1*raio2*raio3)/24;
-    return volume;
+    float volume=(4*3.14*diametro1*diametro2*diametro3)/24;
+    return (volume);
 
 }
 
