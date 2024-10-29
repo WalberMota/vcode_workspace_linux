@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
     float diametro2=std::stof(d2);
     float diametro3=std::stof(d3);
     
-    std::cout<< "Volume da elipse:"<< calculavolume(diametro1,diametro2,diametro3)<<"\n";
+    std::cout<< "\nVolume da elipse:"<< calculavolume(diametro1,diametro2,diametro3)<<"\n";
 
     return 0;
 }
