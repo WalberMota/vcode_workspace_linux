@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
 
     std::cout << "r1=" << r1 << " r2=" << r2 << " r3=" << r3 << std::endl;
 
-    float raio1=std::stof (r1);
+    float raio1=std::stof   (r1);
     float raio2=std::stof(r2);
     float raio3=std::stof(r3);
     std::cout<< "Volume da elipse:"<< calculavolume(raio1,raio2,raio3)<<"\n";
@@ -38,3 +38,4 @@ float calculavolume(float raio1, float raio2, float raio3)
     return volume;
 
 }
+
