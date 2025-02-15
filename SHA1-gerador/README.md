@@ -1,6 +1,6 @@
 Como Compilar:  
 
-		g++ main.cpp sha1.cpp -o output
+		g++ geraSHA1.cpp sha1.cpp -o output
 
   
 Ativar o programa gerado:  
