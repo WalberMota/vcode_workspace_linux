@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     //lendo o arrays
     for(size_t i=0;i<5;i++)
     {
-        std::cout <<"salario["<<i<<"]:" << salarios[i]<<std::end;
+        std::cout <<"salario["<<i<<"]:" << salarios[i]<<std::endl;
     }
 
     return 0;
