@@ -20,8 +20,8 @@ int main(int argc, char const *argv[])
 
     for(int elemento:turma){
         sum+=elemento;
+        }
         std::cout << std::endl;
         std::cout <<"Resultado da soma dos elementos da matriz : "<< sum<<std::endl;
-        }
     return 0;
 }
