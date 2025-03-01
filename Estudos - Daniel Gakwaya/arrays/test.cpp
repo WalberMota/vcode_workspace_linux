@@ -10,17 +10,18 @@ int main()
 
     do
     {
-
-        if (seleciona[i] == data[i])
+        for (auto x : data)
         {
-            i++;
+            if (seleciona[i] == x)
+            {
+                i++;
+            }
+            else
+            {
+                seleciona[i + 1] =x;
+                i++;
+            }
         }
-        else
-        {
-            seleciona[i + 1] = data[i];
-            i++;
-        }
-
     } while (i < 12);
 
     // ler select[]
