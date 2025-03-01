@@ -10,22 +10,23 @@ int main()
 
     do
     {
-        for (auto x : data)
+        for (int x : data)
         {
-            if (seleciona[i] == x)
+            if (seleciona[i] == data[i])
             {
                 i++;
+                break;
             }
             else
             {
-                seleciona[i + 1] =x;
+                seleciona[i + 1] =data[x];
                 i++;
             }
         }
     } while (i < 12);
 
     // ler select[]
-    for (size_t i{0}; i < 12; i++)
+    for (size_t i{0}; i < 13; i++)
     {
         std::cout << seleciona[i] << " ";
     }
