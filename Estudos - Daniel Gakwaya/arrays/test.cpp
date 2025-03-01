@@ -1,26 +1,24 @@
-#include<iostream>
-
+#include <iostream>
 
 int main(int argc, char const *argv[])
 {
-    int data[]{7,5,7,2,4,1,7,4,2};
-    int selecionado[]{};
-    int numero{0};
-    int ii{0};
-    for(int num:data)
-    {
-        if (numero!=data[num]){
-            selecionado[ii]=numero;
-            numero=data[num];
-            ii=ii+1;
-        }
-    }
+    int data[]{1, 2, 4, 5, 1, 8, 2, 3, 6, 1, 4, 2};
+    int select[]{};
+    int numero;
     
-   // std::cout <<"The collection contains 5 unique numbers, they are :";
-    for(int i:selecionado)
+    select[0]=data[0];
+    
+    for (int i=0;i<12;i++)
     {
-        std::cout << selecionado[i]<<" ";
-    }
-   
+        if (select[0]!=data[i+1])
+        {
+            select[i+1]=data[i+1];
+        }
+    }        
+    //ler select[]
+    for (size_t i{0}; i < 12; i++)
+    std::cout << select[i] << '\n';
+
+    
     return 0;
 }
