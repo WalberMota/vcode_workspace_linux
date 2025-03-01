@@ -3,22 +3,24 @@
 int data[]{1, 2, 4, 5, 1, 8, 2, 3, 6, 1, 4, 2};
 int seleciona[12]{};
 int numero;
-
+int i{0};
 int main(int argc, char const *argv[])
 {
     seleciona[0] = data[0];
 
-    for (int i = 0; i < 12; i++)
+    do
     {
-        if (seleciona[i] == data[i + 1])
+
+        if (seleciona[i] == data[i])
         {
-            continue;
+            i++;
         }
         else
         {
-            seleciona[i + 1] = data[i + 1];
+            seleciona[i + 1] = data[i];
         }
-    }
+
+    } while (i < 12);
 
     // ler select[]
     for (size_t i{0}; i < 12; i++)
