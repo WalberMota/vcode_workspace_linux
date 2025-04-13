@@ -2,7 +2,7 @@
 
 int vetor[]{2, 3, 4, 5, 8, 12};
 int count{std::size(vetor)}; // armazena o numero de elemento do array
-                             //std::size() surge aparte do C++17
+                             // std::size() surge aparte do C++17
 int mostravetor();           // prototipo de uma fonção que imprime o array
 
 int main()
@@ -16,7 +16,9 @@ int main()
     return 0;
 }
 
+
 int mostravetor()
+
 {
     std::cout << "vetor=[";
     for (int i = 0; i < count; i++)
@@ -27,4 +29,6 @@ int mostravetor()
     };
 
     return 0;
+
 }
+
