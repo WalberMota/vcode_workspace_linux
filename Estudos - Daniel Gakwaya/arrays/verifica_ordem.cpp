@@ -1,11 +1,9 @@
 #include <iostream>
 
-int numbers[]{1, 2, 4, 5, 8, 12, 13, 16, 71, 92};
+int numbers[]{1, 2, 3, 5, 10, 12, 13, 16, 15, 92};
 
 int collection_size{std::size(numbers)};
 bool sorted;
-
-bool is_sorted(int *numbers[], unsigned int collection_size);
 
 int main(int argc, char const *argv[])
 {
@@ -13,40 +11,30 @@ int main(int argc, char const *argv[])
     std::cout << "numbers[";
     for (auto i : numbers)
     {
-        std::cout << i << " " << std::endl;
+        std::cout << i << " ";
     }
     std::cout << "]" << std::endl;
 
-    // função de verificação de ordem crescente
-    /*     for (int i = 0; i < collection_size; i++)
-        {
-            if (numbers[i] < numbers[1 + 1])
-                sorted = true; //em ordem crescente
-            else
-                sorted = false; //fora de ordem crescente
-                break;
-        } */
-    is_sorted(numbers[], collection_size);
-
-    if (sorted == true)
-        std::cout << "array is sorted in incrementing order." << std::endl;
-    else
-        std::cout << "array is not sorted in incrementing order." << std::endl;
-    return 0;
-};
-
-bool is_sorted(int *numbers[], unsigned int y)
-{
-
-    for (int i = 0; i < collection_size; i++)
+    // verificação de ordem crescente
+    for (int i = 0; i < collection_size-1; i++)
     {
-        if (numbers[i] < numbers[1 + 1])
+        if (numbers[i] < numbers[i + 1])
+        {
             sorted = true; // em ordem crescente
-        else
+        }
+            else
+        {
             sorted = false; // fora de ordem crescente
-        break;
-        return sorted;
+            break;
+        }
+        // return sorted;
     }
 
-    return false;
+    if (sorted == true)
+        std::cout << "array é classificado em ordem de incremento." << std::endl;
+    if(sorted == false)
+        std::cout << "array não é classificado em ordem de incremento" << std::endl;
+
+    return 0;
 }
+
