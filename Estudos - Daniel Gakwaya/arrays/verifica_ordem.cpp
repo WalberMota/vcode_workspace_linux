@@ -2,8 +2,6 @@
 
 int numbers[]{1, 2, 4, 5, 8, 12, 13, 16, 71, 92};
 
-
-
 int collection_size{std::size(numbers)};
 bool sorted;
 
@@ -15,7 +13,7 @@ int main(int argc, char const *argv[])
     std::cout << "numbers[";
     for (auto i : numbers)
     {
-        std::cout << i << " ";
+        std::cout << i << " " << std::endl;
     }
     std::cout << "]" << std::endl;
 
