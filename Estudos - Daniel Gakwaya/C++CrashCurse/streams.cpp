@@ -2,6 +2,8 @@
 
 int main(int argc, char const *argv[])
 {
-    /* code */
+    std::cerr << "erro";
+    std::iostream::flush;
+
     return 0;
 }
