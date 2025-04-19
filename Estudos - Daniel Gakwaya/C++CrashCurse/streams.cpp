@@ -2,7 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-    std::cout << "erro"<< std::flush();
+    std::cout << "Beginning computations..." << std::flush;
 
     return 0;
 }
