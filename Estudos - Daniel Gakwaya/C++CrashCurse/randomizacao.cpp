@@ -12,7 +12,27 @@ int main()
     std::cout << "RAND_MAX = " << RAND_MAX << std::endl;
 
     // numero gerado esteja dentro de uma faixa de variação.
-    int randon_number = randon_number % 10; // entre 1 e 10
-    std::cout << "entre 1 e 10" << randon_number << std::endl;
+    int randon_number = result % 10; // entre 0 e 10
+    std::cout << "Número entre 0 e 10: " << randon_number << std::endl;
+
+    //Pede ao usuário para adivinhar o número
+
+    std::cout << "Adivinhe o número de 0 a 10: ";
+
+    int palpite;
+    do
+    {
+        std::cin >> palpite;
+        if (randon_number<palpite){
+            std::cout <<"o número é menor... "<<std::endl;
+        }
+        if (randon_number>palpite){
+            std::cout <<"o número é maior... "<<std::endl;
+        }
+
+    } while (palpite!=randon_number);
+    
+    std::cout <<"Paraben você acertou !"<<std::endl;
+
     return 0;
 }
