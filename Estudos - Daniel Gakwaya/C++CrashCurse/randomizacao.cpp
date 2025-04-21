@@ -6,7 +6,7 @@
 
 int main()
 {
-    int result=std::rand;
+    int result=std::rand();
     std::cout << "numero: "<<result<<std::endl;
 
     return 0;
