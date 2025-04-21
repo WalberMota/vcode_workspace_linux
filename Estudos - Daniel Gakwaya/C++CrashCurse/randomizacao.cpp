@@ -1,5 +1,5 @@
 #include<iostream>
-#include<stdlib.h> /*sran, rad*/
+#include<cstdlib> /*srand, rand*/
 
 
 
