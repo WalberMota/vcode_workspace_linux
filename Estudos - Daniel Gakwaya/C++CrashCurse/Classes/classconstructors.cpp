@@ -36,6 +36,6 @@ private:
 
 main()
 {
-
+    Retangulo r;
     return 0;
 }
