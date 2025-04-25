@@ -34,7 +34,7 @@ private:
     int m_length;
 };
 
-main()
+int main()
 {
     Retangulo r;
     return 0;
