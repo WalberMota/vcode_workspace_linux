@@ -36,6 +36,8 @@ private:
 
 int main()
 {
-    Retangulo r;
+    Retangulo r1;
+    Retangulo r2(10,20);
+    std::cout << "área do retangulo 2: "<<r2.getArea()<<std::endl;
     return 0;
 }
