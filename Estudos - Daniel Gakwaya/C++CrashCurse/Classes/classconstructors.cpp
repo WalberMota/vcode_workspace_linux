@@ -39,6 +39,6 @@ int main()
     Retangulo r1;
     std::cout << " - Criado retangulo 1 que não possui parâmetros" << std::endl;
     Retangulo r2(10, 20);
-    std::cout << " - Calculando área do retangulo 2: " << r2.getArea() << std::endl;
+    std::cout << " - Calculando área do retangulo 2 (10,20): " << r2.getArea() << std::endl;
     return 0;
 }
