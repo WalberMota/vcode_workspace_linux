@@ -14,7 +14,7 @@ public:
         m_width = w;
         m_length = l;
     }
-
+/*
     void SetWidth(int width)
     {
         m_width = width;
@@ -23,7 +23,7 @@ public:
     {
         m_length = length;
     }
-
+*/
     int getArea()
     {
         return m_width * m_length;
