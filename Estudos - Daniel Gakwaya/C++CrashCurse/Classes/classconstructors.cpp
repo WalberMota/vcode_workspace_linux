@@ -4,7 +4,7 @@ class Retangulo
 {
 public:
     // construtor
-    Retangulo();
+    Retangulo(); //construtor sem parametros
     Retangulo(int w, int l);
 
     void SetWidth(int width);
