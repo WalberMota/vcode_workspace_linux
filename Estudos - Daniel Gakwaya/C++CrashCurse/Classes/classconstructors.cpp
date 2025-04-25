@@ -6,7 +6,7 @@ public:
     // construtor
     Retangulo() // construtor sem parâmetros
     {
-        std::cout << "camada de construtor de classe sem parâmetros" << std::endl;
+        std::cout << "chamada de construtor de classe sem parâmetros" << std::endl;
     }
     Retangulo(int w, int l) // construtor com dois parâmetros
     {
