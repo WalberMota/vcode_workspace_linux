@@ -15,8 +15,12 @@ public:
         m_length=l;
     }
 
-    void SetWidth(int width);
-    void SetLength(int length);
+    void SetWidth(int width){
+        m_width=width;
+    }
+    void SetLength(int length){
+        m_length=length;
+    }
 
     int getArea()
     {
