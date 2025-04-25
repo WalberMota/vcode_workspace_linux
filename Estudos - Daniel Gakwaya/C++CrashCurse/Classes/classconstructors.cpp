@@ -18,7 +18,6 @@ public:
 private:
     int width;
     int length;
-
 };
 
 main()
