@@ -2,8 +2,9 @@
 
 unsigned int numeros[]{1,2,3,4};
 
-int main(int argc, char const *argv[])
+int main()
 {
-    int numeros;
+    std::cout << "Tamanho da matriz: "<<sizeof(numeros);
+    
     return 0;
 }
