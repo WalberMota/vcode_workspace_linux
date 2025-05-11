@@ -53,7 +53,8 @@ int main()
 
     // Não é possível imprimir com segurança matrizes diferentes das de caracteres
     int numbers[]{1, 2, 3, 4, 5};
-    std::cout << "\nnumbers :  " << numbers << std::endl;
-
+    std::cout << "\nnumbers (endereço):  " << numbers << std::endl;
+    std::cout << "numbers (tamanho em bytes):  " << sizeof(numbers) <<" bytes(int)"<<std::endl;
+    std::cout << "numbers (numero de elementos):  " << sizeof(numbers)/4 <<" elementos" <<std::endl;
     return 0;
 }
