@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 class Retangulo
 {
 public:
@@ -34,6 +35,7 @@ private:
     int m_length;
 };
 
+
 int main()
 {
     Retangulo r1;
@@ -42,3 +44,33 @@ int main()
     std::cout << " - Calculando área do retangulo 2 (10,20): " << r2.getArea() << std::endl;
     return 0;
 }
+
+/*=========outros metodos de implementação ===============
+class Retangulo
+{
+public:
+    // construtor e prototipo de funções
+    Retangulo();
+    Retangulo(int w, int l);
+    int getArea();
+
+private:
+    int m_width;
+    int m_length;
+};
+//funções para definição
+Retangulo::Retangulo() // construtor sem parâmetros
+{
+    std::cout << "chamada de construtor de classe sem parâmetros" << std::endl;
+}
+Retangulo::Retangulo(int w, int l) // construtor com dois parâmetros
+{
+    std::cout << "chamada de construtor de classe com dois parâmetros" << std::endl;
+    m_width = w;
+    m_length = l;
+}
+int Retangulo::getArea()
+{
+    return 0;
+}
+*/
