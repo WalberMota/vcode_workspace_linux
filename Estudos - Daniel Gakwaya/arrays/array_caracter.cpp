@@ -6,8 +6,10 @@ int main()
     // Declara o array
     char message[]{"Hello Dev"}; // o compilador automaticamente coloca \0 no fim do array
 
-    int data[5]{1, 2, 3, 3, 3};
+    int data[5]{4, 2, 3, 3, 3};
     std::cout << "data : " << data << std::endl; // a saida será: "data : 0x7fff79c1f6e0"
+    std::cout << "endereço da array 'data' na memória : " <<&data<<std::endl;
+    std::cout << "o valor armazenado no endereço inicial de 'data': "<<* data <<std::endl;
 
     // Imprimindo a matriz através de looping
     std::cout << "message : ";
