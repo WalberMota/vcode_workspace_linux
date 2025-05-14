@@ -4,7 +4,8 @@
 int main(int argc, char const *argv[])
 {
     //std::time(0);
-    std::srand(std::time(0));//semente gerada pelo relogio do sistema
+    std::srand(std::time(0));//semente gerada pelo relogio do sistema 
+                             //para oter numero aleatório diferentes em cada execução
 
     int num_aleatorio = std::rand();
     std::cout << "numero aleatório = " << num_aleatorio << std::endl;
