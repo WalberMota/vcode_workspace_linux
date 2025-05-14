@@ -1,7 +1,11 @@
 #include <iostream>
+#include<ctime>
 
 int main(int argc, char const *argv[])
 {
+    //std::time(0);
+    std::srand(std::time(0));//semente gerada pelo relogio do sistema
+
     int num_aleatorio = std::rand();
     std::cout << "numero aleatório = " << num_aleatorio << std::endl;
 
