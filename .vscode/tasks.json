@@ -2,8 +2,8 @@
     "tasks": [
         {
             "type": "process",
-            "label": "g++-12 - Gera: output",
-            "command": "/usr/bin/g++-12",
+            "label": "gcc-12 - Gera: output",
+            "command": "/usr/bin/gcc-12",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -44,11 +44,12 @@
         },
         {
             "type": "cppbuild",
-            "label": "g++-12 Gera: nome sem extensao",
-            "command": "/usr/bin/g++-12",
+            "label": "gcc-12 Gera: nome sem extensao",
+            "command": "/usr/bin/gcc-12",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+				"-std=c++23",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
