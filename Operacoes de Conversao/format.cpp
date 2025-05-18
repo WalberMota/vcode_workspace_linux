@@ -1,16 +1,24 @@
-#include<format>
-#include<iostream>
-void println(std::format_string<Args...>fmt,Args&&...args)
-{
-    std::cout << std::format(fmt,std::format<Args>(args));
-}
+//C++ Program to implement
+//C++ 20 - std::format
+#include <format>
+#include <iostream>
 
-int main(int argc, char const *argv[])
-{
-    auto valor=45;
-    //
-    println("{0:d} {0:#b}",valor);
+using namespace std;
 
+int main()
+{
+    // Declare variables
+    int num = 42;
+    std::string name = "John";
+
+    // Use std::format to format a string with placeholders
+    // for variables
+    std::string formatted_str = std::format(
+        "My name is {} and my favorite number is {}", name,
+        num);
+
+    // Print formatted string to console
+    std::cout << formatted_str << std::endl;
 
     return 0;
 }
