@@ -14,10 +14,10 @@ int main()
 
     // Use std::format to format a string with placeholders
     // for variables
-    std::string formatted_str = "My name is {} and my favorite number is {}", nome;
+    //std::string formatted_str = "My name is {} and my favorite number is {}", nome;
 
     // Print formatted string to console
-    std::cout << formatted_str << std::endl;
+    std::cout << nome << std::endl;
 
     return 0;
 }
