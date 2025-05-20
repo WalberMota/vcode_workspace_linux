@@ -26,7 +26,7 @@
         },
         {
             "type": "cppbuild",
-            "label": "clang++-16 - Gera: output",
+            "label": "clang++-19 - Gera: output",
             "command": "/usr/bin/clang++-19",
             "args": [
                 "-fdiagnostics-color=always",
