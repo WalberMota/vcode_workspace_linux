@@ -16,6 +16,15 @@ int main(void)
 
     //definir precisao com duas casas terminais
     std::cout << std::fixed << std::setprecision(2);
-
     
+    //Exibir os resultados
+    std::cout << "soma ....................: "<<std::setw(5)<< soma <<std::endl;
+
+
+
+
+
+
+
+
 }
