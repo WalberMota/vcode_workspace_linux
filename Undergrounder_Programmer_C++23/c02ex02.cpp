@@ -13,6 +13,9 @@ int main(void)
     float multiplicacao = num1 * num2;
     int16_t divInteira = static_cast<int16_t>(num1/num2);
     float divReal= num1/num2;
-    
 
+    //definir precisao com duas casas terminais
+    std::cout << std::fixed << std::setprecision(2);
+
+    
 }
