@@ -8,8 +8,10 @@ z= x+y;
 
 int main(){
     
+    int a=10,b=20, c=0;
 
-
-    
+    soma(a,b,c);
+    std::cout << "Valor de c (por valor): "<< c <<"\n";
+        
     return 0;
 }
