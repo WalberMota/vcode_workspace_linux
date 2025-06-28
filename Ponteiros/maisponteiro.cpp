@@ -10,6 +10,9 @@ int main()
     soma(a, b, c);
     std::cout << "Valor de c (por valor): " << c << "\n";
 
+
+    soma2(a, b, c);
+    std::cout << "Valor de c (por valor): " << c << "\n";
     return 0;
 }
 
