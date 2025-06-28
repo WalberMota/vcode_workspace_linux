@@ -1,6 +1,6 @@
 #include <iostream>
 void soma(int x, int y, int z);
-void soma(int x, int y, int z);
+void soma2(int *x, int *y, int *z);
 
 int main()
 {
@@ -21,7 +21,7 @@ void soma(int x, int y, int z)
     z = x + y;
 }
 
-void soma3(int *x,int *y,int *z)
+void soma2(int *x,int *y,int *z)
 {
     *z = *x + *y;
 }
