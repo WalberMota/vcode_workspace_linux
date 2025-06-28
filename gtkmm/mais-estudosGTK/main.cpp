@@ -1,6 +1,6 @@
 //rotina de lançamento da janela
 
-
+#include <gtkmm.h>
 #include "pass.h"
 
 int main(int argc, char *argv[])

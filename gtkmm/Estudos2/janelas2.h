@@ -3,18 +3,19 @@
 #define PASS_WSM_H
 
 
-#include <gtkmm/window.h>
-#include <gtkmm/application.h>
-#include <gtkmm/fixed.h>
-#include <gtkmm/box.h>
-#include <gtkmm/alignment.h>
-#include <gtkmm/entry.h>
-#include <gtkmm/label.h>
-#include <gtkmm/button.h>
-#include <gtkmm/frame.h>
-#include <gtkmm/linkbutton.h>
-#include <gtkmm/messagedialog.h>
-#include <gtkmm/filechooserbutton.h>
+//#include <gtkmm/window.h>
+#include <gtkmm.h>
+//#include <gtkmm/application.h>
+//#include <gtkmm/fixed.h>
+//#include <gtkmm/box.h>
+//#include <gtkmm/alignment.h>
+//#include <gtkmm/entry.h>
+//#include <gtkmm/label.h>
+//#include <gtkmm/button.h>
+//#include <gtkmm/frame.h>
+//#include <gtkmm/linkbutton.h>
+//#include <gtkmm/messagedialog.h>
+//#include <gtkmm/filechooserbutton.h>
 
 #include <iostream>
 
@@ -28,7 +29,7 @@ class Passwsm : public Gtk::Window
   Gtk::Button m_button1, m_button2;
   Gtk::Frame m_frame1, m_frame2;
   Gtk::LinkButton m_linkbutton;
-  Gtk::FileChooserButton m_folder;
+  Gtk::AppChooserButton m_folder;
 
   public:
     Passwsm();
