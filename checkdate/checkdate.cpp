@@ -12,7 +12,8 @@ Rotina desenvolvida à partir de:
 using namespace std;
  
 bool checkdate(int m, int d, int y);
- 
+
+//aqui começa a entrada do sistema
 int main(int argc, char* argv[])
 {
   std::cout<<std::boolalpha;
