@@ -44,7 +44,7 @@ static std::string base64_decode(const std::string &in) {
 
 int main(){
 
-  std::string meu_conteudo = {"Isso será codificado!"};
+  std::string meu_conteudo = {"vjyj/16E0u3M1IaNPxckJW8B2A/26LQO5acmOFn4y1vfk0sgMPr73qJaE6Q== "};
   std::string codificado = base64_encode( meu_conteudo );
 
   std::cout << codificado << '\n';
