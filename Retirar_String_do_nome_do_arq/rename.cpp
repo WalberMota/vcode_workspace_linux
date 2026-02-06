@@ -8,8 +8,8 @@ int main() {
     std::string caminhoCompleto;
     std::string stringParaRemover;
 
-    //std::cout << "Digite o caminho completo do arquivo (ex: C:/pasta/documento_OLD.txt): ";
-    //std::getline(std::cin, caminhoCompleto);
+    std::cout << "Digite o nome do arquivo(caminho completo se necessario):";
+    std::getline(std::cin, caminhoCompleto);
 
     std::cout << "Digite a string que deseja remover do nome: ";
     std::cin >> stringParaRemover;
